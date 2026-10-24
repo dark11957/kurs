@@ -56,6 +56,11 @@
             <div><strong id="stat-remaining">0</strong><span>noch vor dir</span></div>
           </div>
           <div class="progress-foot"><span class="leaf-mark" aria-hidden="true">✳</span><span id="progress-message">Dein erstes Kapitel wartet auf dich.</span><a href="#kapitel">Zum Lernweg <span aria-hidden="true">↗</span></a></div>
+          <div class="backup-tools">
+            <div class="backup-date-block"><span class="backup-kicker">LETZTE SICHERUNG</span><strong id="last-backup-date">Noch keine Sicherung</strong></div>
+            <div class="backup-buttons"><button id="export-progress" type="button" class="backup-button">Export Progress <span aria-hidden="true">↓</span></button><button id="import-progress" type="button" class="backup-button">Import Progress <span aria-hidden="true">↑</span></button><input id="progress-file" type="file" accept="application/json,.json" hidden></div>
+          </div>
+          <p id="backup-notice" class="backup-notice" role="status" aria-live="polite" hidden></p>
         </div>
       </div>
     </section>
@@ -93,9 +98,24 @@
   </main>
 
   <footer class="journal-footer"><div class="wrap footer-inner"><a class="wordmark" href="index.html"><span class="wordmark-mark">d.</span><span>Deutsch<br><small>DEIN LERNWEG</small></span></a><p>Jeder Anfang ist ein guter Anfang.</p><a href="learn.html">Zum Lernbereich ↑</a></div></footer>
+  <dialog id="import-dialog" class="import-dialog" aria-labelledby="import-title">
+    <form id="import-form">
+      <p class="eyebrow">LERNFORTSCHRITT WIEDERHERSTELLEN</p>
+      <h2 id="import-title">Sicherung importieren</h2>
+      <p id="import-summary" class="import-summary"></p>
+      <p id="import-existing-warning" class="import-warning" hidden>Der lokal gespeicherte Fortschritt ist beschädigt. Zusammenführen ist nicht möglich; Ersetzen stellt die ausgewählte Sicherung wieder her.</p>
+      <fieldset class="import-options"><legend>Wie sollen die Daten übernommen werden?</legend>
+        <label><input id="merge-choice" type="radio" name="import-mode" value="merge" checked><span><strong>Zusammenführen</strong><small>Ergänzt die Sicherung. Vorhandene lokale Antworten und Entwürfe bleiben bei Konflikten erhalten.</small></span></label>
+        <label><input id="replace-choice" type="radio" name="import-mode" value="replace"><span><strong>Ersetzen</strong><small>Ersetzt deinen gespeicherten Lernfortschritt mit den Daten aus dieser Sicherung.</small></span></label>
+      </fieldset>
+      <p id="import-mode-help" class="import-mode-help"></p>
+      <div class="dialog-actions"><button id="cancel-import" class="backup-button" type="button">Abbrechen</button><button class="backup-button backup-button-primary" type="submit">Importieren</button></div>
+    </form>
+  </dialog>
   <script src="content/curriculum.js"></script>
   <script src="js/chapter-loader.js"></script>
   <script src="js/storage.js"></script>
+  <script src="js/progress-backup.js"></script>
   <script src="js/landing.js"></script>
 </body>
 </html>

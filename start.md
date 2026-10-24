@@ -413,11 +413,14 @@ Use LocalStorage to track:
 - Current chapter.
 - Current section.
 - Completed activities.
+- Completed chapters.
 - Exercise attempts.
 - Examination progress.
 - Examination scores.
 - Writing drafts.
 - Last visited location.
+
+Keep all learning progress under the `deutsch-a1-b1:student-progress` key. Progress backups may export and restore that learning record only; theme, sidebar, and unrelated browser settings remain separate.
 
 This is student learning progress.
 

@@ -6,6 +6,8 @@ A lightweight German learning website built with HTML, CSS, and plain JavaScript
 
 Double-click `index.html`, or choose **Open with Firefox**, to open the learning journal. Choose **Weiterlernen** to enter the learning interface in `learn.html`. Both pages use classic JavaScript scripts and work from a `file://` address without a server.
 
+Use **Export Progress** and **Import Progress** in the learning overview to move a JSON backup between browsers or computers. Learning data stays in localStorage; backups do not include visual preferences or unrelated browser storage.
+
 If the browser already has the old page open, close it and open `index.html` again after updating the files.
 
 ## Structure

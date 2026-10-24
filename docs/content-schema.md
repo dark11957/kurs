@@ -40,4 +40,6 @@ The renderer accepts nested text, tables, rules, exercises, communication prompt
 
 ## Student progress
 
-Progress is stored separately in browser LocalStorage under `deutsch-a1-b1:student-progress`, with `current`, `completedActivities`, `exercises`, `exams`, `drafts`, and `lastVisited`. Content-production status belongs only in `progress/chapters.json`.
+Progress is stored separately in browser LocalStorage under `deutsch-a1-b1:student-progress`, with `current`, `completedActivities`, `completedChapters`, `exercises`, `exams`, `drafts`, `lastVisited`, and any future learning fields. Content-production status belongs only in `progress/chapters.json`.
+
+The landing page exports this one learning-progress record in a versioned `deutsch-a1-b1-learning-progress` JSON backup. Theme and sidebar preferences use separate LocalStorage keys and are excluded. Import validates the complete backup before writing; replacement writes only the learning-progress key, while merging unions completed IDs and preserves local values for conflicting records.

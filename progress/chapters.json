@@ -62,9 +62,9 @@
       "report": "progress/reports/chapter-12.md"
     },
     "13": {
-      "status": "pending",
-      "contentFile": null,
-      "report": null
+      "status": "completed",
+      "contentFile": "content/a2/chapter-13.js",
+      "report": "progress/reports/chapter-13.md"
     },
     "14": {
       "status": "pending",
