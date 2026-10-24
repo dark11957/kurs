@@ -37,7 +37,9 @@ class InfrastructureSmokeChecks(unittest.TestCase):
         self.assertEqual(manifest['chapters']['12']['contentFile'], 'content/a2/chapter-12.js')
         self.assertEqual(manifest['chapters']['13']['status'], 'completed')
         self.assertEqual(manifest['chapters']['13']['contentFile'], 'content/a2/chapter-13.js')
-        self.assertTrue(all(x['status'] == 'pending' and x['contentFile'] is None for k,x in manifest['chapters'].items() if k not in ('01','02','03','04','05','06','07','08','09','10','11','12','13')))
+        self.assertEqual(manifest['chapters']['14']['status'], 'completed')
+        self.assertEqual(manifest['chapters']['14']['contentFile'], 'content/a2/chapter-14.js')
+        self.assertTrue(all(x['status'] == 'pending' and x['contentFile'] is None for k,x in manifest['chapters'].items() if k not in ('01','02','03','04','05','06','07','08','09','10','11','12','13','14')))
         self.assertEqual(len(manifest['assessments']), 12)
         self.assertTrue(all(x['status'] == 'pending' for x in manifest['assessments'].values()))
 
@@ -89,7 +91,7 @@ class InfrastructureSmokeChecks(unittest.TestCase):
 
     def test_chapter_scripts_have_isolated_global_scope(self):
         chapters = list((ROOT/'content/a1').glob('chapter-*.js')) + list((ROOT/'content/a2').glob('chapter-*.js'))
-        self.assertEqual(len(chapters), 13)
+        self.assertEqual(len(chapters), 14)
         for path in chapters:
             source = path.read_text()
             self.assertTrue(source.startswith('(()=>{'), path)
@@ -282,6 +284,66 @@ class InfrastructureSmokeChecks(unittest.TestCase):
                     for text in ([value] if isinstance(value,str) else value): self.assertIsNone(english.search(text),f"{q['id']} {field}")
         self.assertIn("'chapter-11': 'content/a2/chapter-11.js'",(ROOT/'content/curriculum.js').read_text())
         self.assertIn('\"title\": \"Das Präteritum und vergangene Erlebnisse\"',(ROOT/'content/curriculum.js').read_text())
+
+    def test_chapter_14_content_and_assessment(self):
+        source=(ROOT/'content/a2/chapter-14.js').read_text()
+        raw=source.split('const chapter = ',1)[1].split(';\n\nfunction collectExercises',1)[0]
+        chapter=json.loads(raw)
+        self.assertEqual(chapter['id'],'chapter-14')
+        self.assertEqual(chapter['metadata']['level'],'A2')
+        self.assertEqual(chapter['metadata']['title'],'Nebensätze I: Gründe, Aussagen und Fragen')
+        expected_refs=[292,*range(305,312),*range(341,345),*range(373,377),*range(399,404),*range(427,430),*range(448,452)]
+        self.assertEqual(chapter['metadata']['grammarReferences'],expected_refs)
+        expected_sections=['introduction','reading','vocabulary','grammar','exercises','practical-communication','summary','examination','solutions']
+        self.assertEqual([s['id'] for s in chapter['sections']],expected_sections)
+        vocab=chapter['sections'][2]['vocabulary']
+        self.assertGreaterEqual(len(vocab),20)
+        self.assertTrue(all(v.get('translation') and v.get('category') and v.get('example') for v in vocab))
+        self.assertTrue(all(v.get('article') and v.get('plural') for v in vocab if v['category']=='noun'))
+        self.assertTrue(all(v.get('forms') for v in vocab if v['category']=='verb'))
+        rules=chapter['sections'][3]['rules']
+        self.assertGreaterEqual(len(rules),8)
+        covered={n for rule in rules for n in rule.get('reference',[])}
+        self.assertEqual(covered,set(expected_refs))
+        self.assertTrue(all(r.get('explanation') and r.get('formula') and r.get('examples') and r.get('exceptions') and r.get('mistakes') and r.get('tip') and len(r.get('exercises',[]))>=3 for r in rules))
+        questions=[]
+        for sec in chapter['sections']:
+            questions+=sec.get('exercises',[])+sec.get('comprehension',[])
+            for rule in sec.get('rules',[]): questions+=rule.get('exercises',[])
+            questions+=sec.get('exam',{}).get('questions',[])
+        self.assertEqual(len(questions),len({q['id'] for q in questions}))
+        self.assertEqual(len(chapter['sections'][8]['answers']),len(questions))
+        for q in questions:
+            self.assertTrue(q.get('prompt'))
+            if q['type']=='multiple-choice':
+                self.assertGreaterEqual(len(q['options']),2)
+                self.assertIn(q['answer'],range(len(q['options'])))
+            elif q['type']=='written': self.assertTrue(q.get('modelAnswer'))
+            else: self.assertTrue(q.get('answer'))
+        exam=chapter['sections'][7]['exam']
+        expected_points={'reading':20,'vocabulary':15,'grammar':35,'sentenceConstruction':10,'writing':20}
+        self.assertEqual(exam['distribution'],expected_points)
+        self.assertEqual(sum(q['points'] for q in exam['questions']),100)
+        self.assertEqual({k:sum(q['points'] for q in exam['questions'] if q.get('category')==k) for k in expected_points},expected_points)
+        self.assertEqual(len(exam['readingTexts']),2)
+        learning_texts=[t['text'] for t in chapter['sections'][1]['texts']]
+        self.assertTrue(all(t['text'] not in learning_texts for t in exam['readingTexts']))
+        self.assertEqual(sum(q['type']=='written' and q.get('category')=='writing' for q in exam['questions']),3)
+        reading=chapter['sections'][1]
+        for annotation in reading['annotations']:
+            self.assertTrue(any(annotation['text']==t['text'] for t in reading['texts']))
+            for mark in annotation['marks']:
+                self.assertGreater(mark['end'],mark['start'])
+                self.assertTrue(annotation['text'][mark['start']:mark['end']])
+        english=re.compile(r'\b(choose|complete|write a|which|where|what|who|select|fill in|true or false)\b',re.I)
+        for q in questions:
+            for field in ('label','prompt','options'):
+                if field=='prompt' and q.get('label')=='Übersetzung': continue
+                value=q.get(field)
+                if value:
+                    for text in ([value] if isinstance(value,str) else value): self.assertIsNone(english.search(text),f"{q['id']} {field}")
+        self.assertIn("'chapter-14': 'content/a2/chapter-14.js'",(ROOT/'content/curriculum.js').read_text())
+        self.assertIn('"title": "Nebensätze I: Gründe, Aussagen und Fragen"',(ROOT/'content/curriculum.js').read_text())
 
     def test_chapter_13_content_and_assessment(self):
         source=(ROOT/'content/a2/chapter-13.js').read_text()
