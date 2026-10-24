@@ -544,7 +544,7 @@ window.CURRICULUM = [
   {
     "id": "chapter-11",
     "number": "11",
-    "title": "Präteritum & Past Experiences",
+    "title": "Das Präteritum und vergangene Erlebnisse",
     "level": "A2",
     "available": false,
     "sections": [
@@ -598,7 +598,7 @@ window.CURRICULUM = [
   {
     "id": "chapter-12",
     "number": "12",
-    "title": "Reflexive Verbs & Personal Relationships",
+    "title": "Reflexive Verben und persönliche Beziehungen",
     "level": "A2",
     "available": false,
     "sections": [
@@ -1698,4 +1698,4 @@ window.ASSESSMENTS = [
 ];
 
 /** Add a chapter-id → module path entry when real chapter content is created. */
-window.CHAPTER_CONTENT = { 'chapter-01': 'content/a1/chapter-01.js', 'chapter-02': 'content/a1/chapter-02.js', 'chapter-03': 'content/a1/chapter-03.js', 'chapter-04': 'content/a1/chapter-04.js', 'chapter-05': 'content/a1/chapter-05.js', 'chapter-06': 'content/a1/chapter-06.js', 'chapter-07': 'content/a1/chapter-07.js', 'chapter-08': 'content/a1/chapter-08.js', 'chapter-09': 'content/a1/chapter-09.js', 'chapter-10': 'content/a1/chapter-10.js' };
+window.CHAPTER_CONTENT = { 'chapter-01': 'content/a1/chapter-01.js', 'chapter-02': 'content/a1/chapter-02.js', 'chapter-03': 'content/a1/chapter-03.js', 'chapter-04': 'content/a1/chapter-04.js', 'chapter-05': 'content/a1/chapter-05.js', 'chapter-06': 'content/a1/chapter-06.js', 'chapter-07': 'content/a1/chapter-07.js', 'chapter-08': 'content/a1/chapter-08.js', 'chapter-09': 'content/a1/chapter-09.js', 'chapter-10': 'content/a1/chapter-10.js', 'chapter-11': 'content/a2/chapter-11.js', 'chapter-12': 'content/a2/chapter-12.js' };

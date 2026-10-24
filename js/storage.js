@@ -1,7 +1,7 @@
 window.StudyStorage = (() => {
 
 const KEY='deutsch-a1-b1:student-progress';
-const defaults={current:{chapter:null,section:null},completedActivities:[],exercises:{},exams:{},drafts:{},lastVisited:null};
+const defaults={current:{chapter:null,section:null},completedActivities:[],completedChapters:[],exercises:{},exams:{},drafts:{},lastVisited:null};
 let memoryProgress=null;
 const memoryPreferences={};
 function getProgress(){try{return {...defaults,...JSON.parse(localStorage.getItem(KEY)||JSON.stringify(memoryProgress||{}))}}catch{return {...defaults,...(memoryProgress||{})}}}

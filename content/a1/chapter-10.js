@@ -1,3 +1,4 @@
+(()=>{
 const chapter = {
   "id": "chapter-10",
   "metadata": {
@@ -1791,3 +1792,4 @@ chapter.sections[8].answers = exercises.map(question => ({
 }));
 window.CHAPTERS = window.CHAPTERS || {};
 window.CHAPTERS[chapter.id] = chapter;
+})();

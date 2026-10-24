@@ -1,23 +1,101 @@
 <!doctype html>
 <html lang="de">
 <head>
-  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="theme-color" content="#080b09"><title>Deutsch A1–B1</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111315">
+  <title>Deutsch lernen, Schritt für Schritt</title>
+  <meta name="description" content="Dein persönlicher Lernweg für Deutsch A1 bis B1. Finde deinen nächsten Schritt und lerne in deinem Tempo weiter.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/tokens.css"><link rel="stylesheet" href="css/layout.css"><link rel="stylesheet" href="css/components.css"><link rel="stylesheet" href="css/learning.css">
+  <link rel="stylesheet" href="css/landing.css">
+  <script>if(/^#\/?chapter-\d{2}(\/|$)/.test(location.hash))location.replace(`learn.html${location.hash}`)</script>
 </head>
-<body><header class="topbar"><button id="sidebar-toggle" class="icon-button" aria-label="Lehrplan-Seitenleiste umschalten" aria-expanded="true">☰</button><a class="brand" href="#"><span class="brand-mark">D</span><span>Deutsch <b>A1–B1</b></span></a><div id="breadcrumb" class="breadcrumb">Lernbereich</div><div class="header-actions"><label class="search-wrap"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Lehrplan durchsuchen" aria-label="Lehrplan durchsuchen"></label><button id="theme-toggle" class="icon-button" aria-label="Helles Design aktivieren" title="Design umschalten">◐</button><button id="progress-button" class="progress-pill" type="button"><span class="progress-dot"></span><span id="progress-label">0 % gelernt</span></button></div></header>
-<div class="app-shell"><aside id="sidebar" class="sidebar" aria-label="Lehrplan"><div class="sidebar-heading"><span>LEHRPLAN</span><span id="course-count">30 Kapitel</span></div><nav id="curriculum-nav"></nav></aside><main id="main-content" class="main-content" tabindex="-1"><div id="view" class="reading-width"></div><div id="section-nav" class="section-nav" hidden></div></main></div>
-<dialog id="progress-dialog" class="dialog"><form method="dialog"><button class="dialog-close" aria-label="Schließen">×</button><p class="eyebrow">DEIN LERNFORTSCHRITT</p><h2>Lernfortschritt</h2><p id="progress-detail">Du hast noch keine Lernaktivitäten abgeschlossen.</p><div class="progress-track"><span id="progress-bar"></span></div></form></dialog>
-<script src="content/curriculum.js"></script>
-<script src="js/storage.js"></script>
-<script src="js/router.js"></script>
-<script src="js/highlighting.js"></script>
-<script src="js/exercises.js"></script>
-<script src="js/exams.js"></script>
-<script src="js/renderer.js"></script>
-<script src="js/chapter-loader.js"></script>
-<script src="js/navigation.js"></script>
-<script src="tests/fixtures/demo-chapter.js"></script>
-<script src="js/app.js"></script></body></html>
+<body>
+  <header class="journal-header">
+    <a class="wordmark" href="index.html" aria-label="Deutschlernen Startseite"><span class="wordmark-mark">d.</span><span>Deutsch<br><small>DEIN LERNWEG</small></span></a>
+    <nav class="site-nav" aria-label="Hauptnavigation">
+      <a href="#reise">Deine Reise</a>
+      <a href="#kapitel">Kapitel</a>
+      <a class="nav-continue" href="learn.html">Zum Lernbereich <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <img class="hero-image" src="assets/berlin-hero.webp" alt="Abendlicher Blick auf eine historische Berliner Straße mit warm beleuchteten Cafés" fetchpriority="high">
+      <div class="hero-shade"></div>
+      <div class="hero-copy wrap">
+        <p class="eyebrow"><span class="eyebrow-rule"></span> DEIN WEG VON A1 BIS B1</p>
+        <h1 id="hero-title">Deutsch öffnet<br>neue <span>Welten.</span></h1>
+        <p class="hero-lead">Jedes neue Wort bringt dich ein Stück weiter. Entdecke die Sprache, die Geschichten und die Orte — Schritt für Schritt, in deinem Tempo.</p>
+        <blockquote class="hero-quote">„Heute ein Wort. Morgen ein Gespräch. Schritt für Schritt wirst du sicherer.“</blockquote>
+        <div class="hero-actions">
+          <a id="continue-button" class="button button-primary" href="learn.html">Weiterlernen <span aria-hidden="true">→</span></a>
+          <a class="button button-quiet" href="#kapitel">Alle Kapitel entdecken <span aria-hidden="true">↓</span></a>
+        </div>
+      </div>
+      <div class="hero-caption"><span>BERLIN · DEUTSCHLAND</span><span>01 — 30</span></div>
+      <a class="hero-scroll" href="#fortschritt" aria-label="Weiter zum Lernfortschritt"><span></span> DEIN LERNWEG</a>
+    </section>
+
+    <section id="fortschritt" class="progress-section" aria-labelledby="progress-title">
+      <div class="wrap progress-layout reveal">
+        <div class="progress-intro">
+          <p class="eyebrow">DEIN LERNSTAND</p>
+          <h2 id="progress-title">Jeder Schritt<br>zählt.</h2>
+          <p>Dein Weg ist deiner. Sieh, was du schon geschafft hast — und was als Nächstes auf dich wartet.</p>
+        </div>
+        <div class="progress-card" aria-live="polite">
+          <div class="progress-card-head"><span>Dein Weg durch die deutsche Sprache</span><span id="completion-label" class="completion-label">0 %</span></div>
+          <div class="progress-line" role="progressbar" aria-label="Gesamtfortschritt" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span id="progress-fill"></span></div>
+          <div class="progress-stats">
+            <div><strong id="stat-total">0</strong><span>Kapitel insgesamt</span></div>
+            <div><strong id="stat-completed">0</strong><span>abgeschlossen</span></div>
+            <div><strong id="stat-remaining">0</strong><span>noch vor dir</span></div>
+          </div>
+          <div class="progress-foot"><span class="leaf-mark" aria-hidden="true">✳</span><span id="progress-message">Dein erstes Kapitel wartet auf dich.</span><a href="#kapitel">Zum Lernweg <span aria-hidden="true">↗</span></a></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="reise" class="journey-section wrap reveal" aria-labelledby="journey-title">
+      <div class="section-heading">
+        <div><p class="eyebrow">DEIN PERSÖNLICHER WEG</p><h2 id="journey-title">Von hier aus weiter.</h2></div>
+        <p>Keine Eile. Nur ein nächster guter Schritt.</p>
+      </div>
+      <div class="journey-track">
+        <article class="journey-stop journey-start"><span class="stop-number">01</span><p class="eyebrow">WO DU BEGONNEN HAST</p><h3>Mit einem Anfang</h3><p>Am Anfang steht Neugier. Dein Lernjournal sammelt jeden Schritt, den du machst.</p></article>
+        <article class="journey-stop journey-now"><span class="stop-number">02</span><p class="eyebrow">WO DU JETZT BIST</p><h3 id="journey-current-title">Dein erstes Kapitel</h3><p id="journey-current-copy">Lerne einfache Wörter kennen und lass die ersten deutschen Sätze entstehen.</p></article>
+        <article class="journey-stop journey-next"><span class="stop-number">03</span><p class="eyebrow">WAS ALS NÄCHSTES KOMMT</p><h3 id="journey-next-title">A1 · Grundlagen</h3><p id="journey-next-copy">Mit jedem Kapitel wächst dein Gefühl für die Sprache — vom ersten Satz bis zum freien Gespräch.</p></article>
+      </div>
+    </section>
+
+    <section class="quote-section reveal" aria-labelledby="quote-title">
+      <div class="quote-inner wrap">
+        <p class="eyebrow" id="quote-title">EIN GEDANKE FÜR DEINEN WEG</p>
+        <div class="quote-mark" aria-hidden="true">„</div>
+        <blockquote id="rotating-quote" aria-live="polite">Übung macht den Meister.</blockquote>
+        <p id="quote-translation" class="quote-translation">Practice makes perfect.</p>
+        <div class="quote-controls" aria-label="Zitat auswählen"><button type="button" data-quote-step="-1" aria-label="Vorheriges Zitat">←</button><span id="quote-count">01 / 04</span><button type="button" data-quote-step="1" aria-label="Nächstes Zitat">→</button></div>
+      </div>
+    </section>
+
+    <section id="kapitel" class="chapters-section wrap reveal" aria-labelledby="chapters-title">
+      <div class="section-heading chapters-heading">
+        <div><p class="eyebrow">DEIN LERNJOURNAL</p><h2 id="chapters-title">Kapitel für Kapitel.</h2></div>
+        <p>30 Kapitel — von den ersten Wörtern bis zu selbstständigen Gesprächen. Such dir aus, womit du heute weitermachen möchtest.</p>
+      </div>
+      <div id="chapter-collection" class="chapter-collection" aria-live="polite"></div>
+      <p class="collection-note"><span class="note-dot"></span> Dein Fortschritt bleibt auf diesem Gerät gespeichert.</p>
+    </section>
+  </main>
+
+  <footer class="journal-footer"><div class="wrap footer-inner"><a class="wordmark" href="index.html"><span class="wordmark-mark">d.</span><span>Deutsch<br><small>DEIN LERNWEG</small></span></a><p>Jeder Anfang ist ein guter Anfang.</p><a href="learn.html">Zum Lernbereich ↑</a></div></footer>
+  <script src="content/curriculum.js"></script>
+  <script src="js/chapter-loader.js"></script>
+  <script src="js/storage.js"></script>
+  <script src="js/landing.js"></script>
+</body>
+</html>

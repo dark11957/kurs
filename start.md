@@ -90,13 +90,13 @@ Use:
 - HTML5.
 - CSS3.
 - Vanilla JavaScript.
-- Plain JavaScript files loaded with regular `<script>` tags so the site works when `index.html` is opened directly.
+- Plain JavaScript files loaded with regular `<script>` tags so both `index.html` and `learn.html` work when opened directly.
 - Structured JavaScript or JSON chapter data.
 - LocalStorage for learning progress.
 
 Avoid unnecessary dependencies.
 
-Do not require a local development server for normal use. Double-clicking `index.html` must load the complete application and chapter content.
+Do not require a local development server for normal use. Double-clicking `index.html` opens the learning journal; `learn.html` opens the chapter learning interface.
 
 Keep the implementation clean and maintainable.
 
@@ -435,6 +435,7 @@ Suggested:
 B1Study/
 │
 ├── index.html
+├── learn.html
 ├── package.json
 │
 ├── css/
