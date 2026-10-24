@@ -1,0 +1,8 @@
+{
+  "name": "deutsch-a1-b1-study",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "check": "python3 tests/smoke.py"
+  }
+}

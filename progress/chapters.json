@@ -1,0 +1,217 @@
+{
+  "schemaVersion": 1,
+  "chapters": {
+    "01": {
+      "status": "completed",
+      "contentFile": "content/a1/chapter-01.js",
+      "report": "progress/reports/chapter-01.md"
+    },
+    "02": {
+      "status": "completed",
+      "contentFile": "content/a1/chapter-02.js",
+      "report": "progress/reports/chapter-02.md"
+    },
+    "03": {
+      "status": "completed",
+      "contentFile": "content/a1/chapter-03.js",
+      "report": "progress/reports/chapter-03.md"
+    },
+    "04": {
+      "status": "completed",
+      "contentFile": "content/a1/chapter-04.js",
+      "report": "progress/reports/chapter-04.md"
+    },
+    "05": {
+      "status": "completed",
+      "contentFile": "content/a1/chapter-05.js",
+      "report": "progress/reports/chapter-05.md"
+    },
+    "06": {
+      "status": "completed",
+      "contentFile": "content/a1/chapter-06.js",
+      "report": "progress/reports/chapter-06.md"
+    },
+    "07": {
+      "status": "completed",
+      "contentFile": "content/a1/chapter-07.js",
+      "report": "progress/reports/chapter-07.md"
+    },
+    "08": {
+      "status": "completed",
+      "contentFile": "content/a1/chapter-08.js",
+      "report": "progress/reports/chapter-08.md"
+    },
+    "09": {
+      "status": "completed",
+      "contentFile": "content/a1/chapter-09.js",
+      "report": "progress/reports/chapter-09.md"
+    },
+    "10": {
+      "status": "completed",
+      "contentFile": "content/a1/chapter-10.js",
+      "report": "progress/reports/chapter-10.md"
+    },
+    "11": {
+      "status": "pending",
+      "contentFile": null,
+      "report": null
+    },
+    "12": {
+      "status": "pending",
+      "contentFile": null,
+      "report": null
+    },
+    "13": {
+      "status": "pending",
+      "contentFile": null,
+      "report": null
+    },
+    "14": {
+      "status": "pending",
+      "contentFile": null,
+      "report": null
+    },
+    "15": {
+      "status": "pending",
+      "contentFile": null,
+      "report": null
+    },
+    "16": {
+      "status": "pending",
+      "contentFile": null,
+      "report": null
+    },
+    "17": {
+      "status": "pending",
+      "contentFile": null,
+      "report": null
+    },
+    "18": {
+      "status": "pending",
+      "contentFile": null,
+      "report": null
+    },
+    "19": {
+      "status": "pending",
+      "contentFile": null,
+      "report": null
+    },
+    "20": {
+      "status": "pending",
+      "contentFile": null,
+      "report": null
+    },
+    "21": {
+      "status": "pending",
+      "contentFile": null,
+      "report": null
+    },
+    "22": {
+      "status": "pending",
+      "contentFile": null,
+      "report": null
+    },
+    "23": {
+      "status": "pending",
+      "contentFile": null,
+      "report": null
+    },
+    "24": {
+      "status": "pending",
+      "contentFile": null,
+      "report": null
+    },
+    "25": {
+      "status": "pending",
+      "contentFile": null,
+      "report": null
+    },
+    "26": {
+      "status": "pending",
+      "contentFile": null,
+      "report": null
+    },
+    "27": {
+      "status": "pending",
+      "contentFile": null,
+      "report": null
+    },
+    "28": {
+      "status": "pending",
+      "contentFile": null,
+      "report": null
+    },
+    "29": {
+      "status": "pending",
+      "contentFile": null,
+      "report": null
+    },
+    "30": {
+      "status": "pending",
+      "contentFile": null,
+      "report": null
+    }
+  },
+  "assessments": {
+    "test-a1-1": {
+      "status": "pending",
+      "contentFile": null,
+      "report": null
+    },
+    "test-a1-2": {
+      "status": "pending",
+      "contentFile": null,
+      "report": null
+    },
+    "test-a1-3": {
+      "status": "pending",
+      "contentFile": null,
+      "report": null
+    },
+    "exam-a1": {
+      "status": "pending",
+      "contentFile": null,
+      "report": null
+    },
+    "test-a2-1": {
+      "status": "pending",
+      "contentFile": null,
+      "report": null
+    },
+    "test-a2-2": {
+      "status": "pending",
+      "contentFile": null,
+      "report": null
+    },
+    "test-a2-3": {
+      "status": "pending",
+      "contentFile": null,
+      "report": null
+    },
+    "exam-a2": {
+      "status": "pending",
+      "contentFile": null,
+      "report": null
+    },
+    "test-b1-1": {
+      "status": "pending",
+      "contentFile": null,
+      "report": null
+    },
+    "test-b1-2": {
+      "status": "pending",
+      "contentFile": null,
+      "report": null
+    },
+    "test-b1-3": {
+      "status": "pending",
+      "contentFile": null,
+      "report": null
+    },
+    "exam-b1": {
+      "status": "pending",
+      "contentFile": null,
+      "report": null
+    }
+  }
+}
