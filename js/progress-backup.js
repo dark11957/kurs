@@ -102,7 +102,7 @@ function confirmImport(event){
 }
 function init(){
  const exportButton=document.querySelector('#export-progress'),importButton=document.querySelector('#import-progress'),input=document.querySelector('#progress-file'),dialog=document.querySelector('#import-dialog'),form=document.querySelector('#import-form');
- if(!exportButton||!importButton||!input||!dialog||!form)return;
+ if(!exportButton||!importButton||!input||!dialog||!form){console.error('[progress-backup] Required landing-page controls are missing. Check index.html and script paths.');return;}
  exportButton.addEventListener('click',exportFile);
  importButton.addEventListener('click',()=>input.click());
  input.addEventListener('change',()=>{const file=input.files?.[0];readBackupFile(file);input.value=''});
@@ -112,6 +112,6 @@ function init(){
  dialog.addEventListener('click',event=>{if(event.target===dialog){pendingBackup=null;dialog.close()}});
  updateLastBackupLabel();
 }
-if(typeof document!=='undefined')init();
+if(typeof document!=='undefined'){if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init,{once:true});else init();}
 return {createBackup,validateBackup,exportStatistics,chapterStatuses,fileName,getLastBackup,formatDate};
 })();

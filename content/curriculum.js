@@ -760,7 +760,7 @@ window.CURRICULUM = [
   {
     "id": "chapter-15",
     "number": "15",
-    "title": "Temporal Clauses & Chronological Events",
+    "title": "Temporale Nebensätze und zeitliche Abläufe",
     "level": "A2",
     "available": false,
     "sections": [
@@ -814,7 +814,7 @@ window.CURRICULUM = [
   {
     "id": "chapter-16",
     "number": "16",
-    "title": "Infinitive Constructions & Purpose",
+    "title": "Infinitivkonstruktionen: Pläne, Ziele und Absichten",
     "level": "A2",
     "available": false,
     "sections": [
@@ -868,7 +868,7 @@ window.CURRICULUM = [
   {
     "id": "chapter-17",
     "number": "17",
-    "title": "Conditional Sentences & Contrasts",
+    "title": "Bedingungen, Gegensätze und logische Verbindungen",
     "level": "A2",
     "available": false,
     "sections": [
@@ -922,7 +922,7 @@ window.CURRICULUM = [
   {
     "id": "chapter-18",
     "number": "18",
-    "title": "Verbs with Prepositions & Pronominal Adverbs",
+    "title": "Verben mit Präpositionen und Pronominaladverbien",
     "level": "A2",
     "available": false,
     "sections": [
@@ -1698,4 +1698,4 @@ window.ASSESSMENTS = [
 ];
 
 /** Add a chapter-id → module path entry when real chapter content is created. */
-window.CHAPTER_CONTENT = { 'chapter-01': 'content/a1/chapter-01.js', 'chapter-02': 'content/a1/chapter-02.js', 'chapter-03': 'content/a1/chapter-03.js', 'chapter-04': 'content/a1/chapter-04.js', 'chapter-05': 'content/a1/chapter-05.js', 'chapter-06': 'content/a1/chapter-06.js', 'chapter-07': 'content/a1/chapter-07.js', 'chapter-08': 'content/a1/chapter-08.js', 'chapter-09': 'content/a1/chapter-09.js', 'chapter-10': 'content/a1/chapter-10.js', 'chapter-11': 'content/a2/chapter-11.js', 'chapter-12': 'content/a2/chapter-12.js', 'chapter-13': 'content/a2/chapter-13.js', 'chapter-14': 'content/a2/chapter-14.js' };
+window.CHAPTER_CONTENT = { 'chapter-01': 'content/a1/chapter-01.js', 'chapter-02': 'content/a1/chapter-02.js', 'chapter-03': 'content/a1/chapter-03.js', 'chapter-04': 'content/a1/chapter-04.js', 'chapter-05': 'content/a1/chapter-05.js', 'chapter-06': 'content/a1/chapter-06.js', 'chapter-07': 'content/a1/chapter-07.js', 'chapter-08': 'content/a1/chapter-08.js', 'chapter-09': 'content/a1/chapter-09.js', 'chapter-10': 'content/a1/chapter-10.js', 'chapter-11': 'content/a2/chapter-11.js', 'chapter-12': 'content/a2/chapter-12.js', 'chapter-13': 'content/a2/chapter-13.js', 'chapter-14': 'content/a2/chapter-14.js', 'chapter-15': 'content/a2/chapter-15.js', 'chapter-16': 'content/a2/chapter-16.js', 'chapter-17': 'content/a2/chapter-17.js', 'chapter-18': 'content/a2/chapter-18.js' };

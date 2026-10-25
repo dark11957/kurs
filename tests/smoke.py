@@ -39,7 +39,15 @@ class InfrastructureSmokeChecks(unittest.TestCase):
         self.assertEqual(manifest['chapters']['13']['contentFile'], 'content/a2/chapter-13.js')
         self.assertEqual(manifest['chapters']['14']['status'], 'completed')
         self.assertEqual(manifest['chapters']['14']['contentFile'], 'content/a2/chapter-14.js')
-        self.assertTrue(all(x['status'] == 'pending' and x['contentFile'] is None for k,x in manifest['chapters'].items() if k not in ('01','02','03','04','05','06','07','08','09','10','11','12','13','14')))
+        self.assertEqual(manifest['chapters']['15']['status'], 'completed')
+        self.assertEqual(manifest['chapters']['15']['contentFile'], 'content/a2/chapter-15.js')
+        self.assertEqual(manifest['chapters']['16']['status'], 'completed')
+        self.assertEqual(manifest['chapters']['16']['contentFile'], 'content/a2/chapter-16.js')
+        self.assertEqual(manifest['chapters']['17']['status'], 'completed')
+        self.assertEqual(manifest['chapters']['17']['contentFile'], 'content/a2/chapter-17.js')
+        self.assertEqual(manifest['chapters']['18']['status'], 'completed')
+        self.assertEqual(manifest['chapters']['18']['contentFile'], 'content/a2/chapter-18.js')
+        self.assertTrue(all(x['status'] == 'pending' and x['contentFile'] is None for k,x in manifest['chapters'].items() if k not in ('01','02','03','04','05','06','07','08','09','10','11','12','13','14','15','16','17','18')))
         self.assertEqual(len(manifest['assessments']), 12)
         self.assertTrue(all(x['status'] == 'pending' for x in manifest['assessments'].values()))
 
@@ -91,7 +99,7 @@ class InfrastructureSmokeChecks(unittest.TestCase):
 
     def test_chapter_scripts_have_isolated_global_scope(self):
         chapters = list((ROOT/'content/a1').glob('chapter-*.js')) + list((ROOT/'content/a2').glob('chapter-*.js'))
-        self.assertEqual(len(chapters), 14)
+        self.assertEqual(len(chapters), 18)
         for path in chapters:
             source = path.read_text()
             self.assertTrue(source.startswith('(()=>{'), path)
@@ -344,6 +352,66 @@ class InfrastructureSmokeChecks(unittest.TestCase):
                     for text in ([value] if isinstance(value,str) else value): self.assertIsNone(english.search(text),f"{q['id']} {field}")
         self.assertIn("'chapter-14': 'content/a2/chapter-14.js'",(ROOT/'content/curriculum.js').read_text())
         self.assertIn('"title": "Nebensätze I: Gründe, Aussagen und Fragen"',(ROOT/'content/curriculum.js').read_text())
+
+    def test_chapter_15_content_and_assessment(self):
+        source=(ROOT/'content/a2/chapter-15.js').read_text()
+        raw=source.split('const chapter = ',1)[1].split(';\nwindow.CHAPTERS',1)[0]
+        chapter=json.loads(raw)
+        self.assertEqual(chapter['id'],'chapter-15')
+        self.assertEqual(chapter['metadata']['level'],'A2')
+        self.assertEqual(chapter['metadata']['title'],'Temporale Nebensätze und zeitliche Abläufe')
+        refs=[378,*range(380,387),*range(431,439),*range(571,581)]
+        self.assertEqual(chapter['metadata']['grammarReferences'],refs)
+        sections=chapter['sections']
+        self.assertEqual([s['id'] for s in sections],['introduction','reading','vocabulary','grammar','exercises','practical-communication','summary','examination','solutions'])
+        wc=lambda text:len(re.findall(r'\b[\wÄÖÜäöüß]+\b',text))
+        self.assertTrue(100<=wc(sections[0]['openingText'])<=160)
+        self.assertTrue(all(150<=wc(t['text'])<=250 for t in sections[1]['texts']))
+        self.assertEqual(len(sections[2]['vocabulary']),29)
+        vocab=sections[2]['vocabulary']
+        self.assertTrue(all(v.get('article') and v.get('plural') for v in vocab if v['category']=='noun'))
+        self.assertTrue(all(v.get('forms') for v in vocab if v['category']=='verb'))
+        rules=sections[3]['rules']
+        self.assertEqual(len(rules),11)
+        self.assertEqual({n for r in rules for n in r.get('reference',[])},set(refs))
+        self.assertTrue(all(r.get('explanation') and r.get('formula') and r.get('examples') and r.get('exceptions') and r.get('mistakes') and r.get('tip') and len(r.get('exercises',[]))>=3 for r in rules))
+        questions=[]
+        for sec in sections:
+            questions+=sec.get('exercises',[])+sec.get('comprehension',[])
+            for rule in sec.get('rules',[]):questions+=rule.get('exercises',[])
+            questions+=sec.get('exam',{}).get('questions',[])
+        self.assertEqual(len(questions),len({q['id'] for q in questions}))
+        answers=sections[8]['answers']
+        self.assertEqual({a['exerciseId'] for a in answers},{q['id'] for q in questions})
+        for q in questions:
+            self.assertTrue(q.get('prompt'))
+            if q['type']=='multiple-choice':
+                self.assertGreaterEqual(len(q['options']),2)
+                self.assertIsInstance(q['answer'],int)
+                self.assertIn(q['answer'],range(len(q['options'])))
+            elif q['type']=='written':self.assertTrue(q.get('modelAnswer'))
+            else:self.assertIsNotNone(q.get('answer'))
+        exam=sections[7]['exam']
+        distribution={'reading':20,'vocabulary':15,'grammar':35,'sentenceConstruction':10,'writing':20}
+        self.assertEqual(exam['distribution'],distribution)
+        self.assertEqual(sum(q['points'] for q in exam['questions']),100)
+        self.assertEqual({k:sum(q['points'] for q in exam['questions'] if q.get('category')==k) for k in distribution},distribution)
+        self.assertEqual(len(exam['readingTexts']),2)
+        self.assertTrue(all(150<=wc(t['text'])<=250 for t in exam['readingTexts']))
+        self.assertTrue(all(t['text'] not in [x['text'] for x in sections[1]['texts']] for t in exam['readingTexts']))
+        annotation=sections[1]['annotations'][0]
+        self.assertTrue(any(t['text']==annotation['text'] for t in sections[1]['texts']))
+        self.assertTrue(all(annotation['text'][m['start']:m['end']] for m in annotation['marks']))
+        english=re.compile(r'\b(choose|complete|write a|which|where|what|who|select|fill in|true or false)\b',re.I)
+        for q in questions:
+            for field in ('label','prompt','options'):
+                if field=='prompt' and q['id']=='c15-ex16':continue
+                value=q.get(field)
+                if value:
+                    for item in ([value] if isinstance(value,str) else value):self.assertIsNone(english.search(item),f"{q['id']} {field}")
+        curriculum=(ROOT/'content/curriculum.js').read_text()
+        self.assertIn("'chapter-15': 'content/a2/chapter-15.js'",curriculum)
+        self.assertIn('"title": "Temporale Nebensätze und zeitliche Abläufe"',curriculum)
 
     def test_chapter_13_content_and_assessment(self):
         source=(ROOT/'content/a2/chapter-13.js').read_text()
@@ -933,6 +1001,207 @@ class InfrastructureSmokeChecks(unittest.TestCase):
         self.assertIn('Lösung anzeigen', (ROOT/'js/exercises.js').read_text())
         loader=(ROOT/'js/chapter-loader.js').read_text()
         self.assertIn("'introduction','reading','vocabulary','grammar','exercises'", loader)
+
+
+    def test_chapter_16_content_and_assessment(self):
+        source=(ROOT/'content/a2/chapter-16.js').read_text()
+        raw=source.split('const chapter = ',1)[1].split(';\n\nfunction collectExercises',1)[0]
+        chapter=json.loads(raw)
+        self.assertEqual(chapter['id'],'chapter-16')
+        self.assertEqual(chapter['metadata']['level'],'A2')
+        self.assertEqual(chapter['metadata']['title'],'Infinitivkonstruktionen: Pläne, Ziele und Absichten')
+        refs=[*range(120,125),*range(440,446),*range(464,483)]
+        self.assertEqual(chapter['metadata']['grammarReferences'],refs)
+        sections=chapter['sections']
+        ids=['introduction','reading','vocabulary','grammar','exercises','practical-communication','summary','examination','solutions']
+        self.assertEqual([s['id'] for s in sections],ids)
+        wc=lambda text:len(re.findall(r'\b[\wÄÖÜäöüß]+\b',text))
+        self.assertTrue(100<=wc(sections[0]['openingText'])<=160)
+        self.assertTrue(all(150<=wc(t['text'])<=250 for t in sections[1]['texts']))
+        vocab=sections[2]['vocabulary']
+        self.assertGreaterEqual(len(vocab),20)
+        self.assertTrue(all(v.get('translation') and v.get('category') and v.get('example') for v in vocab))
+        self.assertTrue(all(v.get('article') and v.get('plural') for v in vocab if v['category']=='noun'))
+        self.assertTrue(all(v.get('forms') for v in vocab if v['category']=='verb'))
+        rules=sections[3]['rules']
+        self.assertEqual(len(rules),12)
+        covered={n for r in rules for n in r['reference']}
+        required={120,121,122,123,464,465,466,467,468,469,470,471,472,473,474,475,476,477,478,479,480,481,482,440,441,443,444}
+        self.assertTrue(required.issubset(covered))
+        self.assertTrue(all(r.get('explanation') and r.get('formula') and r.get('examples') and r.get('exceptions') and r.get('mistakes') and r.get('tip') and len(r.get('exercises',[]))>=3 for r in rules))
+        questions=[]
+        for sec in sections:
+            questions+=sec.get('exercises',[])+sec.get('comprehension',[])
+            for rule in sec.get('rules',[]): questions+=rule.get('exercises',[])
+            questions+=sec.get('exam',{}).get('questions',[])
+        self.assertEqual(len(questions),len({q['id'] for q in questions}))
+        self.assertEqual({a['exerciseId'] for a in sections[8]['answers']},{q['id'] for q in questions})
+        for q in questions:
+            self.assertTrue(q.get('prompt'))
+            if q['type']=='multiple-choice':
+                self.assertIn(q['answer'],range(len(q['options'])))
+            elif q['type']=='written': self.assertTrue(q.get('modelAnswer'))
+            else: self.assertIsNotNone(q.get('answer'))
+        exam=sections[7]['exam']
+        distribution={'reading':20,'vocabulary':15,'grammar':35,'sentenceConstruction':10,'writing':20}
+        self.assertEqual(exam['distribution'],distribution)
+        self.assertEqual(sum(q['points'] for q in exam['questions']),100)
+        self.assertEqual({k:sum(q['points'] for q in exam['questions'] if q.get('category')==k) for k in distribution},distribution)
+        self.assertEqual(len(exam['readingTexts']),2)
+        self.assertTrue(all(150<=wc(t['text'])<=250 for t in exam['readingTexts']))
+        self.assertTrue(all(t['text'] not in [x['text'] for x in sections[1]['texts']] for t in exam['readingTexts']))
+        annotation=sections[1]['annotations'][0]
+        self.assertTrue(any(annotation['text']==t['text'] for t in sections[1]['texts']))
+        self.assertTrue(all(annotation['text'][m['start']:m['end']] for m in annotation['marks']))
+        english=re.compile(r'\b(choose|complete|write a|which|where|what|who|select|fill in|true or false)\b',re.I)
+        for q in questions:
+            for field in ('label','prompt','options'):
+                value=q.get(field)
+                if value:
+                    for text in ([value] if isinstance(value,str) else value):
+                        self.assertIsNone(english.search(text),f"{q['id']} {field}")
+        curriculum=(ROOT/'content/curriculum.js').read_text()
+        self.assertIn("'chapter-16': 'content/a2/chapter-16.js'",curriculum)
+        self.assertIn('"title": "Infinitivkonstruktionen: Pläne, Ziele und Absichten"',curriculum)
+
+
+    def test_chapter_17_content_and_assessment(self):
+        source=(ROOT/'content/a2/chapter-17.js').read_text()
+        raw=source.split('const chapter = ',1)[1].split(';\n\nfunction collectExercises',1)[0]
+        chapter=json.loads(raw)
+        self.assertEqual(chapter['id'],'chapter-17')
+        self.assertEqual(chapter['metadata']['level'],'A2')
+        self.assertEqual(chapter['metadata']['title'],'Bedingungen, Gegensätze und logische Verbindungen')
+        refs=[377,379,*range(387,392),*range(404,411),*range(419,427),430,439,*range(442,446),*range(695,702)]
+        self.assertEqual(chapter['metadata']['grammarReferences'],refs)
+        sections=chapter['sections']
+        self.assertEqual([s['id'] for s in sections],['introduction','reading','vocabulary','grammar','exercises','practical-communication','summary','examination','solutions'])
+        wc=lambda text:len(re.findall(r'\b[\wÄÖÜäöüß]+\b',text))
+        self.assertTrue(100<=wc(sections[0]['openingText'])<=160)
+        self.assertTrue(all(150<=wc(t['text'])<=250 for t in sections[1]['texts']))
+        vocab=sections[2]['vocabulary']
+        self.assertGreaterEqual(len(vocab),20)
+        self.assertTrue(all(v.get('translation') and v.get('category') and v.get('example') for v in vocab))
+        self.assertTrue(all(v.get('article') and v.get('plural') for v in vocab if v['category']=='noun'))
+        self.assertTrue(all(v.get('forms') for v in vocab if v['category']=='verb'))
+        rules=sections[3]['rules']
+        self.assertEqual(len(rules),10)
+        required={377,379,387,388,389,390,391,404,405,406,407,408,409,410,419,420,421,422,423,424,425,426,430,439,442,443,444,445,*range(695,702)}
+        covered={n for r in rules for n in r['reference']}
+        self.assertTrue(required.issubset(covered))
+        self.assertTrue(all(r.get('explanation') and r.get('formula') and r.get('examples') and r.get('exceptions') and r.get('mistakes') and r.get('tip') and len(r.get('exercises',[]))>=3 for r in rules))
+        questions=[]
+        for sec in sections:
+            questions+=sec.get('exercises',[])+sec.get('comprehension',[])
+            for rule in sec.get('rules',[]):questions+=rule.get('exercises',[])
+            questions+=sec.get('exam',{}).get('questions',[])
+        self.assertEqual(len(questions),108)
+        self.assertEqual(len(questions),len({q['id'] for q in questions}))
+        self.assertEqual({a['exerciseId'] for a in sections[8]['answers']},{q['id'] for q in questions})
+        for q in questions:
+            self.assertTrue(q.get('prompt'))
+            if q['type']=='multiple-choice':self.assertIn(q['answer'],range(len(q['options'])))
+            elif q['type']=='written':self.assertTrue(q.get('modelAnswer'))
+            else:self.assertIsNotNone(q.get('answer'))
+        exam=sections[7]['exam'];distribution={'reading':20,'vocabulary':15,'grammar':35,'sentenceConstruction':10,'writing':20}
+        self.assertEqual(exam['distribution'],distribution)
+        self.assertEqual(sum(q['points'] for q in exam['questions']),100)
+        self.assertEqual({k:sum(q['points'] for q in exam['questions'] if q.get('category')==k) for k in distribution},distribution)
+        self.assertEqual(len(exam['readingTexts']),2)
+        self.assertTrue(all(150<=wc(t['text'])<=250 for t in exam['readingTexts']))
+        self.assertTrue(all(t['text'] not in [x['text'] for x in sections[1]['texts']] for t in exam['readingTexts']))
+        annotation=sections[1]['annotations'][0]
+        self.assertTrue(any(annotation['text']==t['text'] for t in sections[1]['texts']))
+        self.assertTrue(all(annotation['text'][m['start']:m['end']] for m in annotation['marks']))
+        english=re.compile(r'\b(choose|complete|write a|which|where|what|who|select|fill in|true or false)\b',re.I)
+        for q in questions:
+            for field in ('label','prompt','options'):
+                value=q.get(field)
+                if value:
+                    for text in ([value] if isinstance(value,str) else value):self.assertIsNone(english.search(text),f"{q['id']} {field}")
+        curriculum=(ROOT/'content/curriculum.js').read_text()
+        self.assertIn("'chapter-17': 'content/a2/chapter-17.js'",curriculum)
+        self.assertIn('"title": "Bedingungen, Gegensätze und logische Verbindungen"',curriculum)
+
+
+    def test_chapter_18_content_and_assessment(self):
+        source=(ROOT/'content/a2/chapter-18.js').read_text()
+        raw=source.split('const chapter = ',1)[1].split(';\nwindow.CHAPTERS',1)[0]
+        chapter=json.loads(raw)
+        self.assertEqual(chapter['id'],'chapter-18')
+        self.assertEqual(chapter['metadata']['level'],'A2')
+        self.assertEqual(chapter['metadata']['title'],'Verben mit Präpositionen und Pronominaladverbien')
+        self.assertEqual(chapter['metadata']['grammarReferences'],[115,119,*range(263,270),*range(286,289),*range(610,639)])
+        sections=chapter['sections']
+        self.assertEqual([s['id'] for s in sections],['introduction','reading','vocabulary','grammar','exercises','practical-communication','summary','examination','solutions'])
+        wc=lambda text:len(re.findall(r'\b[\wÄÖÜäöüß]+\b',text))
+        self.assertTrue(100<=wc(sections[0]['openingText'])<=160)
+        self.assertTrue(all(150<=wc(t['text'])<=250 for t in sections[1]['texts']))
+        vocab=sections[2]['vocabulary']
+        self.assertEqual(len(vocab),27)
+        self.assertTrue(all(v.get('translation') and v.get('category') and v.get('example') for v in vocab))
+        self.assertTrue(all(v.get('article') and v.get('plural') for v in vocab if v['category']=='noun'))
+        self.assertTrue(all(v.get('forms') for v in vocab if v['category']=='verb'))
+        rules=sections[3]['rules']
+        self.assertEqual(len(rules),10)
+        required={115,119,*range(263,270),*range(286,289),*range(610,639)}
+        covered={n for r in rules for n in r['reference']}
+        self.assertTrue(required.issubset(covered))
+        self.assertTrue(all(r.get('explanation') and r.get('formula') and len(r.get('examples',[]))>=2 and r.get('exceptions') and r.get('mistakes') and r.get('tip') and len(r.get('exercises',[]))>=3 for r in rules))
+        questions=[]
+        for sec in sections:
+            questions+=sec.get('exercises',[])+sec.get('comprehension',[])
+            for rule in sec.get('rules',[]):questions+=rule.get('exercises',[])
+            questions+=sec.get('exam',{}).get('questions',[])
+        self.assertEqual(len(questions),105)
+        self.assertEqual(len(questions),len({q['id'] for q in questions}))
+        self.assertEqual({a['exerciseId'] for a in sections[8]['answers']},{q['id'] for q in questions})
+        for q in questions:
+            self.assertTrue(q.get('prompt'))
+            if q['type']=='multiple-choice':self.assertIn(q['answer'],range(len(q['options'])))
+            elif q['type']=='written':self.assertTrue(q.get('modelAnswer'))
+            else:self.assertIsNotNone(q.get('answer'))
+        exam=sections[7]['exam'];distribution={'reading':20,'vocabulary':15,'grammar':35,'sentenceConstruction':10,'writing':20}
+        self.assertEqual(exam['distribution'],distribution)
+        self.assertEqual(sum(q['points'] for q in exam['questions']),100)
+        self.assertEqual({k:sum(q['points'] for q in exam['questions'] if q.get('category')==k) for k in distribution},distribution)
+        self.assertEqual(len(exam['readingTexts']),2)
+        self.assertTrue(all(150<=wc(t['text'])<=250 for t in exam['readingTexts']))
+        self.assertTrue(all(t['text'] not in [x['text'] for x in sections[1]['texts']] for t in exam['readingTexts']))
+        annotation=sections[1]['annotations'][0]
+        self.assertTrue(any(annotation['text']==t['text'] for t in sections[1]['texts']))
+        self.assertTrue(all(annotation['text'][m['start']:m['end']] for m in annotation['marks']))
+        curriculum=(ROOT/'content/curriculum.js').read_text()
+        self.assertIn("'chapter-18': 'content/a2/chapter-18.js'",curriculum)
+        self.assertIn('"title": "Verben mit Präpositionen und Pronominaladverbien"',curriculum)
+
+
+    def test_progress_backup_buttons_are_visible_in_statistics_and_wired(self):
+        html=(ROOT/'index.html').read_text()
+        css=(ROOT/'css/landing.css').read_text()
+        backup=(ROOT/'js/progress-backup.js').read_text()
+        landing=(ROOT/'js/landing.js').read_text()
+        progress_start=html.index('<section id="fortschritt"')
+        progress_end=html.index('</section>',progress_start)
+        section=html[progress_start:progress_end]
+        card_start=section.index('class="progress-card"')
+        self.assertLess(section.index('id="export-progress"'),section.index('id="progress-file"'))
+        card_end=section.index('</div>\n      </div>',card_start)
+        for label,control in [('Export Progress','export-progress'),('Import Progress','import-progress')]:
+            self.assertIn(f'id="{control}" type="button"',section)
+            self.assertIn(label,section)
+            self.assertGreater(section.index(f'id="{control}"'),card_start)
+            self.assertLess(section.index(f'id="{control}"'),card_end)
+        self.assertIn('<div class="wrap progress-layout">',section)
+        self.assertNotIn('progress-layout reveal',html)
+        self.assertIn('.backup-tools {',css)
+        self.assertIn('display: flex;',css[css.index('.backup-tools {'):css.index('.backup-date-block {')])
+        self.assertIn("exportButton.addEventListener('click',exportFile)",backup)
+        self.assertIn("importButton.addEventListener('click',()=>input.click())",backup)
+        self.assertIn("input.addEventListener('change'",backup)
+        self.assertIn("form.addEventListener('submit',confirmImport)",backup)
+        self.assertIn("window.addEventListener('progresschange',render)",landing)
+        self.assertIn('<script src="js/progress-backup.js"></script>',html)
 
 if __name__ == '__main__':
     unittest.main(verbosity=2)

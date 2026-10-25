@@ -72,24 +72,24 @@
       "report": "progress/reports/chapter-14.md"
     },
     "15": {
-      "status": "pending",
-      "contentFile": null,
-      "report": null
+      "status": "completed",
+      "contentFile": "content/a2/chapter-15.js",
+      "report": "progress/reports/chapter-15.md"
     },
     "16": {
-      "status": "pending",
-      "contentFile": null,
-      "report": null
+      "status": "completed",
+      "contentFile": "content/a2/chapter-16.js",
+      "report": "progress/reports/chapter-16.md"
     },
     "17": {
-      "status": "pending",
-      "contentFile": null,
-      "report": null
+      "status": "completed",
+      "contentFile": "content/a2/chapter-17.js",
+      "report": "progress/reports/chapter-17.md"
     },
     "18": {
-      "status": "pending",
-      "contentFile": null,
-      "report": null
+      "status": "completed",
+      "contentFile": "content/a2/chapter-18.js",
+      "report": "progress/reports/chapter-18.md"
     },
     "19": {
       "status": "pending",

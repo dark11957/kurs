@@ -95,7 +95,7 @@ h1, h2, h3, p { margin-top: 0; }
 .backup-kicker { color: #858a90; font-size: 10px; font-weight: 700; letter-spacing: .14em; }
 .backup-date-block strong { color: #d0d2d4; font-size: 13px; font-weight: 400; }
 .backup-buttons { display: flex; gap: 9px; }
-.backup-button { min-height: 40px; padding: 8px 12px; border: 1px solid #555a5f; background: transparent; color: #e4e5e6; font-size: 12px; cursor: pointer; transition: border-color .2s ease, background .2s ease, color .2s ease; }
+.backup-button { min-width: 142px; min-height: 44px; padding: 8px 12px; border: 1px solid #555a5f; background: transparent; color: #e4e5e6; font-size: 13px; cursor: pointer; transition: border-color .2s ease, background .2s ease, color .2s ease; }
 .backup-button:hover { border-color: var(--gold); color: #f2dfbd; background: #c9a66b12; }
 .backup-button span { margin-left: 8px; color: var(--gold); }
 .backup-button-primary { border-color: var(--gold); background: var(--gold); color: #16181a; font-weight: 700; }
@@ -226,7 +226,7 @@ h1, h2, h3, p { margin-top: 0; }
   .progress-foot > a { font-size: 11px; }
   .backup-tools { align-items: stretch; flex-direction: column; }
   .backup-buttons { width: 100%; }
-  .backup-buttons .backup-button { flex: 1; padding-inline: 8px; font-size: 11px; }
+  .backup-buttons .backup-button { flex: 1; min-width: 0; padding-inline: 8px; font-size: 12px; }
   .import-dialog { padding: 22px 18px; }
   .dialog-actions .backup-button { flex: 1; }
   .journey-section { padding-block: 68px 72px; }
