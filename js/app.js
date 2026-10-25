@@ -2,15 +2,17 @@ window.StudyApp = (() => {
 const {CURRICULUM}=window;
 const {renderNavigation}=window.StudyNavigation;
 const {readRoute,navigate}=window.StudyRouter;
-const {getPreference,setPreference,getProgress,updateProgress}=window.StudyStorage;
+const {getPreference,setPreference,getProgress,updateProgress,resumeTarget,chapterProgress,trackChapter}=window.StudyStorage;
 const {renderChapter,bindChapter}=window.StudyRenderer;
 const {loadChapter}=window.StudyChapterLoader;
 const shell=document.querySelector('.app-shell'),view=document.querySelector('#view'),sectionNav=document.querySelector('#section-nav');
 const fixture=window.DEVELOPMENT_FIXTURE||null;
 let renderVersion=0;
+let activeLocation=null,readingSaveTimer=null;
 
 function init(){
- if(!location.hash){const current=getProgress().current;if(current.chapter&&!current.chapter.startsWith('development-demo'))navigate(current.chapter,current.section,{replace:true})}
+ const target=resumeTarget();const resumeButton=document.querySelector('#resume-learning');if(resumeButton&&target)resumeButton.href=`#/${target.chapter.id}/${target.section}`;
+ if(!location.hash&&target)navigate(target.chapter.id,target.section,{replace:true});
  if(getPreference('theme','dark')==='light')document.documentElement.dataset.theme='light';
  if(getPreference('sidebar','open')==='closed')shell.classList.add('sidebar-collapsed');
  document.querySelector('#sidebar-toggle').setAttribute('aria-expanded',String(!shell.classList.contains('sidebar-collapsed')));
@@ -61,12 +63,18 @@ async function render(){
   if(content){
    const {html,index}=renderChapter(content,route.section);view.innerHTML=html;bindChapter(view,content,route.section);
    const section=content.sections[index];setSectionNavigation(chapter,content.sections,index);
-   updateProgress(p=>{p.current={chapter:chapter.id,section:section.id};p.lastVisited=location.href});return;
+   const saved=chapterProgress(getProgress(),chapter.id),restore=saved.lastSectionId===section.id?saved.lastPosition:null;
+   activeLocation={chapter:chapter.id,section:section.id};
+   document.querySelector('#main-content').scrollTop=0;
+   trackChapter(chapter.id,section.id,content.sections.length,restore);
+   requestAnimationFrame(()=>{if(isCurrent(version,hash)&&restore&&saved.lastSectionId===section.id){document.querySelector('#main-content').scrollTop=Math.max(0,Number(restore.scrollTop)||0)}});
+   const resume=resumeTarget();const resumeButton=document.querySelector('#resume-learning');if(resumeButton&&resume)resumeButton.href=`#/${resume.chapter.id}/${resume.section}`;
+   return;
   }
   const section=chapter.sections.find(s=>s.id===route.section)||chapter.sections[0],i=chapter.sections.indexOf(section);
   view.innerHTML=`<p class="eyebrow">${chapter.level} · KAPITEL ${chapter.number}</p><h1>${escape(chapter.title)}</h1><p class="lead">Das Lernmaterial wurde noch nicht erstellt.</p><div class="availability-note"><strong>Dieses Kapitel ist im Lehrplan vorgesehen.</strong><br>Das Lernmaterial erscheint hier, sobald es erstellt wurde.</div><h2>${escape(section.title)}</h2><p class="body-copy">Für diesen Abschnitt gibt es noch kein Lernmaterial.</p>`;
   setSectionNavigation(chapter,chapter.sections,i);
-  updateProgress(p=>{p.current={chapter:chapter.id,section:section.id};p.lastVisited=location.href});return;
+  activeLocation={chapter:chapter.id,section:section.id};trackChapter(chapter.id,section.id,chapter.sections.length,null);return;
  }
  document.querySelector('#breadcrumb').textContent='Lernbereich';sectionNav.hidden=true;
  view.innerHTML=`<section class="empty-state"><div class="empty-mark"></div><p class="eyebrow">DEUTSCH A1–B1</p><h1>Dein Weg zum Deutschen beginnt hier.</h1><p class="lead">Ein klarer Lernweg von den ersten deutschen Sätzen bis zur sicheren Kommunikation.</p><div class="availability-note"><strong>Das Lernmaterial wurde noch nicht erstellt.</strong><br>Der vollständige Lehrplan steht bereit. Kapitel 01 ist die nächste Lerneinheit.</div><div class="curriculum-preview">${['A1','A2','B1'].map((l,i)=>`<article class="level-preview"><h3>${l} · ${['Grundlagen','Aufbau','Selbstständige Sprachverwendung'][i]}</h3><p>${CURRICULUM.filter(c=>c.level===l).length} Kapitel · Lernmaterial wird nach und nach ergänzt</p></article>`).join('')}</div></section>`;
@@ -76,9 +84,13 @@ function escape(s){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt
 document.querySelector('#sidebar-toggle').addEventListener('click',e=>{if(innerWidth<=780){shell.classList.toggle('mobile-sidebar-open');e.currentTarget.setAttribute('aria-expanded',String(shell.classList.contains('mobile-sidebar-open')))}else{shell.classList.toggle('sidebar-collapsed');const closed=shell.classList.contains('sidebar-collapsed');e.currentTarget.setAttribute('aria-expanded',String(!closed));setPreference('sidebar',closed?'closed':'open')}});
 document.querySelector('#theme-toggle').addEventListener('click',()=>{const light=document.documentElement.dataset.theme!=='light';if(light)document.documentElement.dataset.theme='light';else delete document.documentElement.dataset.theme;setPreference('theme',light?'light':'dark');document.querySelector('#theme-toggle').setAttribute('aria-label',`${light?'Dunkles':'Helles'} Design aktivieren`)});
 document.querySelector('#search').addEventListener('input',()=>renderNavigation(readRoute(),document.querySelector('#search').value));
+document.querySelector('#main-content').addEventListener('scroll',()=>{if(!activeLocation)return;if(readingSaveTimer)clearTimeout(readingSaveTimer);readingSaveTimer=setTimeout(saveReadingPosition,550)});
+function saveReadingPosition(){if(!activeLocation)return;const main=document.querySelector('#main-content'),{chapter,section}=activeLocation;updateProgress(p=>{p.chapterProgress??={};const old=p.chapterProgress[chapter]||{};p.chapterProgress[chapter]={...old,status:old.status==='completed'?'completed':'in_progress',lastSectionId:section,lastPosition:{scrollTop:main.scrollTop,sectionId:section,savedAt:new Date().toISOString()},lastStudiedAt:new Date().toISOString()};p.lastActiveChapterId=chapter;p.current={chapter,section};p.lastVisited=location.href})}
+window.addEventListener('pagehide',()=>{if(readingSaveTimer){clearTimeout(readingSaveTimer);saveReadingPosition()}});
 document.querySelector('#progress-button').addEventListener('click',()=>document.querySelector('#progress-dialog').showModal());
 document.querySelector('#progress-dialog').addEventListener('click',e=>{if(e.target===e.currentTarget)e.currentTarget.close()});
-window.addEventListener('hashchange',()=>{shell.classList.remove('mobile-sidebar-open');scheduleRender()});
+window.addEventListener('hashchange',()=>{if(readingSaveTimer){clearTimeout(readingSaveTimer);saveReadingPosition()}shell.classList.remove('mobile-sidebar-open');scheduleRender()});
 window.addEventListener('progresschange',e=>{const done=e.detail.completedActivities.length;document.querySelector('#progress-label').textContent=`${done} abgeschlossen`;document.querySelector('#progress-detail').textContent=`${done} Lernaktivitäten abgeschlossen. Übungsversuche, Schreibentwürfe, Prüfungen und dein letzter Lernort werden auf diesem Gerät gespeichert.`;document.querySelector('#progress-bar').style.width=`${Math.min(100,done)}%`});
+window.addEventListener('progresschange',()=>{renderNavigation(readRoute(),document.querySelector('#search').value);const target=resumeTarget(),button=document.querySelector('#resume-learning');if(button&&target)button.href=`#/${target.chapter.id}/${target.section}`});
 init();window.dispatchEvent(new CustomEvent('progresschange',{detail:getProgress()}));
 })();

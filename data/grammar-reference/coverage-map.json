@@ -1,0 +1,124 @@
+{
+  "updatedAt": "2026-10-25",
+  "topics": {
+    "deshalb-deswegen-darum": {
+      "chapterFile": "content/a2/chapter-17.js",
+      "chapterId": "chapter-17",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-17/grammar",
+      "status": "verified",
+      "evidence": "metadata.grammarSubjects covers common logical connectors and Konjunktionaladverbien; section id grammar exists."
+    },
+    "dafuer-dagegen": {
+      "chapterFile": "content/a2/chapter-18.js",
+      "chapterId": "chapter-18",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-18/grammar",
+      "status": "verified",
+      "evidence": "grammarSubjects include Präpositionaladverbien da(r)+Präposition; section id grammar exists."
+    },
+    "damit-um-zu": {
+      "chapterFile": "content/a2/chapter-16.js",
+      "chapterId": "chapter-16",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-16/grammar",
+      "status": "verified",
+      "evidence": "Metadata objectives and grammar rules explicitly distinguish damit and um … zu; section id grammar exists."
+    },
+    "weil-denn-da": {
+      "chapterFile": "content/a2/chapter-20.js",
+      "chapterId": "chapter-20",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-20/grammar",
+      "additionalTargets": [
+        {
+          "chapterFile": "content/b1/chapter-24.js",
+          "chapterId": "chapter-24",
+          "sectionId": "grammar",
+          "href": "learn.html#/chapter-24/grammar"
+        }
+      ],
+      "status": "verified",
+      "evidence": "Chapter 20 directly contrasts denn V2 and weil verb-final. Chapter 24 has a real da subordinate-clause example in the grammar section. Both targets use an existing grammar section."
+    },
+    "obwohl-trotzdem": {
+      "chapterFile": "content/a2/chapter-17.js",
+      "chapterId": "chapter-17",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-17/grammar",
+      "status": "verified",
+      "evidence": "Chapter 17 grammar section explains obwohl/trotzdem concession and contrast word order; the grammar section anchor exists."
+    },
+    "dass-das": {
+      "chapterFile": "content/a2/chapter-14.js",
+      "chapterId": "chapter-14",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-14/grammar",
+      "additionalTargets": [
+        {
+          "chapterFile": "content/a1/chapter-01.js",
+          "chapterId": "chapter-01",
+          "sectionId": "grammar",
+          "href": "learn.html#/chapter-01/grammar"
+        },
+        {
+          "chapterFile": "content/b1/chapter-21.js",
+          "chapterId": "chapter-21",
+          "sectionId": "grammar",
+          "href": "learn.html#/chapter-21/grammar"
+        }
+      ],
+      "status": "verified",
+      "evidence": "Chapter 14 teaches dass clauses; Chapter 1 reviews the neuter article das; Chapter 21 teaches relative pronouns. Each linked module has a grammar section."
+    },
+    "wenn-als": {
+      "chapterFile": "content/a2/chapter-15.js",
+      "chapterId": "chapter-15",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-15/grammar",
+      "status": "verified",
+      "evidence": "Chapter 15 explicitly explains als for a single past event and wenn for repetition/current/future, with temporal subordinate-clause word order."
+    },
+    "konjunktiv-ii-wuerde": {
+      "chapterFile": "content/b1/chapter-23.js",
+      "chapterId": "chapter-23",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-23/grammar",
+      "status": "verified",
+      "evidence": "Chapter 23 teaches würde + infinitive and its Konjunktiv II use; the grammar section anchor exists."
+    },
+    "konjunktiv-ii-waere-haette": {
+      "chapterFile": "content/b1/chapter-23.js",
+      "chapterId": "chapter-23",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-23/grammar",
+      "status": "verified",
+      "evidence": "Chapter 23 grammar rule 3 explains hätte/wäre, their forms, word order, examples, and common errors."
+    },
+    "konjunktiv-ii-modalverben": {
+      "chapterFile": "content/b1/chapter-23.js",
+      "chapterId": "chapter-23",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-23/grammar",
+      "status": "verified",
+      "evidence": "Chapter 23 grammar rule 4 explains common Konjunktiv II modal forms, their meanings, infinitive placement, and examples."
+    },
+    "perfekt-haben-sein": {
+      "chapterFile": "content/a1/chapter-09.js",
+      "chapterId": "chapter-09",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-09/grammar",
+      "status": "verified",
+      "evidence": "Chapter 9 grammar rules 1 and 4 explain Perfekt structure and haben/sein selection, including semantic exceptions and examples."
+    },
+    "partizip-ii-bildung": {
+      "chapterFile": "content/a1/chapter-09.js",
+      "chapterId": "chapter-09",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-09/grammar",
+      "status": "verified",
+      "evidence": "Chapter 9 grammar rules 2, 3, 5, and 6 cover regular, strong, separable/inseparable, mixed, and -ieren participles."
+    }
+  },
+  "uncovered": []
+}

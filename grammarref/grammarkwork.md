@@ -27,6 +27,7 @@
 ## 3. Content specification — each new grammar card
 Produce **concise, useful German-first reference content**, not a full lesson:
 - Clear German title; `A1`, `A2`, or `B1`; category and discoverable search keywords, including alternate spellings and short English equivalents.
+- Every individual reference rule is one searchable topic record with a **stable, unique `id`**. That ID is also its permanent rule-completion key; never use array position or displayed title as an identifier, and never change an ID merely to rename a topic.
 - `summaryDe`: plain German meaning; `glossEn`: brief English gloss **when useful**, not a complete English translation.
 - `whenToUseDe`: when the form is used, with practical context.
 - `ruleDe`: the exact relevant rule, including **word order, finite verb position, and required case/preposition** wherever applicable.
@@ -48,8 +49,13 @@ Maintain the exact existing structured-data schema defined in `grammarreference.
 - Use **plain HTML/CSS/JavaScript** compatible with static GitHub Pages; no server, build tool, or framework.
 - Reference UI lives in `grammatik.html`, with its own **scoped handwritten-notebook stylesheet** and data-driven renderer.
 - Keep `index.html`, `learn.html`, chapter rendering, chapter files, student progress, and Export/Import behavior unchanged except for the **minimal verified navigation link** where originally authorized.
-- Notebook look: lined off-white paper, modest pencil/ink highlights, readable handwriting, large text, clear examples and tables; no text-as-images.
+- Notebook look: a dark lined paper surface (`#202327`) on a charcoal background (`#151719`), handwritten German-first text, clear examples, pencil margin notes, and controlled yellow/blue/green/purple/red ink accents. Use Patrick Hand or Kalam (with legible German-character fallbacks); avoid turning each subsection into a separate dashboard card. No text-as-images.
+- Match the permanent grammar notebook design: title highlighter in yellow; explanations and examples at a comfortable handwritten size; sentence patterns shown as labeled word-order diagrams when they clarify the rule; margin notes for pitfalls; thin hand-drawn-style table borders. Keep contrast readable and support narrow screens, reduced motion, keyboard focus, and horizontal scrolling for wide tables.
+- Compose topics from the reusable renderer components in `js/grammar-reference.js` and its scoped `.grammar-reference` stylesheet: `renderDefinition`, `renderRule`, `renderExamples`, `renderTable`, `renderRelatedComparison`, `renderImportantNote`, and `renderChapterLinks`. Do not add per-topic CSS or hand-coded HTML cards.
+- Optional structured fields for reusable tables: `forms` or `miniTable` may contain `{ "caption": "…", "headers": ["…"], "rows": [["…"]] }`; `comparison` uses the same shape. `forms` is for verified conjugation/declension data, while `comparison` is for verified grammatical contrasts. The renderer escapes all cell text and supplies semantic table headers.
 - Keep topic search, A1/A2/B1/type filters, group navigation, direct links, and chapter links working as batches grow.
+- Every topic must use the shared completion control and progress filters/dashboard in `js/grammar-reference.js`. Since the renderer keys completion by topic `id`, new rule topics automatically appear in totals, category counts, next-rule navigation, and the learned/not-learned filters; do not add topic-specific tracking code.
+- Store rule status inside the existing `StudyStorage` learning-progress object as `grammarProgress[topic.id] = {completed, completedAt}`. Do not create a second localStorage system. The existing progress backup must include and restore these rule states; keep old backups without `grammarProgress` importable.
 - GitHub Pages uses repository subpaths; **avoid root-absolute `/...` URLs** unless existing route architecture explicitly requires them. Test under an HTTP server, not only `file://`.
 - Loading failures must show a human-readable error state, **never a blank content area**.
 - Do not modify localStorage progress keys for reference-content generation. Grammar-topic authoring status is not student completion status.

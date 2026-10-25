@@ -1,0 +1,229 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-10-25",
+  "topics": [
+    {
+      "queueId": "T001",
+      "id": "deshalb-deswegen-darum",
+      "groupId": "G19",
+      "title": "deshalb / deswegen / darum",
+      "level": "A2",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-17/grammar"
+    },
+    {
+      "queueId": "T002",
+      "id": "dafuer-dagegen",
+      "groupId": "G29",
+      "title": "dafür / dagegen",
+      "level": "A2",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-18/grammar"
+    },
+    {
+      "queueId": "T003",
+      "id": "damit-um-zu",
+      "groupId": "G19",
+      "title": "damit vs. um … zu",
+      "level": "A2",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-16/grammar"
+    },
+    {
+      "queueId": "T004",
+      "id": "weil-denn-da",
+      "groupId": "G18",
+      "title": "weil / denn / da",
+      "level": "A1",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-20/grammar",
+      "additionalLessons": [
+        "learn.html#/chapter-24/grammar"
+      ]
+    },
+    {
+      "queueId": "T005",
+      "id": "obwohl-trotzdem",
+      "groupId": "G18",
+      "title": "obwohl vs. trotzdem",
+      "level": "A2",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-17/grammar"
+    },
+    {
+      "queueId": "T006",
+      "id": "dass-das",
+      "groupId": "G22",
+      "title": "dass vs. das",
+      "level": "A2",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-14/grammar",
+      "additionalLessons": [
+        "learn.html#/chapter-01/grammar",
+        "learn.html#/chapter-21/grammar"
+      ]
+    },
+    {
+      "queueId": "T007",
+      "id": "wenn-als",
+      "groupId": "G21",
+      "title": "wenn vs. als",
+      "level": "A2",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-15/grammar"
+    },
+    {
+      "queueId": "T008",
+      "id": "konjunktiv-ii-wuerde",
+      "groupId": "G13",
+      "title": "Konjunktiv II: würde + Infinitiv",
+      "level": "B1",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-23/grammar"
+    },
+    {
+      "queueId": "T009",
+      "id": "konjunktiv-ii-waere-haette",
+      "groupId": "G13",
+      "title": "Konjunktiv II: wäre / hätte",
+      "level": "B1",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-23/grammar"
+    },
+    {
+      "queueId": "T010",
+      "id": "konjunktiv-ii-modalverben",
+      "groupId": "G13",
+      "title": "Konjunktiv II: modal verbs",
+      "level": "B1",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-23/grammar"
+    },
+    {
+      "queueId": "T011",
+      "id": "perfekt-haben-sein",
+      "groupId": "G11",
+      "title": "Perfekt: haben vs. sein",
+      "level": "A2",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-09/grammar"
+    },
+    {
+      "queueId": "T012",
+      "id": "partizip-ii-bildung",
+      "groupId": "G11",
+      "title": "Partizip II: formation and exceptions",
+      "level": "A2",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-09/grammar"
+    },
+    {
+      "queueId": "T013",
+      "id": "praeteritum-sein-haben-modal",
+      "groupId": "G11",
+      "title": "Präteritum: sein / haben / modal verbs",
+      "level": "A2",
+      "status": "TODO"
+    },
+    {
+      "queueId": "T014",
+      "id": "trennbare-untrennbare-verben",
+      "groupId": "G09",
+      "title": "Trennbare und untrennbare Verben",
+      "level": "A1",
+      "status": "TODO"
+    },
+    {
+      "queueId": "T015",
+      "id": "reflexive-verben-kasus",
+      "groupId": "G16",
+      "title": "Reflexive Verben + case",
+      "level": "A2",
+      "status": "TODO"
+    },
+    {
+      "queueId": "T016",
+      "id": "akkusativ-dativ",
+      "groupId": "G04",
+      "title": "Akkusativ vs. Dativ",
+      "level": "A1",
+      "status": "TODO"
+    },
+    {
+      "queueId": "T017",
+      "id": "wechselpraepositionen-wo-wohin",
+      "groupId": "G27",
+      "title": "Wechselpräpositionen: Wo? / Wohin?",
+      "level": "A2",
+      "status": "TODO"
+    },
+    {
+      "queueId": "T018",
+      "id": "adjektivdeklination-ueberblick",
+      "groupId": "G07",
+      "title": "Adjektivdeklination: overview",
+      "level": "A2",
+      "status": "TODO"
+    },
+    {
+      "queueId": "T019",
+      "id": "relativsaetze-grundlagen",
+      "groupId": "G23",
+      "title": "Relativsätze: basics",
+      "level": "B1",
+      "status": "TODO"
+    },
+    {
+      "queueId": "T020",
+      "id": "infinitiv-zu-ohne-statt",
+      "groupId": "G15",
+      "title": "Infinitiv mit zu / ohne zu / statt zu",
+      "level": "B1",
+      "status": "TODO"
+    },
+    {
+      "queueId": "T021",
+      "id": "passiv-grundmuster",
+      "groupId": "G14",
+      "title": "Passive voice: basic patterns",
+      "level": "B1",
+      "status": "TODO"
+    },
+    {
+      "queueId": "T022",
+      "id": "verb-abschliessen",
+      "groupId": "G39",
+      "title": "Verb card: abschließen",
+      "level": "B1",
+      "status": "TODO"
+    },
+    {
+      "queueId": "T023",
+      "id": "verb-werden",
+      "groupId": "G40",
+      "title": "Verb card: werden",
+      "level": "A1",
+      "status": "TODO"
+    },
+    {
+      "queueId": "T024",
+      "id": "verb-helfen",
+      "groupId": "G37",
+      "title": "Verb card: helfen",
+      "level": "A1",
+      "status": "TODO"
+    }
+  ]
+}

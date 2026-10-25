@@ -1,6 +1,6 @@
 # GRAMMAR REFERENCE — MASTER PLAN & AGENT WORK FILE
 
-Status: PLANNED. This file is the authoritative roadmap for the new reference, but the existing chapter plans and chapter data remain the authoritative source for lesson content and mappings.
+Status: IN PROGRESS. The reference UI and first four starter topics are implemented; the roadmap and remaining topic inventory are still being built. This file is the authoritative roadmap for the new reference, but the existing chapter plans and chapter data remain the authoritative source for lesson content and mappings.
 
 ## 0. Mission
 Build a **separate** German A1–B1 quick-reference encyclopedia for refreshing forgotten grammar, common expressions, and high-frequency verbs. Do not replace or redesign `index.html` or `learn.html`. The reference should look like readable, colorful handwritten notebook pages, inspired by the supplied notebook image, while remaining searchable/selectable HTML text.
@@ -14,7 +14,7 @@ Each card provides concise German-first guidance: meaning/short English gloss wh
 - Namespace all styling under `.grammar-reference` / reference root. **Never mutate existing chapter HTML, chapter renderer, progress store, Export/Import keys, or unrelated CSS.** Do not touch Supabase.
 - Data-driven rendering from structured topic records; no giant hardcoded HTML file and no duplicated chapter copy.
 - Initially one notebook theme only on `grammatik.html`; do not implement a global theme switcher.
-- A narrow left navigation for groups with search/filter and a wide main notebook area; responsive single-column mode on mobile. Large fonts (body ~19–22px, headings 28–42px), good contrast, lined-paper effect and colored pencil/ink cues, accessible focus and reduced motion. Handwriting font must support ä ö ü ß and remain legible; fall back gracefully.
+- A narrow left navigation for groups with search/filter and a wide main notebook area; responsive single-column mode on mobile. Use a dark charcoal background (`#151719`) and lined dark paper (`#202327`), with subtle texture and a visible notebook margin. Use large handwritten text, restrained yellow highlights, and blue/green/purple/red ink cues. Preserve accessible focus, contrast, and reduced motion. Handwriting fonts must support ä ö ü ß and remain legible; fall back gracefully.
 
 ## 2. Content contract (one record per topic)
 Each topic must have:
@@ -112,7 +112,7 @@ Do **not** invent a definitive count of “all German verbs.” Start with a cur
 - Jump navigation, filter by A1/A2/B1 and type (grammar, connector, verb, phrase).
 - Cards provide a **“Mehr lernen / Zur Lektion”** link; deep-link to real existing chapter subsection when anchor exists; fallback to verified chapter start and highlight topic name if subsection anchors absent. Never link to guessed ids.
 - Related-topic links for comparisons (`deshalb` ↔ `weil`, `dafür` ↔ `für`/`damit`).
-- Handwritten notebook style: lined paper, subtle margin, ink titles, yellow highlights, sketchy callout borders, clean responsive tables. No rasterization of content, no huge repetitive decorations.
+- Handwritten notebook style: continuous dark lined paper, subtle margin, ink titles, yellow highlights, colored grammar emphasis, pencil-note callouts, and clean responsive tables. Use word-order diagrams where they clarify a rule. Avoid generic dashboard cards and repetitive decoration. No rasterization of content.
 - Clear empty state for search, loading/error states for JSON loading. Handle failed fetch without blank page. Include accessibility labels and keyboard use.
 - No need for per-topic progress tracking in V1; do not add new localStorage keys unless necessary (e.g. sidebar state).
 
@@ -142,18 +142,18 @@ Before writing data:
 7. Summarize **exactly**: 3–4 topics added, files changed, lesson links verified, uncovered topics, next 3–4 proposed. Do not claim fully tested when browser testing unavailable.
 
 ## 8. Starter topic queue (first 24 individual cards; agent may reorder based on curriculum coverage)
-- [ ] T001 — deshalb / deswegen / darum (consequence; V2)
-- [ ] T002 — dafür / dagegen (pronominal adverbs; meanings)
-- [ ] T003 — damit vs um ... zu (purpose)
-- [ ] T004 — weil vs denn vs da (reason and word order)
-- [ ] T005 — obwohl vs trotzdem (concession; word order)
-- [ ] T006 — dass vs das (clause and spelling)
-- [ ] T007 — wenn vs als (time and conditions)
-- [ ] T008 — Konjunktiv II: würde + Infinitiv
-- [ ] T009 — Konjunktiv II: wäre / hätte
-- [ ] T010 — Konjunktiv II: modal verbs
-- [ ] T011 — Perfekt: haben vs sein
-- [ ] T012 — Partizip II: formation and exceptions
+- [x] T001 — deshalb / deswegen / darum (consequence; V2) — DONE 2026-10-25; `deshalb-deswegen-darum`; `learn.html#/chapter-17/grammar`
+- [x] T002 — dafür / dagegen (pronominal adverbs; meanings) — DONE 2026-10-25; `dafuer-dagegen`; `learn.html#/chapter-18/grammar`
+- [x] T003 — damit vs um ... zu (purpose) — DONE 2026-10-25; `damit-um-zu`; `learn.html#/chapter-16/grammar`
+- [x] T004 — weil vs denn vs da (reason and word order) — DONE 2026-10-25; `weil-denn-da`; `learn.html#/chapter-20/grammar`
+- [x] T005 — obwohl vs trotzdem (concession; word order) — DONE 2026-10-25; `obwohl-trotzdem`; `learn.html#/chapter-17/grammar`
+- [x] T006 — dass vs das (clause and spelling) — DONE 2026-10-25; `dass-das`; `learn.html#/chapter-14/grammar`, `learn.html#/chapter-01/grammar`, `learn.html#/chapter-21/grammar`
+- [x] T007 — wenn vs als (time and conditions) — DONE 2026-10-25; `wenn-als`; `learn.html#/chapter-15/grammar`
+- [x] T008 — Konjunktiv II: würde + Infinitiv — DONE 2026-10-25; `konjunktiv-ii-wuerde`; `learn.html#/chapter-23/grammar`
+- [x] T009 — Konjunktiv II: wäre / hätte — DONE 2026-10-25; `konjunktiv-ii-waere-haette`; `learn.html#/chapter-23/grammar`
+- [x] T010 — Konjunktiv II: Modalverben — DONE 2026-10-25; `konjunktiv-ii-modalverben`; `learn.html#/chapter-23/grammar`
+- [x] T011 — Perfekt: haben vs sein — DONE 2026-10-25; `perfekt-haben-sein`; `learn.html#/chapter-09/grammar`
+- [x] T012 — Partizip II: formation and exceptions — DONE 2026-10-25; `partizip-ii-bildung`; `learn.html#/chapter-09/grammar`
 - [ ] T013 — Präteritum: sein / haben / modal verbs
 - [ ] T014 — Trennbare und untrennbare Verben
 - [ ] T015 — Reflexive Verben + case

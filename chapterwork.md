@@ -584,6 +584,13 @@ Ensure every chapter section is accessible.
 
 Implement any missing reusable component only if genuinely necessary.
 
+## Stable progress IDs and automatic tracking
+
+- Keep each chapter ID stable as `chapter-NN` and each of its nine section IDs stable and unique within that chapter. Use the established section IDs from the curriculum (`introduction`, `reading`, `vocabulary`, `grammar`, `exercises`, `practical-communication`, `summary`, `examination`, `solutions`).
+- Give every exercise a stable, unique ID within its chapter. Do not derive IDs from array positions or displayed text.
+- Chapter and section completion controls, resume location, sidebar indicators, and saved exercise answers are provided by shared website infrastructure. Do not add chapter-specific tracking code or duplicate progress storage.
+- New chapter sections and exercises must use the shared schema so they automatically participate in completion tracking, answer restoration, progress backups, and import/export.
+
 Preserve previously completed chapters.
 
 ---

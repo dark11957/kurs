@@ -1,6 +1,6 @@
 (() => {
 const {CURRICULUM,CHAPTER_CONTENT}=window;
-const {getProgress,updateProgress}=window.StudyStorage;
+const {getProgress,updateProgress,resumeTarget,chapterProgress,chapterStatus}=window.StudyStorage;
 const {loadChapter}=window.StudyChapterLoader;
 const collection=document.querySelector('#chapter-collection');
 const quoteList=[
@@ -27,9 +27,9 @@ function nextChapter(progress){
   || CURRICULUM[0];
 }
 function setContinueLink(progress){
- const chapter=nextChapter(progress),button=document.querySelector('#continue-button');
+ const target=resumeTarget(progress,CURRICULUM),chapter=target?.chapter||nextChapter(progress),button=document.querySelector('#continue-button');
  if(!chapter){button.href='learn.html';return;}
- button.href=`learn.html#/${chapter.id}/introduction`;
+ button.href=`learn.html#/${chapter.id}/${target?.section||'introduction'}`;
  button.setAttribute('aria-label',`Weiterlernen: Kapitel ${chapter.number}, ${chapter.title}`);
 }
 function updateProgressView(progress){
@@ -52,8 +52,9 @@ function updateProgressView(progress){
  setContinueLink(progress);
 }
 function cardStatus(chapter,progress,completed){
- if(completed.has(chapter.id))return {key:'done',label:'Abgeschlossen'};
- if(progress.current?.chapter===chapter.id&&available(chapter))return {key:'current',label:'Gerade lernst du'};
+ const status=chapterStatus(progress,chapter.id,chapter.sections.length),state=chapterProgress(progress,chapter.id),percent=Math.round((state.completedSections||[]).length/chapter.sections.length*100);
+ if(completed.has(chapter.id)||status==='completed')return {key:'done',label:'Abgeschlossen'};
+ if(status==='in_progress')return {key:'current',label:`In Bearbeitung${percent?` · ${percent}%`:''}`};
  if(!available(chapter))return {key:'unavailable',label:'Material folgt'};
  return {key:'todo',label:'Noch nicht begonnen'};
 }
@@ -73,10 +74,13 @@ function renderCollection(progress){
  }).join('');
  collection.querySelectorAll('[data-complete]').forEach(button=>button.addEventListener('click',()=>{
   const id=button.dataset.complete;
+  const wasDone=getProgress().completedChapters?.includes(id)||chapterStatus(getProgress(),id,CURRICULUM.find(ch=>ch.id===id)?.sections.length||0)==='completed';
+  if(!window.confirm(wasDone?'Möchtest du den Kapitelabschluss zurücksetzen?':'Möchtest du dieses gesamte Kapitel als abgeschlossen markieren?'))return;
   updateProgress(progress=>{
    progress.completedChapters=Array.isArray(progress.completedChapters)?progress.completedChapters:[];
-   if(progress.completedChapters.includes(id))progress.completedChapters=progress.completedChapters.filter(x=>x!==id);
-   else progress.completedChapters.push(id);
+   const chapter=CURRICULUM.find(ch=>ch.id===id),old=progress.chapterProgress?.[id]||{};progress.chapterProgress??={};
+   if(wasDone){progress.completedChapters=progress.completedChapters.filter(x=>x!==id);progress.chapterProgress[id]={...old,status:progress.current?.chapter===id?'in_progress':'not_started',completedSections:[],completedAt:null,lastStudiedAt:new Date().toISOString()}}
+   else {if(!progress.completedChapters.includes(id))progress.completedChapters.push(id);progress.chapterProgress[id]={...old,status:'completed',completedSections:chapter?.sections.map(s=>s.id)||[],completedAt:new Date().toISOString(),lastStudiedAt:new Date().toISOString()}}
   });
  }));
 }
