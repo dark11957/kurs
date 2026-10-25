@@ -154,18 +154,24 @@ Before writing data:
 - [x] T010 — Konjunktiv II: Modalverben — DONE 2026-10-25; `konjunktiv-ii-modalverben`; `learn.html#/chapter-23/grammar`
 - [x] T011 — Perfekt: haben vs sein — DONE 2026-10-25; `perfekt-haben-sein`; `learn.html#/chapter-09/grammar`
 - [x] T012 — Partizip II: formation and exceptions — DONE 2026-10-25; `partizip-ii-bildung`; `learn.html#/chapter-09/grammar`
-- [ ] T013 — Präteritum: sein / haben / modal verbs
-- [ ] T014 — Trennbare und untrennbare Verben
-- [ ] T015 — Reflexive Verben + case
-- [ ] T016 — Akkusativ vs Dativ
-- [ ] T017 — Wechselpräpositionen: Wo? / Wohin?
-- [ ] T018 — Adjektivdeklination: overview
-- [ ] T019 — Relativsätze: basics
-- [ ] T020 — Infinitiv mit zu / ohne zu / statt zu
-- [ ] T021 — Passive voice: basic patterns
-- [ ] T022 — Verb card: abschließen
-- [ ] T023 — Verb card: werden
-- [ ] T024 — Verb card: helfen
+- [x] T013 — Präteritum: sein / haben / modal verbs — DONE 2026-10-25; `praeteritum-sein-haben-modal`; `learn.html#/chapter-09/grammar`, `learn.html#/chapter-23/grammar`
+- [x] T014 — Trennbare und untrennbare Verben — DONE 2026-10-25; `trennbare-untrennbare-verben`; `learn.html#/chapter-08/grammar`, `learn.html#/chapter-09/grammar`
+- [x] T015 — Reflexive Verben + case — DONE 2026-10-25; `reflexive-verben-kasus`; `learn.html#/chapter-09/grammar`
+- [x] T016 — Akkusativ vs Dativ — DONE 2026-10-25; `akkusativ-dativ`; `learn.html#/chapter-03/grammar`, `learn.html#/chapter-04/grammar`
+- [x] T017 — Wechselpräpositionen: Wo? / Wohin? — DONE 2026-10-25; `wechselpraepositionen-wo-wohin`; `learn.html#/chapter-06/grammar`
+- [x] T018 — Adjektivdeklination: overview — DONE 2026-10-25; `adjektivdeklination-ueberblick`; `learn.html#/chapter-13/grammar`
+- [x] T019 — Relativsätze: basics — DONE 2026-10-25; `relativsaetze-grundlagen`; `learn.html#/chapter-21/grammar`
+- [x] T020 — Infinitiv mit zu / ohne zu / statt zu — DONE 2026-10-25; `infinitiv-zu-ohne-statt`; `learn.html#/chapter-16/grammar`
+- [x] T021 — Passive voice: basic patterns — DONE 2026-10-25; `passiv-grundmuster`; `learn.html#/chapter-22/grammar`
+- [x] T022 — Verb card: abschließen — DONE 2026-10-25; `verb-abschliessen`; `learn.html#/chapter-30/reading`
+- [x] T023 — Verb card: werden — DONE 2026-10-25; `verb-werden`; `learn.html#/chapter-11/grammar`, `learn.html#/chapter-22/grammar`, `learn.html#/chapter-25/grammar`
+- [x] T024 — Verb card: helfen — DONE 2026-10-25; `verb-helfen`; `learn.html#/chapter-04/grammar`
+
+### Extended inventory — next selected topics
+- [ ] T025 — Plusquamperfekt: Vorzeitigkeit mit haben und sein
+- [ ] T026 — Futur I: Zukunft, Annahmen und Vorhersagen
+- [ ] T027 — Zweiteilige Konjunktionen und Argumentation
+- [ ] T028 — Partizip I und II als Adjektive
 
 Extend with all topic cards derived from G01–G40 and actual curriculum. The above list is a **starter queue, not complete coverage**. Before claiming scope complete, enumerate every topic in groups and reconcile with original chapter plan.
 

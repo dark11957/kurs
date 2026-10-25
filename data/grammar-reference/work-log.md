@@ -47,3 +47,36 @@
 - **Verification limits:** No live browser screenshot or narrow-screen visual inspection was performed; the prior work-log notes record Firefox/Snap and local HTTP socket restrictions. The renderer check is mocked DOM, not a browser test.
 - **Uncovered:** none for this batch.
 - **Next batch:** T013 `Präteritum: sein / haben / modal verbs`; T014 `Trennbare und untrennbare Verben`; T015 `Reflexive Verben + case`; T016 `Akkusativ vs. Dativ`.
+
+
+## 2026-10-25 — Content batch completed
+
+- **Mode:** CONTENT BATCH.
+- **State before authoring:** T013 `praeteritum-sein-haben-modal`, T014 `trennbare-untrennbare-verben`, T015 `reflexive-verben-kasus`, and T016 `akkusativ-dativ` were the next four TODO entries; each was marked IN PROGRESS before drafting.
+- **Added:** Four German-first grammar cards with explanations, short English translations, realistic examples, common-error notes, and tables for conjugations, separability, reflexive pronoun case, and Akkusativ/Dativ forms.
+- **Lesson destinations verified:** T013 Chapters 09 and 23; T014 Chapters 08 and 09; T015 Chapter 09; T016 Chapters 03 and 04. The destinations resolve to existing modules and `grammar` section IDs. Coverage notes distinguish material taught directly from related material the reference card extends (especially reflexive dative).
+- **Validation:** JavaScript syntax check and data-schema checks; unique IDs, required fields, nonempty German/English examples, group and related-topic references, progress JSON consistency, topic coverage entries, actual chapter paths and grammar section IDs, and `git diff --check`. German case forms, verb forms, word order, and example translations were reviewed.
+- **Uncovered:** none for this batch; no new chapter content was changed.
+- **Next batch:** T017 `Wechselpräpositionen: Wo? / Wohin?`; T018 `Adjektivdeklination: overview`; T019 `Relativsätze: basics`; T020 `Infinitiv mit zu / ohne zu / statt zu`.
+
+
+## 2026-10-25 — Content batch completed
+
+- **Mode:** CONTENT BATCH.
+- **State before authoring:** T017 `wechselpraepositionen-wo-wohin` (G27, A2), T018 `adjektivdeklination-ueberblick` (G07, A2), T019 `relativsaetze-grundlagen` (G23, B1), and T020 `infinitiv-zu-ohne-statt` (G15, B1) were the next four TODO records; all were marked IN PROGRESS before drafting.
+- **Added:** Four German-first cards with short English glosses and translated examples. T018 includes weak, mixed, and strong declension tables across four cases; T019 includes case forms and sentence-function comparisons; T017 contrasts location and destination; T020 contrasts zu/no-zu and purpose, omission, and alternative constructions.
+- **Lesson destinations verified:** T017 Chapter 06; T018 Chapter 13; T019 Chapter 21; T020 Chapter 16. Each link resolves to an existing chapter module with a `grammar` section and explicit curriculum coverage.
+- **Validation:** GJS syntax/schema checks; unique stable IDs, required fields, bilingual examples, group/related-topic references, table row widths, topic-manifest states, coverage records, and chapter route/section existence; German case, adjective endings, relative pronoun forms, comma and verb placement were reviewed; `git diff --check` passed.
+- **Uncovered:** none for this batch. Chapter files, chapter navigation, and unrelated functionality were not modified. No live browser/mobile rendering test was performed.
+- **Next batch:** T021 `passiv-grundmuster`; T022 `verb-abschliessen`; T023 `verb-werden`; T024 `verb-helfen`.
+
+
+## 2026-10-25 — Content batch completed
+
+- **Mode:** CONTENT BATCH.
+- **State before authoring:** T021 `passiv-grundmuster` (G14, B1), T022 `verb-abschliessen` (G39, B1), T023 `verb-werden` (G40, A1), and T024 `verb-helfen` (G37, A1) were the next four TODO items; their status was set to IN PROGRESS before drafting.
+- **Added:** A passive reference with active/passive and process/state contrasts; three verb cards with usage, case or prefix behavior, examples, and verified form tables. `werden` distinguishes the lexical verb, Futur I, and passive uses; `helfen` includes its dative pattern and stem-vowel change.
+- **Lesson destinations verified:** T021 Chapter 22 grammar; T022 Chapter 30 reading context; T023 Chapters 11, 22, and 25 grammar; T024 Chapter 04 grammar. Each route maps to the registered module and real target section. T022 is explicitly labeled as a contextual reading link because the curriculum has no dedicated lesson for this verb.
+- **Validation:** GJS syntax/schema checks; unique IDs, required fields, related-topic IDs, bilingual examples, table dimensions, verb forms, progress records, coverage map, curriculum registry paths, and target section IDs; reviewed passive tense patterns, case government, comma/word order, and separable-verb forms; `git diff --check` passed.
+- **Uncovered:** no missing link for the batch; T022 has contextual coverage only, documented above. No live browser/mobile layout testing was performed. Chapter files and unrelated functionality were not changed.
+- **Next batch:** T025 `plusquamperfekt-grundmuster`; T026 `futur-i-verwendung`; T027 `zweiteilige-konjunktionen`; T028 `partizipien-adjektivisch`. The planned topics follow Chapters 25–27 and are listed as TODO in the manifest.

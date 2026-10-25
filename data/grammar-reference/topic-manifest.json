@@ -135,7 +135,12 @@
       "groupId": "G11",
       "title": "Präteritum: sein / haben / modal verbs",
       "level": "A2",
-      "status": "TODO"
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-09/grammar",
+      "additionalLessons": [
+        "learn.html#/chapter-23/grammar"
+      ]
     },
     {
       "queueId": "T014",
@@ -143,7 +148,12 @@
       "groupId": "G09",
       "title": "Trennbare und untrennbare Verben",
       "level": "A1",
-      "status": "TODO"
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-08/grammar",
+      "additionalLessons": [
+        "learn.html#/chapter-09/grammar"
+      ]
     },
     {
       "queueId": "T015",
@@ -151,15 +161,22 @@
       "groupId": "G16",
       "title": "Reflexive Verben + case",
       "level": "A2",
-      "status": "TODO"
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-09/grammar"
     },
     {
       "queueId": "T016",
       "id": "akkusativ-dativ",
       "groupId": "G04",
-      "title": "Akkusativ vs. Dativ",
+      "title": "Akkusativ vs Dativ",
       "level": "A1",
-      "status": "TODO"
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-03/grammar",
+      "additionalLessons": [
+        "learn.html#/chapter-04/grammar"
+      ]
     },
     {
       "queueId": "T017",
@@ -167,7 +184,9 @@
       "groupId": "G27",
       "title": "Wechselpräpositionen: Wo? / Wohin?",
       "level": "A2",
-      "status": "TODO"
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-06/grammar"
     },
     {
       "queueId": "T018",
@@ -175,7 +194,9 @@
       "groupId": "G07",
       "title": "Adjektivdeklination: overview",
       "level": "A2",
-      "status": "TODO"
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-13/grammar"
     },
     {
       "queueId": "T019",
@@ -183,7 +204,9 @@
       "groupId": "G23",
       "title": "Relativsätze: basics",
       "level": "B1",
-      "status": "TODO"
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-21/grammar"
     },
     {
       "queueId": "T020",
@@ -191,15 +214,19 @@
       "groupId": "G15",
       "title": "Infinitiv mit zu / ohne zu / statt zu",
       "level": "B1",
-      "status": "TODO"
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-16/grammar"
     },
     {
       "queueId": "T021",
       "id": "passiv-grundmuster",
       "groupId": "G14",
-      "title": "Passive voice: basic patterns",
+      "title": "Passiv: basic patterns",
       "level": "B1",
-      "status": "TODO"
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-22/grammar"
     },
     {
       "queueId": "T022",
@@ -207,7 +234,9 @@
       "groupId": "G39",
       "title": "Verb card: abschließen",
       "level": "B1",
-      "status": "TODO"
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-30/reading"
     },
     {
       "queueId": "T023",
@@ -215,7 +244,13 @@
       "groupId": "G40",
       "title": "Verb card: werden",
       "level": "A1",
-      "status": "TODO"
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-11/grammar",
+      "additionalLessons": [
+        "learn.html#/chapter-22/grammar",
+        "learn.html#/chapter-25/grammar"
+      ]
     },
     {
       "queueId": "T024",
@@ -223,6 +258,40 @@
       "groupId": "G37",
       "title": "Verb card: helfen",
       "level": "A1",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-04/grammar"
+    },
+    {
+      "queueId": "T025",
+      "id": "plusquamperfekt-grundmuster",
+      "groupId": "G11",
+      "title": "Plusquamperfekt: Vorzeitigkeit mit haben und sein",
+      "level": "B1",
+      "status": "TODO"
+    },
+    {
+      "queueId": "T026",
+      "id": "futur-i-verwendung",
+      "groupId": "G12",
+      "title": "Futur I: Zukunft, Annahmen und Vorhersagen",
+      "level": "B1",
+      "status": "TODO"
+    },
+    {
+      "queueId": "T027",
+      "id": "zweiteilige-konjunktionen",
+      "groupId": "G20",
+      "title": "Zweiteilige Konjunktionen und Argumentation",
+      "level": "B1",
+      "status": "TODO"
+    },
+    {
+      "queueId": "T028",
+      "id": "partizipien-adjektivisch",
+      "groupId": "G07",
+      "title": "Partizip I und II als Adjektive",
+      "level": "B1",
       "status": "TODO"
     }
   ]

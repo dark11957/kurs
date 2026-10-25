@@ -118,6 +118,140 @@
       "href": "learn.html#/chapter-09/grammar",
       "status": "verified",
       "evidence": "Chapter 9 grammar rules 2, 3, 5, and 6 cover regular, strong, separable/inseparable, mixed, and -ieren participles."
+    },
+    "praeteritum-sein-haben-modal": {
+      "chapterFile": "content/a1/chapter-09.js",
+      "chapterId": "chapter-09",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-09/grammar",
+      "additionalTargets": [
+        {
+          "chapterFile": "content/b1/chapter-23.js",
+          "chapterId": "chapter-23",
+          "sectionId": "grammar",
+          "href": "learn.html#/chapter-23/grammar"
+        }
+      ],
+      "status": "verified",
+      "evidence": "Chapter 9 grammar explicitly notes war/hatte as common Präteritum forms; Chapter 23 grammar gives modal forms such as sollte/wollte and explains their overlap with Präteritum. Both grammar section IDs exist."
+    },
+    "trennbare-untrennbare-verben": {
+      "chapterFile": "content/a1/chapter-08.js",
+      "chapterId": "chapter-08",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-08/grammar",
+      "additionalTargets": [
+        {
+          "chapterFile": "content/a1/chapter-09.js",
+          "chapterId": "chapter-09",
+          "sectionId": "grammar",
+          "href": "learn.html#/chapter-09/grammar"
+        }
+      ],
+      "status": "verified",
+      "evidence": "Chapter 8 grammar teaches separable and inseparable prefixes and their main-clause placement; Chapter 9 covers their Partizip-II forms. Both grammar section IDs exist."
+    },
+    "reflexive-verben-kasus": {
+      "chapterFile": "content/a1/chapter-09.js",
+      "chapterId": "chapter-09",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-09/grammar",
+      "status": "verified",
+      "evidence": "Chapter 9 grammar has a dedicated rule for reflexive verbs in the Perfekt and a table of accusative reflexive pronouns. The reference card extends this foundation to the dative distinction."
+    },
+    "akkusativ-dativ": {
+      "chapterFile": "content/a1/chapter-03.js",
+      "chapterId": "chapter-03",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-03/grammar",
+      "additionalTargets": [
+        {
+          "chapterFile": "content/a1/chapter-04.js",
+          "chapterId": "chapter-04",
+          "sectionId": "grammar",
+          "href": "learn.html#/chapter-04/grammar"
+        }
+      ],
+      "status": "verified",
+      "evidence": "Chapter 3 teaches direct Akkusativ objects and forms; Chapter 4 explicitly contrasts Nominativ, Akkusativ and Dativ, Dativ verbs and two-object order. Both grammar section IDs exist."
+    },
+    "wechselpraepositionen-wo-wohin": {
+      "chapterFile": "content/a1/chapter-06.js",
+      "chapterId": "chapter-06",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-06/grammar",
+      "status": "verified",
+      "evidence": "Chapter 6 metadata assigns the nine Wechselpräpositionen and Wo?/Wohin?; grammar rules 3–4 explain Dativ for location, Akkusativ for destination, and movement-at-a-place exceptions."
+    },
+    "adjektivdeklination-ueberblick": {
+      "chapterFile": "content/a2/chapter-13.js",
+      "chapterId": "chapter-13",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-13/grammar",
+      "status": "verified",
+      "evidence": "Chapter 13 metadata assigns weak, mixed and strong adjective declension across all four cases; grammar rules explain each pattern and the distinction from predicative/adverbial adjectives."
+    },
+    "relativsaetze-grundlagen": {
+      "chapterFile": "content/b1/chapter-21.js",
+      "chapterId": "chapter-21",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-21/grammar",
+      "status": "verified",
+      "evidence": "Chapter 21 metadata and grammar rules cover relative pronouns in all four cases, prepositions, verb-final placement, commas, wo/was, Perfekt and modal verbs."
+    },
+    "infinitiv-zu-ohne-statt": {
+      "chapterFile": "content/a2/chapter-16.js",
+      "chapterId": "chapter-16",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-16/grammar",
+      "status": "verified",
+      "evidence": "Chapter 16 metadata and grammar rules explicitly teach zu and zero infinitives, separable verb placement, um/ohne/statt … zu, different-subject clauses, lassen and brauchen."
+    },
+    "passiv-grundmuster": {
+      "chapterFile": "content/b1/chapter-22.js",
+      "chapterId": "chapter-22",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-22/grammar",
+      "status": "verified",
+      "evidence": "Chapter 22 grammar rules 1–11 cover active/passive conversion, Vorgangspassiv across tenses, modal passives, von/durch, Zustandspassiv, and common alternatives."
+    },
+    "verb-abschliessen": {
+      "chapterFile": "content/b1/chapter-30.js",
+      "chapterId": "chapter-30",
+      "sectionId": "reading",
+      "href": "learn.html#/chapter-30/reading",
+      "status": "verified",
+      "evidence": "Chapter 30 reading texts A and B use abschließen with Weiterbildung, tasks, and a contract; the link intentionally points to the authentic context, not a dedicated verb lesson."
+    },
+    "verb-werden": {
+      "chapterFile": "content/a2/chapter-11.js",
+      "chapterId": "chapter-11",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-11/grammar",
+      "additionalTargets": [
+        {
+          "chapterFile": "content/b1/chapter-22.js",
+          "chapterId": "chapter-22",
+          "sectionId": "grammar",
+          "href": "learn.html#/chapter-22/grammar"
+        },
+        {
+          "chapterFile": "content/b1/chapter-25.js",
+          "chapterId": "chapter-25",
+          "sectionId": "grammar",
+          "href": "learn.html#/chapter-25/grammar"
+        }
+      ],
+      "status": "verified",
+      "evidence": "Chapter 11 gives the Präteritum of werden; Chapter 22 teaches werden in Vorgangspassiv; Chapter 25 teaches Futur I with werden. All linked grammar sections exist."
+    },
+    "verb-helfen": {
+      "chapterFile": "content/a1/chapter-04.js",
+      "chapterId": "chapter-04",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-04/grammar",
+      "status": "verified",
+      "evidence": "Chapter 4 grammar explicitly teaches helfen + Dativ, contrasts the dative person with accusative objects, and supplies examples/exercises."
     }
   },
   "uncovered": []
