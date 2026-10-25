@@ -92,54 +92,54 @@
       "report": "progress/reports/chapter-18.md"
     },
     "19": {
-      "status": "pending",
-      "contentFile": null,
-      "report": null
+      "status": "completed",
+      "contentFile": "content/a2/chapter-19.js",
+      "report": "progress/reports/chapter-19.md"
     },
     "20": {
-      "status": "pending",
-      "contentFile": null,
-      "report": null
+      "status": "completed",
+      "contentFile": "content/a2/chapter-20.js",
+      "report": "progress/reports/chapter-20.md"
     },
     "21": {
-      "status": "pending",
-      "contentFile": null,
-      "report": null
+      "status": "completed",
+      "contentFile": "content/b1/chapter-21.js",
+      "report": "progress/reports/chapter-21.md"
     },
     "22": {
-      "status": "pending",
-      "contentFile": null,
-      "report": null
+      "status": "completed",
+      "contentFile": "content/b1/chapter-22.js",
+      "report": "progress/reports/chapter-22.md"
     },
     "23": {
-      "status": "pending",
-      "contentFile": null,
-      "report": null
+      "status": "completed",
+      "contentFile": "content/b1/chapter-23.js",
+      "report": "progress/reports/chapter-23.md"
     },
     "24": {
-      "status": "pending",
-      "contentFile": null,
-      "report": null
+      "status": "completed",
+      "contentFile": "content/b1/chapter-24.js",
+      "report": "progress/reports/chapter-24.md"
     },
     "25": {
-      "status": "pending",
-      "contentFile": null,
-      "report": null
+      "status": "completed",
+      "contentFile": "content/b1/chapter-25.js",
+      "report": "progress/reports/chapter-25.md"
     },
     "26": {
-      "status": "pending",
-      "contentFile": null,
-      "report": null
+      "status": "completed",
+      "contentFile": "content/b1/chapter-26.js",
+      "report": "progress/reports/chapter-26.md"
     },
     "27": {
-      "status": "pending",
-      "contentFile": null,
-      "report": null
+      "status": "completed",
+      "contentFile": "content/b1/chapter-27.js",
+      "report": "progress/reports/chapter-27.md"
     },
     "28": {
-      "status": "pending",
-      "contentFile": null,
-      "report": null
+      "status": "completed",
+      "contentFile": "content/b1/chapter-28.js",
+      "report": "progress/reports/chapter-28.md"
     },
     "29": {
       "status": "pending",

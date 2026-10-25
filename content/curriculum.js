@@ -976,7 +976,7 @@ window.CURRICULUM = [
   {
     "id": "chapter-19",
     "number": "19",
-    "title": "Genitiv, Possession & Word Formation",
+    "title": "Genitiv, Besitz und Wortbildung",
     "level": "A2",
     "available": false,
     "sections": [
@@ -1030,7 +1030,7 @@ window.CURRICULUM = [
   {
     "id": "chapter-20",
     "number": "20",
-    "title": "A2 Integration: Communication & Extended Writing",
+    "title": "Zusammenhängend sprechen und schreiben",
     "level": "A2",
     "available": false,
     "sections": [
@@ -1084,7 +1084,7 @@ window.CURRICULUM = [
   {
     "id": "chapter-21",
     "number": "21",
-    "title": "Relative Clauses & Detailed Descriptions",
+    "title": "Relativsätze und Relativpronomen",
     "level": "B1",
     "available": false,
     "sections": [
@@ -1138,7 +1138,7 @@ window.CURRICULUM = [
   {
     "id": "chapter-22",
     "number": "22",
-    "title": "Passive Voice & Processes",
+    "title": "Das Passiv und die Beschreibung von Vorgängen",
     "level": "B1",
     "available": false,
     "sections": [
@@ -1192,7 +1192,7 @@ window.CURRICULUM = [
   {
     "id": "chapter-23",
     "number": "23",
-    "title": "Konjunktiv II: Wishes, Advice & Hypothetical Situations",
+    "title": "Konjunktiv II: Wünsche, Ratschläge und Möglichkeiten",
     "level": "B1",
     "available": false,
     "sections": [
@@ -1246,7 +1246,7 @@ window.CURRICULUM = [
   {
     "id": "chapter-24",
     "number": "24",
-    "title": "Complex Sentence Structure & Advanced Word Order",
+    "title": "Komplexer Satzbau und Wortstellung",
     "level": "B1",
     "available": false,
     "sections": [
@@ -1300,7 +1300,7 @@ window.CURRICULUM = [
   {
     "id": "chapter-25",
     "number": "25",
-    "title": "Advanced Tenses & Complex Narration",
+    "title": "Plusquamperfekt, Futur I und komplexe Zeitformen",
     "level": "B1",
     "available": false,
     "sections": [
@@ -1354,7 +1354,7 @@ window.CURRICULUM = [
   {
     "id": "chapter-26",
     "number": "26",
-    "title": "Advanced Conjunctions & Argumentation",
+    "title": "Komplexe Konjunktionen und Argumentation",
     "level": "B1",
     "available": false,
     "sections": [
@@ -1408,7 +1408,7 @@ window.CURRICULUM = [
   {
     "id": "chapter-27",
     "number": "27",
-    "title": "Word Formation, Nominalization & Advanced Descriptions",
+    "title": "Wortbildung, Nominalisierung und Partizipien",
     "level": "B1",
     "available": false,
     "sections": [
@@ -1462,7 +1462,7 @@ window.CURRICULUM = [
   {
     "id": "chapter-28",
     "number": "28",
-    "title": "Reported Speech & Natural German",
+    "title": "Indirekte Rede, Modalpartikeln und sprachlicher Ausdruck",
     "level": "B1",
     "available": false,
     "sections": [
@@ -1698,4 +1698,4 @@ window.ASSESSMENTS = [
 ];
 
 /** Add a chapter-id → module path entry when real chapter content is created. */
-window.CHAPTER_CONTENT = { 'chapter-01': 'content/a1/chapter-01.js', 'chapter-02': 'content/a1/chapter-02.js', 'chapter-03': 'content/a1/chapter-03.js', 'chapter-04': 'content/a1/chapter-04.js', 'chapter-05': 'content/a1/chapter-05.js', 'chapter-06': 'content/a1/chapter-06.js', 'chapter-07': 'content/a1/chapter-07.js', 'chapter-08': 'content/a1/chapter-08.js', 'chapter-09': 'content/a1/chapter-09.js', 'chapter-10': 'content/a1/chapter-10.js', 'chapter-11': 'content/a2/chapter-11.js', 'chapter-12': 'content/a2/chapter-12.js', 'chapter-13': 'content/a2/chapter-13.js', 'chapter-14': 'content/a2/chapter-14.js', 'chapter-15': 'content/a2/chapter-15.js', 'chapter-16': 'content/a2/chapter-16.js', 'chapter-17': 'content/a2/chapter-17.js', 'chapter-18': 'content/a2/chapter-18.js' };
+window.CHAPTER_CONTENT = { 'chapter-01': 'content/a1/chapter-01.js', 'chapter-02': 'content/a1/chapter-02.js', 'chapter-03': 'content/a1/chapter-03.js', 'chapter-04': 'content/a1/chapter-04.js', 'chapter-05': 'content/a1/chapter-05.js', 'chapter-06': 'content/a1/chapter-06.js', 'chapter-07': 'content/a1/chapter-07.js', 'chapter-08': 'content/a1/chapter-08.js', 'chapter-09': 'content/a1/chapter-09.js', 'chapter-10': 'content/a1/chapter-10.js', 'chapter-11': 'content/a2/chapter-11.js', 'chapter-12': 'content/a2/chapter-12.js', 'chapter-13': 'content/a2/chapter-13.js', 'chapter-14': 'content/a2/chapter-14.js', 'chapter-15': 'content/a2/chapter-15.js', 'chapter-16': 'content/a2/chapter-16.js', 'chapter-17': 'content/a2/chapter-17.js', 'chapter-18': 'content/a2/chapter-18.js', 'chapter-19': 'content/a2/chapter-19.js', 'chapter-20': 'content/a2/chapter-20.js', 'chapter-21': 'content/b1/chapter-21.js', 'chapter-22': 'content/b1/chapter-22.js', 'chapter-23': 'content/b1/chapter-23.js', 'chapter-24': 'content/b1/chapter-24.js', 'chapter-25': 'content/b1/chapter-25.js', 'chapter-26': 'content/b1/chapter-26.js', 'chapter-27': 'content/b1/chapter-27.js', 'chapter-28': 'content/b1/chapter-28.js' };
