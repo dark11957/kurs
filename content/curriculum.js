@@ -1516,7 +1516,7 @@ window.CURRICULUM = [
   {
     "id": "chapter-29",
     "number": "29",
-    "title": "Special Verb Constructions & Meaning Differences",
+    "title": "Besondere Verbkonstruktionen und Bedeutungsunterschiede",
     "level": "B1",
     "available": false,
     "sections": [
@@ -1570,7 +1570,7 @@ window.CURRICULUM = [
   {
     "id": "chapter-30",
     "number": "30",
-    "title": "B1 Integration: Independent Communication & Writing",
+    "title": "Selbstständige Kommunikation und schriftlicher Ausdruck",
     "level": "B1",
     "available": false,
     "sections": [
@@ -1698,4 +1698,4 @@ window.ASSESSMENTS = [
 ];
 
 /** Add a chapter-id → module path entry when real chapter content is created. */
-window.CHAPTER_CONTENT = { 'chapter-01': 'content/a1/chapter-01.js', 'chapter-02': 'content/a1/chapter-02.js', 'chapter-03': 'content/a1/chapter-03.js', 'chapter-04': 'content/a1/chapter-04.js', 'chapter-05': 'content/a1/chapter-05.js', 'chapter-06': 'content/a1/chapter-06.js', 'chapter-07': 'content/a1/chapter-07.js', 'chapter-08': 'content/a1/chapter-08.js', 'chapter-09': 'content/a1/chapter-09.js', 'chapter-10': 'content/a1/chapter-10.js', 'chapter-11': 'content/a2/chapter-11.js', 'chapter-12': 'content/a2/chapter-12.js', 'chapter-13': 'content/a2/chapter-13.js', 'chapter-14': 'content/a2/chapter-14.js', 'chapter-15': 'content/a2/chapter-15.js', 'chapter-16': 'content/a2/chapter-16.js', 'chapter-17': 'content/a2/chapter-17.js', 'chapter-18': 'content/a2/chapter-18.js', 'chapter-19': 'content/a2/chapter-19.js', 'chapter-20': 'content/a2/chapter-20.js', 'chapter-21': 'content/b1/chapter-21.js', 'chapter-22': 'content/b1/chapter-22.js', 'chapter-23': 'content/b1/chapter-23.js', 'chapter-24': 'content/b1/chapter-24.js', 'chapter-25': 'content/b1/chapter-25.js', 'chapter-26': 'content/b1/chapter-26.js', 'chapter-27': 'content/b1/chapter-27.js', 'chapter-28': 'content/b1/chapter-28.js' };
+window.CHAPTER_CONTENT = { 'chapter-01': 'content/a1/chapter-01.js', 'chapter-02': 'content/a1/chapter-02.js', 'chapter-03': 'content/a1/chapter-03.js', 'chapter-04': 'content/a1/chapter-04.js', 'chapter-05': 'content/a1/chapter-05.js', 'chapter-06': 'content/a1/chapter-06.js', 'chapter-07': 'content/a1/chapter-07.js', 'chapter-08': 'content/a1/chapter-08.js', 'chapter-09': 'content/a1/chapter-09.js', 'chapter-10': 'content/a1/chapter-10.js', 'chapter-11': 'content/a2/chapter-11.js', 'chapter-12': 'content/a2/chapter-12.js', 'chapter-13': 'content/a2/chapter-13.js', 'chapter-14': 'content/a2/chapter-14.js', 'chapter-15': 'content/a2/chapter-15.js', 'chapter-16': 'content/a2/chapter-16.js', 'chapter-17': 'content/a2/chapter-17.js', 'chapter-18': 'content/a2/chapter-18.js', 'chapter-19': 'content/a2/chapter-19.js', 'chapter-20': 'content/a2/chapter-20.js', 'chapter-21': 'content/b1/chapter-21.js', 'chapter-22': 'content/b1/chapter-22.js', 'chapter-23': 'content/b1/chapter-23.js', 'chapter-24': 'content/b1/chapter-24.js', 'chapter-25': 'content/b1/chapter-25.js', 'chapter-26': 'content/b1/chapter-26.js', 'chapter-27': 'content/b1/chapter-27.js', 'chapter-28': 'content/b1/chapter-28.js', 'chapter-29': 'content/b1/chapter-29.js', 'chapter-30': 'content/b1/chapter-30.js' };

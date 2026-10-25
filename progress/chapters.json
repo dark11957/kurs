@@ -142,14 +142,14 @@
       "report": "progress/reports/chapter-28.md"
     },
     "29": {
-      "status": "pending",
-      "contentFile": null,
-      "report": null
+      "status": "completed",
+      "contentFile": "content/b1/chapter-29.js",
+      "report": "progress/reports/chapter-29.md"
     },
     "30": {
-      "status": "pending",
-      "contentFile": null,
-      "report": null
+      "status": "completed",
+      "contentFile": "content/b1/chapter-30.js",
+      "report": "progress/reports/chapter-30.md"
     }
   },
   "assessments": {
