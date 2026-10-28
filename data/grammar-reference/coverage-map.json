@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25",
+  "updatedAt": "2026-10-28",
   "topics": {
     "deshalb-deswegen-darum": {
       "chapterFile": "content/a2/chapter-17.js",
@@ -252,6 +252,1038 @@
       "href": "learn.html#/chapter-04/grammar",
       "status": "verified",
       "evidence": "Chapter 4 grammar explicitly teaches helfen + Dativ, contrasts the dative person with accusative objects, and supplies examples/exercises."
+    },
+    "plusquamperfekt-grundmuster": {
+      "chapterFile": "content/b1/chapter-25.js",
+      "chapterId": "chapter-25",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-25/grammar",
+      "status": "verified",
+      "evidence": "Chapter 25 grammar rules 1–4 teach Plusquamperfekt with hatte/war, auxiliary choice, event sequencing, and verb-final subordinate clauses."
+    },
+    "futur-i-verwendung": {
+      "chapterFile": "content/b1/chapter-25.js",
+      "chapterId": "chapter-25",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-25/grammar",
+      "status": "verified",
+      "evidence": "Chapter 25 grammar rules 5–7 teach Futur I, the present tense for planned futures, and future/probability readings."
+    },
+    "zweiteilige-konjunktionen": {
+      "chapterFile": "content/b1/chapter-26.js",
+      "chapterId": "chapter-26",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-26/grammar",
+      "status": "verified",
+      "evidence": "Chapter 26 grammar explicitly teaches entweder…oder, weder…noch, sowohl…als auch, nicht nur…sondern auch, zwar…aber, einerseits…andererseits, and je…desto/umso."
+    },
+    "partizipien-adjektivisch": {
+      "chapterFile": "content/b1/chapter-27.js",
+      "chapterId": "chapter-27",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-27/grammar",
+      "status": "verified",
+      "evidence": "Chapter 27 grammar rules 7–8 teach Partizip I/II as declined adjectives; Chapter 13 grammar supplies the adjective-declension prerequisite.",
+      "additionalTargets": [
+        {
+          "chapterFile": "content/a2/chapter-13.js",
+          "chapterId": "chapter-13",
+          "sectionId": "grammar",
+          "href": "learn.html#/chapter-13/grammar"
+        }
+      ]
+    },
+    "hauptsatz-verbzweitstellung": {
+      "chapterFile": "content/a1/chapter-02.js",
+      "chapterId": "chapter-02",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-02/grammar",
+      "status": "verified",
+      "evidence": "Chapter 2 grammar rules on declarative main clauses explain V2 and inversion after a time/place phrase."
+    },
+    "w-fragen-ja-nein-fragen": {
+      "chapterFile": "content/a1/chapter-02.js",
+      "chapterId": "chapter-02",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-02/grammar",
+      "status": "verified",
+      "evidence": "Chapter 2 grammar covers verb-first yes/no questions, W-word + verb order, and the W-word-as-subject exception."
+    },
+    "nicht-kein-negation": {
+      "chapterFile": "content/a1/chapter-03.js",
+      "chapterId": "chapter-03",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-03/grammar",
+      "status": "verified",
+      "evidence": "Chapter 3 grammar rule on nicht/kein explains noun negation, declension, predicate and constituent negation."
+    },
+    "imperativ-aufforderungen": {
+      "chapterFile": "content/a1/chapter-08.js",
+      "chapterId": "chapter-08",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-08/grammar",
+      "status": "verified",
+      "evidence": "Chapter 8 grammar covers du, ihr, Sie, wir, irregular imperatives, separable verbs, polite forms and negation."
+    },
+    "satzklammer-modalverben-trennbar": {
+      "chapterFile": "content/a1/chapter-05.js",
+      "chapterId": "chapter-05",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-05/grammar",
+      "evidence": "Chapter 5 grammar rule 7 teaches modal + infinitive bracket and verb-first yes/no questions; Chapter 8 supplies the separable-verb bracket and subordinate clause contrast.",
+      "additionalTargets": [
+        {
+          "chapterFile": "content/a1/chapter-08.js",
+          "chapterId": "chapter-08",
+          "sectionId": "grammar",
+          "href": "learn.html#/chapter-08/grammar"
+        }
+      ],
+      "status": "verified"
+    },
+    "modalverben-grundbedeutungen": {
+      "chapterFile": "content/a1/chapter-05.js",
+      "chapterId": "chapter-05",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-05/grammar",
+      "evidence": "Chapter 5 grammar teaches modal meanings, Präsens forms, infinitive placement, and modal verbs without an expressed infinitive.",
+      "status": "verified"
+    },
+    "personalpronomen-akkusativ-dativ": {
+      "chapterFile": "content/a1/chapter-03.js",
+      "chapterId": "chapter-03",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-03/grammar",
+      "evidence": "Chapter 3 teaches accusative personal pronouns; Chapter 4 teaches dative pronouns, case selection, and word order.",
+      "additionalTargets": [
+        {
+          "chapterFile": "content/a1/chapter-04.js",
+          "chapterId": "chapter-04",
+          "sectionId": "grammar",
+          "href": "learn.html#/chapter-04/grammar"
+        }
+      ],
+      "status": "verified"
+    },
+    "bestimmte-unbestimmte-nullartikel": {
+      "chapterFile": "content/a1/chapter-01.js",
+      "chapterId": "chapter-01",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-01/grammar",
+      "evidence": "Chapter 1 grammar covers noun gender and definite, indefinite, and zero articles in the nominative.",
+      "status": "verified"
+    },
+    "possessivartikel-akkusativ": {
+      "chapterFile": "content/a1/chapter-03.js",
+      "chapterId": "chapter-03",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-03/grammar",
+      "evidence": "Chapter 3 grammar rule c03-g6 teaches possessive determiners in the accusative, endings by possessed noun, euer forms, and formal Ihr.",
+      "status": "verified"
+    },
+    "dativartikel-plural-n": {
+      "chapterFile": "content/a1/chapter-04.js",
+      "chapterId": "chapter-04",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-04/grammar",
+      "evidence": "Chapter 4 grammar rule c04-g2 teaches dative definite/indefinite articles and the dative plural -n, including plurals already ending in -n or -s.",
+      "status": "verified"
+    },
+    "verben-dativ-akkusativ": {
+      "chapterFile": "content/a1/chapter-04.js",
+      "chapterId": "chapter-04",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-04/grammar",
+      "evidence": "Chapter 4 grammar rule c04-g5 explains dative recipients and accusative things with verbs such as geben and schenken.",
+      "status": "verified"
+    },
+    "wortstellung-zwei-objekte": {
+      "chapterFile": "content/a1/chapter-04.js",
+      "chapterId": "chapter-04",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-04/grammar",
+      "evidence": "Chapter 4 grammar rules c04-g6 and c04-g7 contrast noun-object order, pronoun-before-noun order, and accusative-before-dative for two pronouns.",
+      "status": "verified"
+    },
+    "akkusativpraepositionen": {
+      "chapterFile": "content/a1/chapter-06.js",
+      "chapterId": "chapter-06",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-06/grammar",
+      "evidence": "Chapter 6 grammar rule c06-rule-acc assigns durch/für/gegen/ohne/um + accusative and explains bis and entlang constructions.",
+      "status": "verified"
+    },
+    "dativpraepositionen": {
+      "chapterFile": "content/a1/chapter-06.js",
+      "chapterId": "chapter-06",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-06/grammar",
+      "evidence": "Chapter 6 grammar rule c06-rule-dat lists fixed dative prepositions and states that direction does not change their case.",
+      "status": "verified"
+    },
+    "praeposition-artikel-kurzformen": {
+      "chapterFile": "content/a1/chapter-06.js",
+      "chapterId": "chapter-06",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-06/grammar",
+      "evidence": "Chapter 6 grammar rule c06-rule-contractions and its table verify the common contracted forms and their cases.",
+      "status": "verified"
+    },
+    "temporale-praepositionen": {
+      "chapterFile": "content/a1/chapter-07.js",
+      "chapterId": "chapter-07",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-07/grammar",
+      "evidence": "Chapter 7 grammar rule c07-rule-temporal-preps explains temporal relations for seit, vor, nach, ab, bis, von…bis, in, für, während.",
+      "status": "verified"
+    },
+    "ordinalzahlen-reihenfolge": {
+      "chapterFile": "content/a1/chapter-07.js",
+      "chapterId": "chapter-07",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-07/grammar",
+      "evidence": "Chapter 7 grammar rule c07-rule-ordinal teaches ordinal formation, exceptions, inflection, and date forms.",
+      "status": "verified"
+    },
+    "datum-schreiben-sagen": {
+      "chapterFile": "content/a1/chapter-07.js",
+      "chapterId": "chapter-07",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-07/grammar",
+      "evidence": "Chapter 7 grammar rule c07-rule-date teaches written numeric dates and spoken ordinal dates, including am + dative patterns.",
+      "status": "verified"
+    },
+    "uhrzeit-offiziell-alltag": {
+      "chapterFile": "content/a1/chapter-07.js",
+      "chapterId": "chapter-07",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-07/grammar",
+      "evidence": "Chapter 7 grammar rule c07-rule-clock teaches um + exact time, official 24-hour readings, and common everyday expressions.",
+      "status": "verified"
+    },
+    "wochentage-tageszeiten-monate": {
+      "chapterFile": "content/a1/chapter-07.js",
+      "chapterId": "chapter-07",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-07/grammar",
+      "evidence": "Chapter 7 grammar rule c07-rule-calendar teaches am/im/in der Nacht patterns and capitalization for calendar nouns.",
+      "status": "verified"
+    },
+    "kardinalzahlen-grundformen": {
+      "chapterFile": "content/a1/chapter-07.js",
+      "chapterId": "chapter-07",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-07/grammar",
+      "evidence": "Chapter 7 rule c07-rule-cardinal covers number formation, irregular number words, 21–99 ordering, and quantity examples.",
+      "status": "verified",
+      "sourceRule": "c07-rule-cardinal"
+    },
+    "haeufigkeitsadverbien": {
+      "chapterFile": "content/a1/chapter-07.js",
+      "chapterId": "chapter-07",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-07/grammar",
+      "evidence": "Chapter 7 rule c07-rule-frequency distinguishes frequency adverbs from time expressions and teaches their placement.",
+      "status": "verified",
+      "sourceRule": "c07-rule-frequency"
+    },
+    "mengenangaben-viel-wenig": {
+      "chapterFile": "content/a1/chapter-07.js",
+      "chapterId": "chapter-07",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-07/grammar",
+      "evidence": "Chapter 7 rule c07-rule-quantity distinguishes countable and uncountable quantities and covers viel/viele, wenig/wenige, etwas, einige, jeder, alle, beide and genug.",
+      "status": "verified",
+      "sourceRule": "c07-rule-quantity"
+    },
+    "zeitangaben-wortstellung": {
+      "chapterFile": "content/a1/chapter-07.js",
+      "chapterId": "chapter-07",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-07/grammar",
+      "evidence": "Chapter 7 grammar overview states that time phrases may lead or follow in a main clause with the finite verb in position two; exercises c07-g7-2 and c07-g7-3 assess this pattern.",
+      "status": "verified",
+      "sourceRule": "c07-rule-frequency"
+    },
+    "nebenordnende-konjunktionen": {
+      "chapterFile": "content/a1/chapter-10.js",
+      "chapterId": "chapter-10",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-10/grammar",
+      "evidence": "Chapter 10 grammar rule r1 teaches und, oder, aber, denn and sondern, main-clause verb position, and correction after negation.",
+      "status": "verified",
+      "sourceRule": "r1"
+    },
+    "zuerst-dann-danach": {
+      "chapterFile": "content/a1/chapter-10.js",
+      "chapterId": "chapter-10",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-10/grammar",
+      "evidence": "Chapter 10 grammar rule r2 teaches sequence adverbs and V2 after a fronted sequence expression.",
+      "status": "verified",
+      "sourceRule": "r2"
+    },
+    "adjektive-praedikativ-adverbial": {
+      "chapterFile": "content/a1/chapter-10.js",
+      "chapterId": "chapter-10",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-10/grammar",
+      "evidence": "Chapter 10 grammar rule r3 contrasts predicative/adverbial adjectives with declined attributive adjectives; Chapter 13 grammar rule c13-r1 reinforces the distinction.",
+      "status": "verified",
+      "sourceRule": "r3",
+      "additionalTargets": [
+        {
+          "chapterFile": "content/a2/chapter-13.js",
+          "chapterId": "chapter-13",
+          "sectionId": "grammar",
+          "href": "learn.html#/chapter-13/grammar",
+          "status": "verified"
+        }
+      ]
+    },
+    "gleichheitsvergleich-so-wie": {
+      "chapterFile": "content/a1/chapter-10.js",
+      "chapterId": "chapter-10",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-10/grammar",
+      "evidence": "Chapter 10 grammar rule r4 teaches so/genauso + positive adjective + wie; Chapter 13 grammar comparison table contrasts equality with comparative + als.",
+      "status": "verified",
+      "sourceRule": "r4",
+      "additionalTargets": [
+        {
+          "chapterFile": "content/a2/chapter-13.js",
+          "chapterId": "chapter-13",
+          "sectionId": "grammar",
+          "href": "learn.html#/chapter-13/grammar",
+          "status": "verified"
+        }
+      ]
+    },
+    "ortsadverbien-hier-dort": {
+      "chapterFile": "content/a1/chapter-10.js",
+      "chapterId": "chapter-10",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-10/grammar",
+      "status": "verified",
+      "sourceRule": "r5",
+      "evidence": "Chapter 10 grammar rule r5 covers this topic; its registered chapter module and grammar section were verified."
+    },
+    "schon-noch-erst": {
+      "chapterFile": "content/a1/chapter-10.js",
+      "chapterId": "chapter-10",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-10/grammar",
+      "status": "verified",
+      "sourceRule": "r5",
+      "evidence": "Chapter 10 grammar rule r5 covers this topic; its registered chapter module and grammar section were verified."
+    },
+    "gradadverbien-sehr-zu": {
+      "chapterFile": "content/a1/chapter-10.js",
+      "chapterId": "chapter-10",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-10/grammar",
+      "status": "verified",
+      "sourceRule": "r5",
+      "evidence": "Chapter 10 grammar rule r5 covers this topic; its registered chapter module and grammar section were verified."
+    },
+    "grossschreibung-satzzeichen": {
+      "chapterFile": "content/a1/chapter-10.js",
+      "chapterId": "chapter-10",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-10/grammar",
+      "status": "verified",
+      "sourceRule": "r7",
+      "evidence": "Chapter 10 grammar rule r7 covers this topic; its registered chapter module and grammar section were verified."
+    },
+    "praeteritum-regelmaessige-verben": {
+      "chapterFile": "content/a2/chapter-11.js",
+      "chapterId": "chapter-11",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-11/grammar",
+      "status": "verified",
+      "sourceRule": "r1",
+      "evidence": "Chapter 11 grammar rule r1 explains regular Präteritum endings and the additional vowel in stems ending in -t/-d."
+    },
+    "praeteritum-starke-gemischte-verben": {
+      "chapterFile": "content/a2/chapter-11.js",
+      "chapterId": "chapter-11",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-11/grammar",
+      "status": "verified",
+      "sourceRule": "r3",
+      "evidence": "Chapter 11 grammar rule r3 explains strong stem changes and mixed verbs with -te."
+    },
+    "perfekt-oder-praeteritum": {
+      "chapterFile": "content/a2/chapter-11.js",
+      "chapterId": "chapter-11",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-11/grammar",
+      "status": "verified",
+      "sourceRule": "r5",
+      "evidence": "Chapter 11 grammar rule r5 compares spoken and written tendencies, common Präteritum verbs, and modal replacement infinitives.",
+      "additionalTargets": [
+        {
+          "chapterFile": "content/a1/chapter-09.js",
+          "chapterId": "chapter-09",
+          "sectionId": "grammar",
+          "href": "learn.html#/chapter-09/grammar",
+          "status": "verified"
+        }
+      ]
+    },
+    "vergangenheit-chronologisch-erzaehlen": {
+      "chapterFile": "content/a2/chapter-11.js",
+      "chapterId": "chapter-11",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-11/grammar",
+      "status": "verified",
+      "sourceRule": "r7",
+      "evidence": "Chapter 11 grammar rule r7 includes chronological ordering adverbs; Chapter 10 rule r2 verifies V2 after a fronted sequence adverb.",
+      "additionalTargets": [
+        {
+          "chapterFile": "content/a1/chapter-10.js",
+          "chapterId": "chapter-10",
+          "sectionId": "grammar",
+          "href": "learn.html#/chapter-10/grammar",
+          "status": "verified"
+        }
+      ]
+    },
+    "echte-fakultativ-reflexive-verben": {
+      "chapterFile": "content/a2/chapter-12.js",
+      "chapterId": "chapter-12",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-12/grammar",
+      "status": "verified",
+      "sourceRule": "r2",
+      "evidence": "Chapter 12 grammar rule r2 explains genuine versus optional reflexive constructions."
+    },
+    "reflexive-verben-feste-praepositionen": {
+      "chapterFile": "content/a2/chapter-12.js",
+      "chapterId": "chapter-12",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-12/grammar",
+      "status": "verified",
+      "sourceRule": "r3",
+      "evidence": "Chapter 12 grammar rule r3 lists common reflexive verbs with their fixed prepositions and accusative case."
+    },
+    "reflexivpronomen-wortstellung": {
+      "chapterFile": "content/a2/chapter-12.js",
+      "chapterId": "chapter-12",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-12/grammar",
+      "status": "verified",
+      "sourceRule": "r6",
+      "evidence": "Chapter 12 grammar rule r6 covers reflexive-pronoun placement in main clauses, modal/perfect verb groups, and subordinate clauses."
+    },
+    "einander-gegenseitige-handlungen": {
+      "chapterFile": "content/a2/chapter-12.js",
+      "chapterId": "chapter-12",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-12/grammar",
+      "status": "verified",
+      "sourceRule": "r7",
+      "evidence": "Chapter 12 grammar rule r7 contrasts reciprocal einander/sich gegenseitig with self-reference and compounds such as miteinander."
+    },
+    "komparativ-superlativ-bilden": {
+      "chapterFile": "content/a2/chapter-13.js",
+      "chapterId": "chapter-13",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-13/grammar",
+      "status": "verified",
+      "sourceRule": "c13-r7",
+      "evidence": "Chapter 13 rule c13-r7 covers comparative and superlative formation, regular patterns, umlaut tendencies, and irregular forms."
+    },
+    "komparativ-als-ungleichheit": {
+      "chapterFile": "content/a2/chapter-13.js",
+      "chapterId": "chapter-13",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-13/grammar",
+      "status": "verified",
+      "sourceRule": "c13-r8",
+      "evidence": "Chapter 13 rule c13-r8 contrasts Komparativ + als for unequal comparisons with equality using wie.",
+      "additionalTargets": [
+        {
+          "chapterFile": "content/a1/chapter-10.js",
+          "chapterId": "chapter-10",
+          "sectionId": "grammar",
+          "href": "learn.html#/chapter-10/grammar",
+          "status": "verified"
+        }
+      ]
+    },
+    "superlativ-am-attributiv": {
+      "chapterFile": "content/a2/chapter-13.js",
+      "chapterId": "chapter-13",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-13/grammar",
+      "status": "verified",
+      "sourceRule": "c13-r9",
+      "evidence": "Chapter 13 rule c13-r9 covers am-superlative versus declined attributive superlative across cases."
+    },
+    "adjektive-feste-praepositionen": {
+      "chapterFile": "content/a2/chapter-13.js",
+      "chapterId": "chapter-13",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-13/grammar",
+      "status": "verified",
+      "sourceRule": "c13-r10",
+      "evidence": "Chapter 13 rule c13-r10 covers adjective complements, fixed prepositions, and their governed cases."
+    },
+    "indirekte-ja-nein-fragen-ob": {
+      "chapterFile": "content/a2/chapter-14.js",
+      "chapterId": "chapter-14",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-14/grammar",
+      "status": "verified",
+      "sourceRule": "c14-r5",
+      "evidence": "Kapitel 14 Regel c14-r5 behandelt ob-Sätze für indirekte Ja-/Nein-Fragen; das registrierte Kapitel und der Grammatikabschnitt sind vorhanden."
+    },
+    "indirekte-w-fragen": {
+      "chapterFile": "content/a2/chapter-14.js",
+      "chapterId": "chapter-14",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-14/grammar",
+      "status": "verified",
+      "sourceRule": "c14-r6",
+      "evidence": "Kapitel 14 Regel c14-r6 behandelt indirekte W-Fragen, Frageworterhalt und Verbendstellung; das Kapitel und der Grammatikabschnitt sind vorhanden."
+    },
+    "verbendstellung-mehrteilige-verben": {
+      "chapterFile": "content/a2/chapter-14.js",
+      "chapterId": "chapter-14",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-14/grammar",
+      "status": "verified",
+      "sourceRule": "c14-r8 / c14-r9",
+      "evidence": "Kapitel 14 Regeln c14-r8 und c14-r9 behandeln Modalverb- und Perfekt-Verbgruppen im Nebensatz; beide Regeln stehen im vorhandenen Grammatikabschnitt."
+    },
+    "nebensatz-vorfeld-inversion": {
+      "chapterFile": "content/a2/chapter-14.js",
+      "chapterId": "chapter-14",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-14/grammar",
+      "status": "verified",
+      "sourceRule": "c14-r1",
+      "evidence": "Kapitel 14 Regel c14-r1 behandelt Nebensatzstellung, Kommasetzung und V2-Inversion nach vorangestelltem Nebensatz."
+    },
+    "wenn-wann-zeitfrage": {
+      "chapterFile": "content/a2/chapter-15.js",
+      "chapterId": "chapter-15",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-15/grammar",
+      "status": "verified",
+      "sourceRule": "c15-r2",
+      "evidence": "Chapter 15 rule c15-r2 distinguishes temporal wenn from the question word wann; the registered Chapter 15 grammar section exists."
+    },
+    "bevor-zeitliche-reihenfolge": {
+      "chapterFile": "content/a2/chapter-15.js",
+      "chapterId": "chapter-15",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-15/grammar",
+      "status": "verified",
+      "sourceRule": "c15-r3",
+      "evidence": "Chapter 15 rule c15-r3 teaches bevor clauses, verb-final order, commas, and event order."
+    },
+    "nachdem-vorzeitigkeit": {
+      "chapterFile": "content/a2/chapter-15.js",
+      "chapterId": "chapter-15",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-15/grammar",
+      "status": "verified",
+      "sourceRule": "c15-r4",
+      "evidence": "Chapter 15 rule c15-r4 teaches nachdem event order and the common tense sequencing patterns."
+    },
+    "waehrend-gleichzeitigkeit": {
+      "chapterFile": "content/a2/chapter-15.js",
+      "chapterId": "chapter-15",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-15/grammar",
+      "status": "verified",
+      "sourceRule": "c15-r5",
+      "evidence": "Chapter 15 rule c15-r5 teaches temporal während for simultaneous actions and subordinate-clause word order.",
+      "additionalTargets": [
+        {
+          "chapterFile": "content/a1/chapter-07.js",
+          "chapterId": "chapter-07",
+          "sectionId": "grammar",
+          "href": "learn.html#/chapter-07/grammar",
+          "status": "verified",
+          "sourceRule": "c07-rule-temporal-preps"
+        }
+      ]
+    },
+    "seitdem-anfang-bis-heute": {
+      "chapterFile": "content/a2/chapter-15.js",
+      "chapterId": "chapter-15",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-15/grammar",
+      "status": "verified",
+      "sourceRule": "c15-r5 / c15-r10",
+      "evidence": "Chapter 15 rules c15-r5 and c15-r10 cover temporal seitdem and distinguish it from seit + Dativ; the registered grammar sections are present.",
+      "additionalTargets": [
+        {
+          "chapterFile": "content/a1/chapter-07.js",
+          "chapterId": "chapter-07",
+          "sectionId": "grammar",
+          "href": "learn.html#/chapter-07/grammar",
+          "status": "verified",
+          "sourceRule": "c07-rule-temporal-preps"
+        }
+      ]
+    },
+    "bis-zeitgrenze": {
+      "chapterFile": "content/a2/chapter-15.js",
+      "chapterId": "chapter-15",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-15/grammar",
+      "status": "verified",
+      "sourceRule": "c15-r6",
+      "evidence": "Chapter 15 rule c15-r6 covers bis clauses and verb-final order; Chapter 7 rule c07-rule-temporal-preps covers prepositional bis.",
+      "additionalTargets": [
+        {
+          "chapterFile": "content/a1/chapter-07.js",
+          "chapterId": "chapter-07",
+          "sectionId": "grammar",
+          "href": "learn.html#/chapter-07/grammar",
+          "status": "verified",
+          "sourceRule": "c07-rule-temporal-preps"
+        }
+      ]
+    },
+    "sobald-solange-zeitbezug": {
+      "chapterFile": "content/a2/chapter-15.js",
+      "chapterId": "chapter-15",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-15/grammar",
+      "status": "verified",
+      "sourceRule": "c15-r7",
+      "evidence": "Chapter 15 rule c15-r7 distinguishes immediate succession with sobald from duration with solange."
+    },
+    "temporalverbindungen-zeitformen": {
+      "chapterFile": "content/a2/chapter-15.js",
+      "chapterId": "chapter-15",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-15/grammar",
+      "status": "verified",
+      "sourceRule": "c15-r9",
+      "evidence": "Chapter 15 rule c15-r9 integrates event order and tense choice; Chapter 25 covers the Plusquamperfekt forms used for earlier past events.",
+      "additionalTargets": [
+        {
+          "chapterFile": "content/b1/chapter-25.js",
+          "chapterId": "chapter-25",
+          "sectionId": "grammar",
+          "href": "learn.html#/chapter-25/grammar",
+          "status": "verified",
+          "sourceRule": "rule-25-01 / rule-25-02 / rule-25-03 / rule-25-04"
+        }
+      ]
+    },
+    "verben-mit-zu-infinitiv": {
+      "chapterFile": "content/a2/chapter-16.js",
+      "chapterId": "chapter-16",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-16/grammar",
+      "status": "verified",
+      "sourceRule": "c16-rule-03",
+      "evidence": "Chapter 16 rule c16-rule-03 lists common verb patterns followed by zu + infinitive; the registered grammar section exists."
+    },
+    "dass-satz-oder-infinitivsatz": {
+      "chapterFile": "content/a2/chapter-16.js",
+      "chapterId": "chapter-16",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-16/grammar",
+      "status": "verified",
+      "sourceRule": "c16-rule-09",
+      "evidence": "Chapter 16 rule c16-rule-09 contrasts an explicit-subject dass-clause with an infinitive clause."
+    },
+    "lassen-infinitiv-ohne-zu": {
+      "chapterFile": "content/a2/chapter-16.js",
+      "chapterId": "chapter-16",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-16/grammar",
+      "status": "verified",
+      "sourceRule": "c16-rule-11",
+      "evidence": "Chapter 16 rule c16-rule-11 covers lassen + bare infinitive and common causative/proposal uses."
+    },
+    "brauchen-nicht-zu": {
+      "chapterFile": "content/a2/chapter-16.js",
+      "chapterId": "chapter-16",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-16/grammar",
+      "status": "verified",
+      "sourceRule": "c16-rule-11",
+      "evidence": "Chapter 16 rule c16-rule-11 covers brauchen + nicht/kein + zu-infinitive for lack of necessity."
+    },
+    "adjektive-nomen-zu-infinitiv": {
+      "chapterFile": "content/a2/chapter-16.js",
+      "chapterId": "chapter-16",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-16/grammar",
+      "status": "verified",
+      "sourceRule": "c16-rule-04",
+      "evidence": "Chapter 16 c16-rule-04 covers infinitive complements after adjectives and nouns; registered grammar section exists."
+    },
+    "wenn-falls-bedingung": {
+      "chapterFile": "content/a2/chapter-17.js",
+      "chapterId": "chapter-17",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-17/grammar",
+      "status": "verified",
+      "sourceRule": "c17-rule-01 / c17-rule-02",
+      "evidence": "Chapter 17 rules c17-rule-01 and c17-rule-02 cover real conditions with wenn and falls, verb-final order, comma, and main-clause order."
+    },
+    "sonst-andernfalls": {
+      "chapterFile": "content/a2/chapter-17.js",
+      "chapterId": "chapter-17",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-17/grammar",
+      "status": "verified",
+      "sourceRule": "c17-rule-06 / c17-rule-10",
+      "evidence": "Chapter 17 rules c17-rule-06 and c17-rule-10 cover consequence connectors and V2 word order; registered grammar section exists."
+    },
+    "indem-methode": {
+      "chapterFile": "content/a2/chapter-17.js",
+      "chapterId": "chapter-17",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-17/grammar",
+      "status": "verified",
+      "sourceRule": "c17-rule-08",
+      "evidence": "Chapter 17 c17-rule-08 covers indem clauses for method and manner; registered grammar section exists."
+    },
+    "verb-praeposition-feste-verbindungen": {
+      "chapterFile": "content/a2/chapter-18.js",
+      "chapterId": "chapter-18",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-18/grammar",
+      "status": "verified",
+      "sourceRule": "c18-rule-01 / c18-rule-09",
+      "evidence": "Registered Chapter 18 grammar section: c18-rule-01 explains fixed verb-selected prepositions and case; c18-rule-09 provides common combinations."
+    },
+    "verb-praeposition-kasus": {
+      "chapterFile": "content/a2/chapter-18.js",
+      "chapterId": "chapter-18",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-18/grammar",
+      "status": "verified",
+      "sourceRule": "c18-rule-02 / c18-rule-03",
+      "evidence": "Registered Chapter 18 grammar rules c18-rule-02 and c18-rule-03 provide accusative and dative verb-preposition patterns, including contrasting an + case."
+    },
+    "praepositionalobjekt-freie-angabe": {
+      "chapterFile": "content/a2/chapter-18.js",
+      "chapterId": "chapter-18",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-18/grammar",
+      "status": "verified",
+      "sourceRule": "c18-rule-01 / c18-rule-05",
+      "evidence": "Registered Chapter 18 grammar rule c18-rule-05 distinguishes verb-selected prepositional objects from optional place/time information."
+    },
+    "praeposition-personenfragen": {
+      "chapterFile": "content/a2/chapter-18.js",
+      "chapterId": "chapter-18",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-18/grammar",
+      "status": "verified",
+      "sourceRule": "c18-rule-06",
+      "evidence": "Registered Chapter 18 grammar rule c18-rule-06 covers direct questions about people using preposition + wen/wem."
+    },
+    "praepositionenfragen-wo-r": {
+      "chapterFile": "content/a2/chapter-18.js",
+      "chapterId": "chapter-18",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-18/grammar",
+      "status": "verified",
+      "sourceRule": "c18-rule-07",
+      "evidence": "Chapter 18 rule c18-rule-07 forms wo(r)- questions for things and topics and contrasts them with person questions."
+    },
+    "praepositionen-rueckbezug-dar": {
+      "chapterFile": "content/a2/chapter-18.js",
+      "chapterId": "chapter-18",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-18/grammar",
+      "status": "verified",
+      "sourceRule": "c18-rule-08",
+      "evidence": "Chapter 18 rule c18-rule-08 covers da(r)- reference to things and distinguishes preposition + pronoun for people."
+    },
+    "verb-praeposition-bedeutungspaare": {
+      "chapterFile": "content/a2/chapter-18.js",
+      "chapterId": "chapter-18",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-18/grammar",
+      "status": "verified",
+      "sourceRule": "c18-rule-09",
+      "evidence": "Chapter 18 rule c18-rule-09 explicitly contrasts sprechen mit/über, sich freuen auf/über, and sich bewerben um/bei."
+    },
+    "genitivpraepositionen-auswahl": {
+      "chapterFile": "content/a2/chapter-18.js",
+      "chapterId": "chapter-18",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-18/grammar",
+      "status": "verified",
+      "sourceRule": "c18-rule-10",
+      "evidence": "Chapter 18 rule c18-rule-10 covers selected genitive prepositions and genitive article/noun forms."
+    },
+    "genitivartikel-des-der": {
+      "chapterFile": "content/a2/chapter-19.js",
+      "chapterId": "chapter-19",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-19/grammar",
+      "status": "verified",
+      "sourceRule": "c19-rule-01",
+      "evidence": "Chapter 19 c19-rule-01 explains genitive definite/indefinite articles by the gender and number of the genitive noun."
+    },
+    "genitiv-nomen-endungen": {
+      "chapterFile": "content/a2/chapter-19.js",
+      "chapterId": "chapter-19",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-19/grammar",
+      "status": "verified",
+      "sourceRule": "c19-rule-02",
+      "evidence": "Chapter 19 c19-rule-02 covers -(e)s for masculine/neuter singular nouns and the usual lack of an ending for feminine/plural nouns, with weak-noun exception."
+    },
+    "besitz-genitiv-wessen": {
+      "chapterFile": "content/a2/chapter-19.js",
+      "chapterId": "chapter-19",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-19/grammar",
+      "status": "verified",
+      "sourceRule": "c19-rule-03",
+      "evidence": "Chapter 19 c19-rule-03 covers possessive genitive groups and the question wessen?"
+    },
+    "eigennamen-genitiv": {
+      "chapterFile": "content/a2/chapter-19.js",
+      "chapterId": "chapter-19",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-19/grammar",
+      "status": "verified",
+      "sourceRule": "c19-rule-04",
+      "evidence": "Chapter 19 c19-rule-04 covers -s on proper names and apostrophe spelling after sibilant endings."
+    },
+    "genitiv-oder-von-dativ": {
+      "chapterFile": "content/a2/chapter-19.js",
+      "chapterId": "chapter-19",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-19/grammar",
+      "status": "verified",
+      "sourceRule": "c19-rule-05",
+      "evidence": "Chapter 19 c19-rule-05 compares possession in the genitive with von + dative and states that von governs the dative."
+    },
+    "n-deklination-schwache-maskulina": {
+      "chapterFile": "content/a2/chapter-19.js",
+      "chapterId": "chapter-19",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-19/grammar",
+      "status": "verified",
+      "sourceRule": "c19-rule-06",
+      "evidence": "Chapter 19 c19-rule-06 gives weak masculine case forms including Student, Kollege, Herr, Mensch, and Name."
+    },
+    "zusammengesetzte-nomen": {
+      "chapterFile": "content/a2/chapter-19.js",
+      "chapterId": "chapter-19",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-19/grammar",
+      "status": "verified",
+      "sourceRule": "c19-rule-08",
+      "evidence": "Chapter 19 c19-rule-08 explains compound noun structure, head-word gender and plural, linking elements, and spelling."
+    },
+    "nominalisierung-grundlagen": {
+      "chapterFile": "content/a2/chapter-19.js",
+      "chapterId": "chapter-19",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-19/grammar",
+      "status": "verified",
+      "sourceRule": "c19-rule-09",
+      "evidence": "Chapter 19 c19-rule-09 covers nominalized infinitives and adjectives, capitalization, and typical article/preposition cues."
+    },
+    "nomen-suffixe-grundformen": {
+      "chapterFile": "content/a2/chapter-19.js",
+      "chapterId": "chapter-19",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-19/grammar",
+      "status": "verified",
+      "sourceRule": "c19-rule-10",
+      "evidence": "Chapter 19 c19-rule-10 explains common noun suffix patterns, typical gender and plural tendencies, and warns that suffixes are not exception-free."
+    },
+    "diminutive-chen-lein": {
+      "chapterFile": "content/a2/chapter-19.js",
+      "chapterId": "chapter-19",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-19/grammar",
+      "status": "verified",
+      "sourceRule": "c19-rule-11",
+      "evidence": "Chapter 19 c19-rule-11 covers -chen/-lein, neuter gender, occasional umlaut, unchanged plural, and usage nuance."
+    },
+    "tempuswahl-zusammenhaengender-text": {
+      "chapterFile": "content/a2/chapter-20.js",
+      "chapterId": "chapter-20",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-20/grammar",
+      "status": "verified",
+      "sourceRule": "c20-rule-08",
+      "evidence": "Chapter 20 c20-rule-08 contrasts present, conversational Perfekt, and common narrative Präteritum forms.",
+      "additionalTargets": [
+        {
+          "chapterFile": "content/a1/chapter-09.js",
+          "chapterId": "chapter-09",
+          "sectionId": "grammar",
+          "href": "learn.html#/chapter-09/grammar",
+          "sourceRule": "c09-g1",
+          "status": "verified"
+        }
+      ]
+    },
+    "tekamolo-informationsreihenfolge": {
+      "chapterFile": "content/a2/chapter-20.js",
+      "chapterId": "chapter-20",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-20/grammar",
+      "status": "verified",
+      "sourceRule": "c20-rule-09",
+      "evidence": "Chapter 20 c20-rule-09 explains V2, neutral TEKAMOLO order, and information-structure flexibility."
+    },
+    "private-formelle-email": {
+      "chapterFile": "content/a2/chapter-20.js",
+      "chapterId": "chapter-20",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-20/grammar",
+      "status": "verified",
+      "sourceRule": "c20-rule-12",
+      "evidence": "Chapter 20 c20-rule-12 explains private/formal email structure, salutations, pronoun capitalization, commas, and closings."
+    },
+    "relativsaetze-perfekt": {
+      "chapterFile": "content/b1/chapter-21.js",
+      "chapterId": "chapter-21",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-21/grammar",
+      "status": "verified",
+      "sourceRule": "r10",
+      "evidence": "Chapter 21 rule r10 explains Perfekt word order in relative clauses and selection of haben/sein.",
+      "additionalTargets": [
+        {
+          "chapterFile": "content/a1/chapter-09.js",
+          "chapterId": "chapter-09",
+          "sectionId": "grammar",
+          "href": "learn.html#/chapter-09/grammar",
+          "sourceRule": "c09-g1",
+          "status": "verified"
+        }
+      ]
+    },
+    "relativsaetze-modalverben": {
+      "chapterFile": "content/b1/chapter-21.js",
+      "chapterId": "chapter-21",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-21/grammar",
+      "status": "verified",
+      "sourceRule": "r11",
+      "evidence": "Chapter 21 rule r11 explains infinitive + finite modal verb at the end of a relative clause."
+    },
+    "freie-relativsaetze-wer-wen-wem": {
+      "chapterFile": "content/b1/chapter-21.js",
+      "chapterId": "chapter-21",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-21/grammar",
+      "status": "verified",
+      "sourceRule": "r12",
+      "evidence": "Chapter 21 rule r12 covers free relative clauses with wer/wen/wem and demonstrative resumption."
+    },
+    "konjunktiv-ii-starke-verben": {
+      "chapterFile": "content/b1/chapter-23.js",
+      "chapterId": "chapter-23",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-23/grammar",
+      "status": "verified",
+      "sourceRule": "r05",
+      "evidence": "Chapter 23 rule r05 explains formation of common strong-verb Konjunktiv II forms from the Präteritum stem."
+    },
+    "konjunktiv-ii-irrealer-wenn-satz": {
+      "chapterFile": "content/b1/chapter-23.js",
+      "chapterId": "chapter-23",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-23/grammar",
+      "status": "verified",
+      "sourceRule": "r08 / r09",
+      "evidence": "Chapter 23 rules r08 and r09 cover unreal conditions, wenn-clause final verb position, and main-clause V2."
+    },
+    "als-ob-konjunktiv": {
+      "chapterFile": "content/b1/chapter-23.js",
+      "chapterId": "chapter-23",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-23/grammar",
+      "status": "verified",
+      "sourceRule": "r11",
+      "evidence": "Chapter 23 rule r11 covers als ob, irrealis nuance, and verb-final word order."
+    },
+    "satzfelder-vorfeld-mittelfeld-nachfeld": {
+      "chapterFile": "content/b1/chapter-24.js",
+      "chapterId": "chapter-24",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-24/grammar",
+      "status": "verified",
+      "sourceRule": "rule-24-02",
+      "evidence": "Im neutralen Aussagesatz steht genau ein Satzglied im Vorfeld. Darauf folgt das finite Verb auf Position zwei; das übrige Mittelfeld liegt zwischen linkem und rechtem Teil der Satzklammer. Ein Nachfeld kann nach dem rechten Verbteil stehen, besonders wenn dort"
+    },
+    "pronomen-und-objektstellung": {
+      "chapterFile": "content/b1/chapter-24.js",
+      "chapterId": "chapter-24",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-24/grammar",
+      "status": "verified",
+      "sourceRule": "rule-24-04",
+      "evidence": "Bei zwei betonten Nomen steht im neutralen Satz häufig das Dativobjekt vor dem Akkusativobjekt: „Sie erklärt der Kollegin den Ablauf.“ Ein unbetontes Personalpronomen steht gewöhnlich vor einem Nomen: „Sie erklärt ihn der Kollegin.“ Stehen beide Objekte als Pe"
+    },
+    "nicht-auch-nur-fokusstellung": {
+      "chapterFile": "content/b1/chapter-24.js",
+      "chapterId": "chapter-24",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-24/grammar",
+      "status": "verified",
+      "sourceRule": "rule-24-05",
+      "evidence": "Auch und nur stehen gewöhnlich unmittelbar vor dem Ausdruck, auf den sie sich beziehen: „Auch Tassnim prüft den Bericht“ schließt eine weitere Person ein; „Tassnim prüft auch den Bericht“ fügt eine weitere geprüfte Sache hinzu; „Tassnim prüft nur den Bericht“ "
+    },
+    "nachfeld-ausklammerung": {
+      "chapterFile": "content/b1/chapter-24.js",
+      "chapterId": "chapter-24",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-24/grammar",
+      "status": "verified",
+      "sourceRule": "rule-24-11",
+      "evidence": "Ein Nebensatz oder eine Infinitivgruppe kann nach der rechten Satzklammer ins Nachfeld treten: „Houssem hat beschlossen, die Übergabe neu zu organisieren.“ Auch ein Nebensatz kann nachgestellt werden: „Tassnim erklärt die Änderung, obwohl die Zeit knapp ist.“ "
+    },
+    "satzklammer-hauptsatz": {
+      "chapterFile": "content/b1/chapter-24.js",
+      "chapterId": "chapter-24",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-24/grammar",
+      "status": "verified",
+      "sourceRule": "rule-24-01",
+      "evidence": "Im Aussagesatz steht das finite Verb auf Position zwei. Ein abgetrennter Verbteil kann rechts stehen und mit ihm die Satzklammer bilden: „Houssem stellt die Berichte heute wieder her.“ Bei Modalverb + Infinitiv steht das Modalverb links und der Infinitiv recht"
+    },
+    "plusquamperfekt-haben": {
+      "chapterFile": "content/b1/chapter-25.js",
+      "chapterId": "chapter-25",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-25/grammar",
+      "status": "verified",
+      "sourceRule": "rule-25-01",
+      "evidence": "Bilde das Plusquamperfekt mit der Präteritumform von haben und dem Partizip II: ich hatte gelernt, du hattest gelernt, er/sie hatte gelernt, wir hatten gelernt, ihr hattet gelernt, sie/Sie hatten gelernt. Im Hauptsatz steht hatte auf Position zwei und das Part"
+    },
+    "plusquamperfekt-sein": {
+      "chapterFile": "content/b1/chapter-25.js",
+      "chapterId": "chapter-25",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-25/grammar",
+      "status": "verified",
+      "sourceRule": "rule-25-02",
+      "evidence": "Bilde die Form mit der Präteritumform von sein und dem Partizip II: ich war angekommen, du warst angekommen, er/sie war angekommen, wir waren angekommen, ihr wart angekommen, sie/Sie waren angekommen. Im Hauptsatz steht war/waren auf Position zwei; das Partizi"
+    },
+    "plusquamperfekt-praeteritum-unterscheiden": {
+      "chapterFile": "content/b1/chapter-25.js",
+      "chapterId": "chapter-25",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-25/grammar",
+      "status": "verified",
+      "sourceRule": "rule-25-03",
+      "evidence": "Das Präteritum setzt eine Handlung in die vergangene Erzählzeit: „Die Gäste kamen.“ Das Plusquamperfekt zeigt häufig, dass etwas schon vor diesem Bezugspunkt geschehen war: „Als die Gäste kamen, hatte Tassnim die Regeln erklärt.“ Bilde es mit hatte/war + Parti"
     }
   },
   "uncovered": []

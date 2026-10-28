@@ -168,10 +168,111 @@ Before writing data:
 - [x] T024 — Verb card: helfen — DONE 2026-10-25; `verb-helfen`; `learn.html#/chapter-04/grammar`
 
 ### Extended inventory — next selected topics
-- [ ] T025 — Plusquamperfekt: Vorzeitigkeit mit haben und sein
-- [ ] T026 — Futur I: Zukunft, Annahmen und Vorhersagen
-- [ ] T027 — Zweiteilige Konjunktionen und Argumentation
-- [ ] T028 — Partizip I und II als Adjektive
+- [x] T025 — Plusquamperfekt: Vorzeitigkeit mit haben und sein — DONE 2026-10-25; `plusquamperfekt-grundmuster`; `learn.html#/chapter-25/grammar`
+- [x] T026 — Futur I: Zukunft, Annahmen und Vorhersagen — DONE 2026-10-25; `futur-i-verwendung`; `learn.html#/chapter-25/grammar`
+- [x] T027 — Zweiteilige Konjunktionen und Argumentation — DONE 2026-10-25; `zweiteilige-konjunktionen`; `learn.html#/chapter-26/grammar`
+- [x] T028 — Partizip I und II als Adjektive — DONE 2026-10-25; `partizipien-adjektivisch`; `learn.html#/chapter-27/grammar`, `learn.html#/chapter-13/grammar`
+- [x] T029 — Hauptsatz: Verbzweitstellung und Vorfeld — DONE 2026-10-25; `hauptsatz-verbzweitstellung`; `learn.html#/chapter-02/grammar`
+- [x] T030 — W-Fragen und Ja-/Nein-Fragen — DONE 2026-10-25; `w-fragen-ja-nein-fragen`; `learn.html#/chapter-02/grammar`
+- [x] T031 — nicht oder kein? Grundnegation — DONE 2026-10-25; `nicht-kein-negation`; `learn.html#/chapter-03/grammar`
+- [x] T032 — Imperativ: du, ihr, Sie und wir — DONE 2026-10-25; `imperativ-aufforderungen`; `learn.html#/chapter-08/grammar`
+- [x] T033 — Satzklammer: Modalverben und trennbare Verben — DONE 2026-10-25; `satzklammer-modalverben-trennbar`; `learn.html#/chapter-05/grammar`, `learn.html#/chapter-08/grammar`
+- [x] T034 — Modalverben: Bedeutung und Satzbau — DONE 2026-10-25; `modalverben-grundbedeutungen`; `learn.html#/chapter-05/grammar`
+- [x] T035 — Personalpronomen im Akkusativ und Dativ — DONE 2026-10-25; `personalpronomen-akkusativ-dativ`; `learn.html#/chapter-03/grammar`, `learn.html#/chapter-04/grammar`
+- [x] T036 — Artikel im Nominativ: bestimmt, unbestimmt, null — DONE 2026-10-25; `bestimmte-unbestimmte-nullartikel`; `learn.html#/chapter-01/grammar`
+- [x] T037 — Possessivartikel im Akkusativ — DONE 2026-10-25; `possessivartikel-akkusativ`; `learn.html#/chapter-03/grammar`
+- [x] T038 — Dativartikel und Dativ-Plural-n — DONE 2026-10-25; `dativartikel-plural-n`; `learn.html#/chapter-04/grammar`
+- [x] T039 — Verben mit Dativ und Akkusativ — DONE 2026-10-25; `verben-dativ-akkusativ`; `learn.html#/chapter-04/grammar`
+- [x] T040 — Wortstellung mit zwei Objekten — DONE 2026-10-25; `wortstellung-zwei-objekte`; `learn.html#/chapter-04/grammar`
+- [x] T041 — Häufige Präpositionen mit Akkusativ — DONE 2026-10-25; `akkusativpraepositionen`; `learn.html#/chapter-06/grammar`
+- [x] T042 — Häufige Präpositionen mit Dativ — DONE 2026-10-25; `dativpraepositionen`; `learn.html#/chapter-06/grammar`
+- [x] T043 — Präposition-Artikel-Kurzformen — DONE 2026-10-25; `praeposition-artikel-kurzformen`; `learn.html#/chapter-06/grammar`
+- [x] T044 — Temporale Präpositionen und Zeitangaben — DONE 2026-10-25; `temporale-praepositionen`; `learn.html#/chapter-07/grammar`
+- [x] T045 — Ordinalzahlen: Reihenfolge und Endungen (G08, A1) — DONE 2026-10-28; `ordinalzahlen-reihenfolge`; `learn.html#/chapter-07/grammar`
+- [x] T046 — Das Datum schreiben und sagen (G08, A1) — DONE 2026-10-28; `datum-schreiben-sagen`; `learn.html#/chapter-07/grammar`
+- [x] T047 — Die Uhrzeit: offiziell und im Alltag (G08, A1) — DONE 2026-10-28; `uhrzeit-offiziell-alltag`; `learn.html#/chapter-07/grammar`
+- [x] T048 — Wochentage, Tageszeiten, Monate und Jahreszeiten (G08, A1) — DONE 2026-10-28; `wochentage-tageszeiten-monate`; `learn.html#/chapter-07/grammar`
+- [x] T049 — Kardinalzahlen: Grundformen und Zusammensetzung (G08, A1) — DONE 2026-10-28; `kardinalzahlen-grundformen`; `learn.html#/chapter-07/grammar`
+- [x] T050 — Häufigkeitsadverbien und Zeitwörter (G08, A1) — DONE 2026-10-28; `haeufigkeitsadverbien`; `learn.html#/chapter-07/grammar`
+- [x] T051 — Mengen: viel, viele, wenig und genug (G08, A1) — DONE 2026-10-28; `mengenangaben-viel-wenig`; `learn.html#/chapter-07/grammar`
+- [x] T052 — Zeitangaben im Hauptsatz: Position und Verbzweitstellung (G01, A1) — DONE 2026-10-28; `zeitangaben-wortstellung`; `learn.html#/chapter-07/grammar`
+- [x] T053 — Nebenordnende Konjunktionen: und, oder, aber, denn, sondern (G20, A1) — DONE 2026-10-28; `nebenordnende-konjunktionen`; `learn.html#/chapter-10/grammar`
+- [x] T054 — Zeitliche Satzverbindungen: zuerst, dann und danach (G21, A1) — DONE 2026-10-28; `zuerst-dann-danach`; `learn.html#/chapter-10/grammar`
+- [x] T055 — Adjektive: prädikativ und adverbial (G07, A1) — DONE 2026-10-28; `adjektive-praedikativ-adverbial`; `learn.html#/chapter-10/grammar`
+- [x] T056 — Gleichheit vergleichen: so … wie und genauso … wie (G07, A1) — DONE 2026-10-28; `gleichheitsvergleich-so-wie`; `learn.html#/chapter-10/grammar`
+- [x] T057 — Ortsadverbien: hier, dort, drinnen und draußen — DONE 2026-10-28; `ortsadverbien-hier-dort`; `learn.html#/chapter-10/grammar`
+- [x] T058 — schon, noch und erst: zeitliche Bedeutung — DONE 2026-10-28; `schon-noch-erst`; `learn.html#/chapter-10/grammar`
+- [x] T059 — Gradangaben: sehr, ziemlich, besonders und zu — DONE 2026-10-28; `gradadverbien-sehr-zu`; `learn.html#/chapter-10/grammar`
+- [x] T060 — Großschreibung und Satzzeichen im Alltag — DONE 2026-10-28; `grossschreibung-satzzeichen`; `learn.html#/chapter-10/grammar`
+- [x] T061 — Präteritum regelmäßiger Verben (G11, A2) — DONE 2026-10-28; `praeteritum-regelmaessige-verben`; `learn.html#/chapter-11/grammar`
+- [x] T062 — Präteritum starker und gemischter Verben (G11, A2) — DONE 2026-10-28; `praeteritum-starke-gemischte-verben`; `learn.html#/chapter-11/grammar`
+- [x] T063 — Perfekt oder Präteritum? (G11, A2) — DONE 2026-10-28; `perfekt-oder-praeteritum`; `learn.html#/chapter-11/grammar`
+- [x] T064 — Vergangene Ereignisse chronologisch erzählen (G21, A2) — DONE 2026-10-28; `vergangenheit-chronologisch-erzaehlen`; `learn.html#/chapter-11/grammar`
+- [x] T065 — Echte und fakultativ reflexive Verben (G16, A2) — DONE 2026-10-28; `echte-fakultativ-reflexive-verben`; `learn.html#/chapter-12/grammar`
+- [x] T066 — Reflexive Verben mit festen Präpositionen (G16, A2) — DONE 2026-10-28; `reflexive-verben-feste-praepositionen`; `learn.html#/chapter-12/grammar`
+- [x] T067 — Stellung des Reflexivpronomens (G06, A2) — DONE 2026-10-28; `reflexivpronomen-wortstellung`; `learn.html#/chapter-12/grammar`
+- [x] T068 — Gegenseitige Handlungen: einander und sich (G06, A2) — DONE 2026-10-28; `einander-gegenseitige-handlungen`; `learn.html#/chapter-12/grammar`
+- [x] T069 — Komparativ und Superlativ bilden (G07, A2) — DONE 2026-10-28; `komparativ-superlativ-bilden`; `learn.html#/chapter-13/grammar`
+- [x] T070 — Ungleichheit vergleichen: Komparativ + als (G07, A2) — DONE 2026-10-28; `komparativ-als-ungleichheit`; `learn.html#/chapter-13/grammar`
+- [x] T071 — Superlativ: am … -sten oder der/die/das … -ste (G07, A2) — DONE 2026-10-28; `superlativ-am-attributiv`; `learn.html#/chapter-13/grammar`
+- [x] T072 — Adjektive mit festen Präpositionen und Kasus (G07, A2) — DONE 2026-10-28; `adjektive-feste-praepositionen`; `learn.html#/chapter-13/grammar`
+- [x] T073 — Indirekte Ja-/Nein-Fragen mit ob (G22, A2) — DONE 2026-10-28; `indirekte-ja-nein-fragen-ob`; `learn.html#/chapter-14/grammar`
+- [x] T074 — Indirekte W-Fragen (G22, A2) — DONE 2026-10-28; `indirekte-w-fragen`; `learn.html#/chapter-14/grammar`
+- [x] T075 — Mehrteilige Verbgruppen im Nebensatz (G17, A2) — DONE 2026-10-28; `verbendstellung-mehrteilige-verben`; `learn.html#/chapter-14/grammar`
+- [x] T076 — Nebensatz im Vorfeld: Komma und Verbzweitstellung (G17, A2) — DONE 2026-10-28; `nebensatz-vorfeld-inversion`; `learn.html#/chapter-14/grammar`
+
+
+- [x] T077 — wenn oder wann? Zeitangabe und Frage (G36, A2) — DONE 2026-10-28; `wenn-wann-zeitfrage`; `learn.html#/chapter-15/grammar`
+- [x] T078 — Bevor: vor einem späteren Ereignis (G21, A2) — DONE 2026-10-28; `bevor-zeitliche-reihenfolge`; `learn.html#/chapter-15/grammar`
+- [x] T079 — Nachdem: Reihenfolge und Vorzeitigkeit (G21, A2) — DONE 2026-10-28; `nachdem-vorzeitigkeit`; `learn.html#/chapter-15/grammar`
+- [x] T080 — Während: gleichzeitige Handlungen (G21, A2) — DONE 2026-10-28; `waehrend-gleichzeitigkeit`; `learn.html#/chapter-15/grammar`, `learn.html#/chapter-07/grammar`
+
+
+- [x] T081 — Seitdem: Beginn in der Vergangenheit bis heute (G21, A2) — DONE 2026-10-28; `seitdem-anfang-bis-heute`; `learn.html#/chapter-15/grammar`, `learn.html#/chapter-07/grammar`
+- [x] T082 — Bis: zeitlicher Endpunkt (G21, A2) — DONE 2026-10-28; `bis-zeitgrenze`; `learn.html#/chapter-15/grammar`, `learn.html#/chapter-07/grammar`
+- [x] T083 — Sobald und solange: Anschluss und Dauer (G21, A2) — DONE 2026-10-28; `sobald-solange-zeitbezug`; `learn.html#/chapter-15/grammar`
+- [x] T084 — Zeitverbindungen und Zeitformen kombinieren (G21, A2) — DONE 2026-10-28; `temporalverbindungen-zeitformen`; `learn.html#/chapter-15/grammar`, `learn.html#/chapter-25/grammar`
+
+
+- [x] T085 — Verben mit zu-Infinitiv (G15, A2) — DONE 2026-10-28; `verben-mit-zu-infinitiv`; `learn.html#/chapter-16/grammar`
+- [x] T086 — Dass-Satz oder Infinitivsatz? (G22, A2) — DONE 2026-10-28; `dass-satz-oder-infinitivsatz`; `learn.html#/chapter-16/grammar`
+- [x] T087 — Lassen + Infinitiv ohne zu (G15, A2) — DONE 2026-10-28; `lassen-infinitiv-ohne-zu`; `learn.html#/chapter-16/grammar`
+- [x] T088 — Brauchen + nicht/kein + zu-Infinitiv (G15, A2) — DONE 2026-10-28; `brauchen-nicht-zu`; `learn.html#/chapter-16/grammar`
+- [x] T089 — Adjektive und Nomen mit zu-Infinitiv (G15, A2) — DONE 2026-10-28; `adjektive-nomen-zu-infinitiv`; `learn.html#/chapter-16/grammar`
+- [x] T090 — Wenn und falls: Bedingung (G19, A2) — DONE 2026-10-28; `wenn-falls-bedingung`; `learn.html#/chapter-17/grammar`
+- [x] T091 — Sonst und andernfalls: mögliche Folge (G19, A2) — DONE 2026-10-28; `sonst-andernfalls`; `learn.html#/chapter-17/grammar`
+- [x] T092 — Indem: Mittel und Art der Handlung (G19, A2) — DONE 2026-10-28; `indem-methode`; `learn.html#/chapter-17/grammar`
+- [x] T093 — Verben mit festen Präpositionen (G16, A2) — DONE 2026-10-28; `verb-praeposition-feste-verbindungen`; `learn.html#/chapter-18/grammar`
+- [x] T094 — Verb-Präposition-Verbindungen: Akkusativ oder Dativ? (G16, A2) — DONE 2026-10-28; `verb-praeposition-kasus`; `learn.html#/chapter-18/grammar`
+- [x] T096 — Präpositionalobjekt oder freie Angabe? (G16, A2) — DONE 2026-10-28; `praepositionalobjekt-freie-angabe`; `learn.html#/chapter-18/grammar`
+- [x] T097 — Nach Personen fragen: Präposition + wen/wem (G29, A2) — DONE 2026-10-28; `praeposition-personenfragen`; `learn.html#/chapter-18/grammar`
+- [x] T098 — Nach Sachen fragen: wo(r) + Präposition (G29, A2) — DONE 2026-10-28; `praepositionenfragen-wo-r`; `learn.html#/chapter-18/grammar`
+- [x] T099 — Sachen wiederaufnehmen: da(r) + Präposition (G29, A2) — DONE 2026-10-28; `praepositionen-rueckbezug-dar`; `learn.html#/chapter-18/grammar`
+- [x] T100 — Verb-Präposition-Paare mit Bedeutungsunterschied (G16, A2) — DONE 2026-10-28; `verb-praeposition-bedeutungspaare`; `learn.html#/chapter-18/grammar`
+- [x] T101 — Häufige Präpositionen mit Genitiv (G28, A2) — DONE 2026-10-28; `genitivpraepositionen-auswahl`; `learn.html#/chapter-18/grammar`
+- [x] T102 — Genitivartikel: des/eines und der/einer (G05, A2) — DONE 2026-10-28; `genitivartikel-des-der`; `learn.html#/chapter-19/grammar`
+- [x] T103 — Endungen der Nomen im Genitiv (G05, A2) — DONE 2026-10-28; `genitiv-nomen-endungen`; `learn.html#/chapter-19/grammar`
+- [x] T104 — Besitz ausdrücken und mit wessen? fragen (G28, A2) — DONE 2026-10-28; `besitz-genitiv-wessen`; `learn.html#/chapter-19/grammar`
+- [x] T105 — Eigennamen im Genitiv (G28, A2) — DONE 2026-10-28; `eigennamen-genitiv`; `learn.html#/chapter-19/grammar`
+- [x] T106 — Genitiv oder von + Dativ? (G28, A2) — DONE 2026-10-28; `genitiv-oder-von-dativ`; `learn.html#/chapter-19/grammar`
+- [x] T107 — n-Deklination: schwache maskuline Nomen (G05, A2) — DONE 2026-10-28; `n-deklination-schwache-maskulina`; `learn.html#/chapter-19/grammar`
+- [x] T108 — Zusammengesetzte Nomen (G02, A2) — DONE 2026-10-28; `zusammengesetzte-nomen`; `learn.html#/chapter-19/grammar`
+- [x] T109 — Nominalisierung: Verben und Adjektive als Nomen (G02, A2) — DONE 2026-10-28; `nominalisierung-grundlagen`; `learn.html#/chapter-19/grammar`
+- [x] T110 — Häufige Nomen-Suffixe erkennen (G02, A2) — DONE 2026-10-28; `nomen-suffixe-grundformen`; `learn.html#/chapter-19/grammar`
+- [x] T111 — Diminutive mit -chen und -lein (G02, A2) — DONE 2026-10-28; `diminutive-chen-lein`; `learn.html#/chapter-19/grammar`
+- [x] T112 — Präsens und Vergangenheit im zusammenhängenden Text (G35, A2) — DONE 2026-10-28; `tempuswahl-zusammenhaengender-text`; `learn.html#/chapter-20/grammar`
+- [x] T113 — Wortstellung, TEKAMOLO und Informationsreihenfolge (G01, A2) — DONE 2026-10-28; `tekamolo-informationsreihenfolge`; `learn.html#/chapter-20/grammar`
+- [x] T114 — Private und formelle Briefe und E-Mails (G35, A2) — DONE 2026-10-28; `private-formelle-email`; `learn.html#/chapter-20/grammar`
+- [x] T115 — Relativsätze im Perfekt (G23, B1) — DONE 2026-10-28; `relativsaetze-perfekt`; `learn.html#/chapter-21/grammar`
+- [x] T116 — Relativsätze mit Modalverben (G23, B1) — DONE 2026-10-28; `relativsaetze-modalverben`; `learn.html#/chapter-21/grammar`
+- [x] T117 — Freie Relativsätze mit wer, wen und wem (G23, B1) — DONE 2026-10-28; `freie-relativsaetze-wer-wen-wem`; `learn.html#/chapter-21/grammar`
+- [x] T118 — Starke Verben im Konjunktiv II (G13, B1) — DONE 2026-10-28; `konjunktiv-ii-starke-verben`; `learn.html#/chapter-23/grammar`
+- [x] T119 — Irreale Bedingungen und wenn-Sätze (G13, B1) — DONE 2026-10-28; `konjunktiv-ii-irrealer-wenn-satz`; `learn.html#/chapter-23/grammar`
+- [x] T120 — Als ob: unwirklicher Eindruck (G13, B1) — DONE 2026-10-28; `als-ob-konjunktiv`; `learn.html#/chapter-23/grammar`
+- [x] T121 — Vorfeld, Mittelfeld und Nachfeld (G01, B1) — DONE 2026-10-28; `satzfelder-vorfeld-mittelfeld-nachfeld`; `learn.html#/chapter-24/grammar`
+- [x] T122 — Pronomen und mehrere Objekte im Mittelfeld (G06, B1) — DONE 2026-10-28; `pronomen-und-objektstellung`; `learn.html#/chapter-24/grammar`
+- [x] T123 — Stellung von nicht, auch und nur (G31, B1) — DONE 2026-10-28; `nicht-auch-nur-fokusstellung`; `learn.html#/chapter-24/grammar`
+- [x] T124 — Nachfeld und Ausklammerung (G01, B1) — DONE 2026-10-28; `nachfeld-ausklammerung`; `learn.html#/chapter-24/grammar`
 
 Extend with all topic cards derived from G01–G40 and actual curriculum. The above list is a **starter queue, not complete coverage**. Before claiming scope complete, enumerate every topic in groups and reconcile with original chapter plan.
 
@@ -188,3 +289,7 @@ Extend with all topic cards derived from G01–G40 and actual curriculum. The ab
 
 ## 10. Definition of done
 The reference is complete only after all required A1–B1 topics from the **existing** learning syllabus have entries, all scheduled common verb entries have validated tense forms, every topic has a verified chapter deep-link or an honest missing-lesson label, and the UI/search work on GitHub Pages. Do not equate completion of the 24 starter cards with completion of the reference.
+- [x] T125 — Satzklammer im Hauptsatz (G01, B1) — DONE 2026-10-28; `satzklammer-hauptsatz`; `learn.html#/chapter-24/grammar`
+- [x] T126 — Plusquamperfekt mit haben (G11, B1) — DONE 2026-10-28; `plusquamperfekt-haben`; `learn.html#/chapter-25/grammar`
+- [x] T127 — Plusquamperfekt mit sein (G11, B1) — DONE 2026-10-28; `plusquamperfekt-sein`; `learn.html#/chapter-25/grammar`
+- [x] T128 — Plusquamperfekt und Präteritum unterscheiden (G11, B1) — DONE 2026-10-28; `plusquamperfekt-praeteritum-unterscheiden`; `learn.html#/chapter-25/grammar`

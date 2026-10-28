@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-25",
+  "updatedAt": "2026-10-28",
   "topics": [
     {
       "queueId": "T001",
@@ -268,7 +268,9 @@
       "groupId": "G11",
       "title": "Plusquamperfekt: Vorzeitigkeit mit haben und sein",
       "level": "B1",
-      "status": "TODO"
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-25/grammar"
     },
     {
       "queueId": "T026",
@@ -276,7 +278,9 @@
       "groupId": "G12",
       "title": "Futur I: Zukunft, Annahmen und Vorhersagen",
       "level": "B1",
-      "status": "TODO"
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-25/grammar"
     },
     {
       "queueId": "T027",
@@ -284,7 +288,9 @@
       "groupId": "G20",
       "title": "Zweiteilige Konjunktionen und Argumentation",
       "level": "B1",
-      "status": "TODO"
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-26/grammar"
     },
     {
       "queueId": "T028",
@@ -292,7 +298,1137 @@
       "groupId": "G07",
       "title": "Partizip I und II als Adjektive",
       "level": "B1",
-      "status": "TODO"
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-27/grammar",
+      "additionalLessons": [
+        "learn.html#/chapter-13/grammar"
+      ]
+    },
+    {
+      "queueId": "T029",
+      "id": "hauptsatz-verbzweitstellung",
+      "groupId": "G01",
+      "title": "Hauptsatz: Verbzweitstellung und Vorfeld",
+      "level": "A1",
+      "status": "DONE",
+      "plannedLesson": "learn.html#/chapter-02/grammar",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-02/grammar"
+    },
+    {
+      "queueId": "T030",
+      "id": "w-fragen-ja-nein-fragen",
+      "groupId": "G01",
+      "title": "W-Fragen und Ja-/Nein-Fragen",
+      "level": "A1",
+      "status": "DONE",
+      "plannedLesson": "learn.html#/chapter-02/grammar",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-02/grammar"
+    },
+    {
+      "queueId": "T031",
+      "id": "nicht-kein-negation",
+      "groupId": "G31",
+      "title": "nicht oder kein? Grundnegation",
+      "level": "A1",
+      "status": "DONE",
+      "plannedLesson": "learn.html#/chapter-03/grammar",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-03/grammar"
+    },
+    {
+      "queueId": "T032",
+      "id": "imperativ-aufforderungen",
+      "groupId": "G33",
+      "title": "Imperativ: du, ihr, Sie und wir",
+      "level": "A1",
+      "status": "DONE",
+      "plannedLesson": "learn.html#/chapter-08/grammar",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-08/grammar"
+    },
+    {
+      "queueId": "T033",
+      "id": "satzklammer-modalverben-trennbar",
+      "groupId": "G01",
+      "title": "Satzklammer: Modalverben und trennbare Verben",
+      "level": "A1",
+      "status": "DONE",
+      "plannedLesson": "learn.html#/chapter-05/grammar",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-05/grammar",
+      "additionalLessons": [
+        "learn.html#/chapter-08/grammar"
+      ]
+    },
+    {
+      "queueId": "T034",
+      "id": "modalverben-grundbedeutungen",
+      "groupId": "G10",
+      "title": "Modalverben: Bedeutung und Satzbau",
+      "level": "A1",
+      "status": "DONE",
+      "plannedLesson": "learn.html#/chapter-05/grammar",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-05/grammar"
+    },
+    {
+      "queueId": "T035",
+      "id": "personalpronomen-akkusativ-dativ",
+      "groupId": "G06",
+      "title": "Personalpronomen im Akkusativ und Dativ",
+      "level": "A1",
+      "status": "DONE",
+      "plannedLesson": "learn.html#/chapter-04/grammar",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-03/grammar",
+      "additionalLessons": [
+        "learn.html#/chapter-04/grammar"
+      ]
+    },
+    {
+      "queueId": "T036",
+      "id": "bestimmte-unbestimmte-nullartikel",
+      "groupId": "G03",
+      "title": "Artikel im Nominativ: bestimmt, unbestimmt, null",
+      "level": "A1",
+      "status": "DONE",
+      "plannedLesson": "learn.html#/chapter-01/grammar",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-01/grammar"
+    },
+    {
+      "queueId": "T037",
+      "id": "possessivartikel-akkusativ",
+      "groupId": "G05",
+      "title": "Possessivartikel im Akkusativ",
+      "level": "A1",
+      "status": "DONE",
+      "plannedLesson": "learn.html#/chapter-03/grammar",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-03/grammar"
+    },
+    {
+      "queueId": "T038",
+      "id": "dativartikel-plural-n",
+      "groupId": "G05",
+      "title": "Dativartikel und Dativ-Plural-n",
+      "level": "A1",
+      "status": "DONE",
+      "plannedLesson": "learn.html#/chapter-04/grammar",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-04/grammar"
+    },
+    {
+      "queueId": "T039",
+      "id": "verben-dativ-akkusativ",
+      "groupId": "G16",
+      "title": "Verben mit Dativ und Akkusativ",
+      "level": "A1",
+      "status": "DONE",
+      "plannedLesson": "learn.html#/chapter-04/grammar",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-04/grammar"
+    },
+    {
+      "queueId": "T040",
+      "id": "wortstellung-zwei-objekte",
+      "groupId": "G01",
+      "title": "Wortstellung mit zwei Objekten",
+      "level": "A1",
+      "status": "DONE",
+      "plannedLesson": "learn.html#/chapter-04/grammar",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-04/grammar"
+    },
+    {
+      "queueId": "T041",
+      "id": "akkusativpraepositionen",
+      "groupId": "G25",
+      "title": "Häufige Präpositionen mit Akkusativ",
+      "level": "A1",
+      "status": "DONE",
+      "plannedLesson": "learn.html#/chapter-06/grammar"
+    },
+    {
+      "queueId": "T042",
+      "id": "dativpraepositionen",
+      "groupId": "G26",
+      "title": "Häufige Präpositionen mit Dativ",
+      "level": "A1",
+      "status": "DONE",
+      "plannedLesson": "learn.html#/chapter-06/grammar"
+    },
+    {
+      "queueId": "T043",
+      "id": "praeposition-artikel-kurzformen",
+      "groupId": "G26",
+      "title": "Präposition-Artikel-Kurzformen",
+      "level": "A1",
+      "status": "DONE",
+      "plannedLesson": "learn.html#/chapter-06/grammar"
+    },
+    {
+      "queueId": "T044",
+      "id": "temporale-praepositionen",
+      "groupId": "G28",
+      "title": "Temporale Präpositionen und Zeitangaben",
+      "level": "A1",
+      "status": "DONE",
+      "plannedLesson": "learn.html#/chapter-07/grammar"
+    },
+    {
+      "queueId": "T045",
+      "id": "ordinalzahlen-reihenfolge",
+      "groupId": "G08",
+      "title": "Ordinalzahlen: Reihenfolge und Endungen",
+      "level": "A1",
+      "status": "DONE",
+      "plannedLesson": "learn.html#/chapter-07/grammar",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-07/grammar",
+      "completedAt": "2026-10-28"
+    },
+    {
+      "queueId": "T046",
+      "id": "datum-schreiben-sagen",
+      "groupId": "G08",
+      "title": "Das Datum schreiben und sagen",
+      "level": "A1",
+      "status": "DONE",
+      "plannedLesson": "learn.html#/chapter-07/grammar",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-07/grammar",
+      "completedAt": "2026-10-28"
+    },
+    {
+      "queueId": "T047",
+      "id": "uhrzeit-offiziell-alltag",
+      "groupId": "G08",
+      "title": "Die Uhrzeit: offiziell und im Alltag",
+      "level": "A1",
+      "status": "DONE",
+      "plannedLesson": "learn.html#/chapter-07/grammar",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-07/grammar",
+      "completedAt": "2026-10-28"
+    },
+    {
+      "queueId": "T048",
+      "id": "wochentage-tageszeiten-monate",
+      "groupId": "G08",
+      "title": "Wochentage, Tageszeiten, Monate und Jahreszeiten",
+      "level": "A1",
+      "status": "DONE",
+      "plannedLesson": "learn.html#/chapter-07/grammar",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-07/grammar",
+      "completedAt": "2026-10-28"
+    },
+    {
+      "queueId": "T049",
+      "id": "kardinalzahlen-grundformen",
+      "groupId": "G08",
+      "title": "Kardinalzahlen: Grundformen und Zusammensetzung",
+      "level": "A1",
+      "status": "DONE",
+      "plannedLesson": "learn.html#/chapter-07/grammar",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-07/grammar",
+      "completedAt": "2026-10-28"
+    },
+    {
+      "queueId": "T050",
+      "id": "haeufigkeitsadverbien",
+      "groupId": "G08",
+      "title": "Häufigkeitsadverbien und Zeitwörter",
+      "level": "A1",
+      "status": "DONE",
+      "plannedLesson": "learn.html#/chapter-07/grammar",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-07/grammar",
+      "completedAt": "2026-10-28"
+    },
+    {
+      "queueId": "T051",
+      "id": "mengenangaben-viel-wenig",
+      "groupId": "G08",
+      "title": "Mengen: viel, viele, wenig und genug",
+      "level": "A1",
+      "status": "DONE",
+      "plannedLesson": "learn.html#/chapter-07/grammar",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-07/grammar",
+      "completedAt": "2026-10-28"
+    },
+    {
+      "queueId": "T052",
+      "id": "zeitangaben-wortstellung",
+      "groupId": "G01",
+      "title": "Zeitangaben im Hauptsatz: Position und Verbzweitstellung",
+      "level": "A1",
+      "status": "DONE",
+      "plannedLesson": "learn.html#/chapter-07/grammar",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-07/grammar",
+      "completedAt": "2026-10-28"
+    },
+    {
+      "queueId": "T053",
+      "id": "nebenordnende-konjunktionen",
+      "groupId": "G20",
+      "title": "Nebenordnende Konjunktionen: und, oder, aber, denn, sondern",
+      "level": "A1",
+      "status": "DONE",
+      "plannedLesson": "learn.html#/chapter-10/grammar",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-10/grammar",
+      "completedAt": "2026-10-28"
+    },
+    {
+      "queueId": "T054",
+      "id": "zuerst-dann-danach",
+      "groupId": "G21",
+      "title": "Zeitliche Satzverbindungen: zuerst, dann und danach",
+      "level": "A1",
+      "status": "DONE",
+      "plannedLesson": "learn.html#/chapter-10/grammar",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-10/grammar",
+      "completedAt": "2026-10-28"
+    },
+    {
+      "queueId": "T055",
+      "id": "adjektive-praedikativ-adverbial",
+      "groupId": "G07",
+      "title": "Adjektive: prädikativ und adverbial",
+      "level": "A1",
+      "status": "DONE",
+      "plannedLesson": "learn.html#/chapter-10/grammar",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-10/grammar",
+      "completedAt": "2026-10-28"
+    },
+    {
+      "queueId": "T056",
+      "id": "gleichheitsvergleich-so-wie",
+      "groupId": "G07",
+      "title": "Gleichheit vergleichen: so … wie und genauso … wie",
+      "level": "A1",
+      "status": "DONE",
+      "plannedLesson": "learn.html#/chapter-10/grammar",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-10/grammar",
+      "completedAt": "2026-10-28"
+    },
+    {
+      "queueId": "T057",
+      "id": "ortsadverbien-hier-dort",
+      "groupId": "G30",
+      "title": "Ortsadverbien: hier, dort, drinnen und draußen",
+      "level": "A1",
+      "status": "DONE",
+      "plannedLesson": "learn.html#/chapter-10/grammar",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-10/grammar",
+      "completedAt": "2026-10-28"
+    },
+    {
+      "queueId": "T058",
+      "id": "schon-noch-erst",
+      "groupId": "G31",
+      "title": "schon, noch und erst: zeitliche Bedeutung",
+      "level": "A1",
+      "status": "DONE",
+      "plannedLesson": "learn.html#/chapter-10/grammar",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-10/grammar",
+      "completedAt": "2026-10-28"
+    },
+    {
+      "queueId": "T059",
+      "id": "gradadverbien-sehr-zu",
+      "groupId": "G32",
+      "title": "Gradangaben: sehr, ziemlich, besonders und zu",
+      "level": "A1",
+      "status": "DONE",
+      "plannedLesson": "learn.html#/chapter-10/grammar",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-10/grammar",
+      "completedAt": "2026-10-28"
+    },
+    {
+      "queueId": "T060",
+      "id": "grossschreibung-satzzeichen",
+      "groupId": "G35",
+      "title": "Großschreibung und Satzzeichen im Alltag",
+      "level": "A1",
+      "status": "DONE",
+      "plannedLesson": "learn.html#/chapter-10/grammar",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-10/grammar",
+      "completedAt": "2026-10-28"
+    },
+    {
+      "queueId": "T061",
+      "id": "praeteritum-regelmaessige-verben",
+      "groupId": "G11",
+      "title": "Präteritum regelmäßiger Verben",
+      "level": "A2",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-11/grammar",
+      "completedAt": "2026-10-28"
+    },
+    {
+      "queueId": "T062",
+      "id": "praeteritum-starke-gemischte-verben",
+      "groupId": "G11",
+      "title": "Präteritum starker und gemischter Verben",
+      "level": "A2",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-11/grammar",
+      "completedAt": "2026-10-28"
+    },
+    {
+      "queueId": "T063",
+      "id": "perfekt-oder-praeteritum",
+      "groupId": "G11",
+      "title": "Perfekt oder Präteritum?",
+      "level": "A2",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-11/grammar",
+      "completedAt": "2026-10-28",
+      "additionalLessons": [
+        "learn.html#/chapter-09/grammar"
+      ]
+    },
+    {
+      "queueId": "T064",
+      "id": "vergangenheit-chronologisch-erzaehlen",
+      "groupId": "G21",
+      "title": "Vergangene Ereignisse chronologisch erzählen",
+      "level": "A2",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-11/grammar",
+      "completedAt": "2026-10-28",
+      "additionalLessons": [
+        "learn.html#/chapter-10/grammar"
+      ]
+    },
+    {
+      "queueId": "T065",
+      "id": "echte-fakultativ-reflexive-verben",
+      "groupId": "G16",
+      "title": "Echte und fakultativ reflexive Verben",
+      "level": "A2",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-12/grammar",
+      "completedAt": "2026-10-28"
+    },
+    {
+      "queueId": "T066",
+      "id": "reflexive-verben-feste-praepositionen",
+      "groupId": "G16",
+      "title": "Reflexive Verben mit festen Präpositionen",
+      "level": "A2",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-12/grammar",
+      "completedAt": "2026-10-28",
+      "additionalLessons": []
+    },
+    {
+      "queueId": "T067",
+      "id": "reflexivpronomen-wortstellung",
+      "groupId": "G06",
+      "title": "Stellung des Reflexivpronomens",
+      "level": "A2",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-12/grammar",
+      "completedAt": "2026-10-28"
+    },
+    {
+      "queueId": "T068",
+      "id": "einander-gegenseitige-handlungen",
+      "groupId": "G06",
+      "title": "Gegenseitige Handlungen: einander und sich",
+      "level": "A2",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-12/grammar",
+      "completedAt": "2026-10-28"
+    },
+    {
+      "queueId": "T069",
+      "id": "komparativ-superlativ-bilden",
+      "groupId": "G07",
+      "title": "Komparativ und Superlativ bilden",
+      "level": "A2",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-13/grammar",
+      "completedAt": "2026-10-28"
+    },
+    {
+      "queueId": "T070",
+      "id": "komparativ-als-ungleichheit",
+      "groupId": "G07",
+      "title": "Ungleichheit vergleichen: Komparativ + als",
+      "level": "A2",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-13/grammar",
+      "completedAt": "2026-10-28",
+      "additionalLessons": [
+        "learn.html#/chapter-10/grammar"
+      ]
+    },
+    {
+      "queueId": "T071",
+      "id": "superlativ-am-attributiv",
+      "groupId": "G07",
+      "title": "Superlativ: am … -sten oder der/die/das … -ste",
+      "level": "A2",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-13/grammar",
+      "completedAt": "2026-10-28"
+    },
+    {
+      "queueId": "T072",
+      "id": "adjektive-feste-praepositionen",
+      "groupId": "G07",
+      "title": "Adjektive mit festen Präpositionen und Kasus",
+      "level": "A2",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-13/grammar",
+      "completedAt": "2026-10-28"
+    },
+    {
+      "queueId": "T073",
+      "id": "indirekte-ja-nein-fragen-ob",
+      "groupId": "G22",
+      "title": "Indirekte Ja-/Nein-Fragen mit ob",
+      "level": "A2",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-14/grammar",
+      "completedAt": "2026-10-28"
+    },
+    {
+      "queueId": "T074",
+      "id": "indirekte-w-fragen",
+      "groupId": "G22",
+      "title": "Indirekte W-Fragen",
+      "level": "A2",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-14/grammar",
+      "completedAt": "2026-10-28"
+    },
+    {
+      "queueId": "T075",
+      "id": "verbendstellung-mehrteilige-verben",
+      "groupId": "G17",
+      "title": "Verbendstellung mit Perfekt und Modalverben",
+      "level": "A2",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-14/grammar",
+      "completedAt": "2026-10-28"
+    },
+    {
+      "queueId": "T076",
+      "id": "nebensatz-vorfeld-inversion",
+      "groupId": "G17",
+      "title": "Nebensatz im Vorfeld: Komma und Verbzweitstellung",
+      "level": "A2",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-14/grammar",
+      "completedAt": "2026-10-28"
+    },
+    {
+      "queueId": "T077",
+      "id": "wenn-wann-zeitfrage",
+      "groupId": "G36",
+      "title": "wenn oder wann? Zeitangabe und Frage",
+      "level": "A2",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-15/grammar",
+      "completedAt": "2026-10-28"
+    },
+    {
+      "queueId": "T078",
+      "id": "bevor-zeitliche-reihenfolge",
+      "groupId": "G21",
+      "title": "Bevor: vor einem späteren Ereignis",
+      "level": "A2",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-15/grammar",
+      "completedAt": "2026-10-28"
+    },
+    {
+      "queueId": "T079",
+      "id": "nachdem-vorzeitigkeit",
+      "groupId": "G21",
+      "title": "Nachdem: Reihenfolge und Vorzeitigkeit",
+      "level": "A2",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-15/grammar",
+      "completedAt": "2026-10-28"
+    },
+    {
+      "queueId": "T080",
+      "id": "waehrend-gleichzeitigkeit",
+      "groupId": "G21",
+      "title": "Während: gleichzeitige Handlungen",
+      "level": "A2",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-15/grammar",
+      "completedAt": "2026-10-28",
+      "additionalLessons": [
+        "learn.html#/chapter-07/grammar"
+      ]
+    },
+    {
+      "queueId": "T081",
+      "id": "seitdem-anfang-bis-heute",
+      "groupId": "G21",
+      "title": "Seitdem: Beginn in der Vergangenheit bis heute",
+      "level": "A2",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-15/grammar",
+      "completedAt": "2026-10-28",
+      "additionalLessons": [
+        "learn.html#/chapter-07/grammar"
+      ]
+    },
+    {
+      "queueId": "T082",
+      "id": "bis-zeitgrenze",
+      "groupId": "G21",
+      "title": "Bis: zeitlicher Endpunkt",
+      "level": "A2",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-15/grammar",
+      "completedAt": "2026-10-28",
+      "additionalLessons": [
+        "learn.html#/chapter-07/grammar"
+      ]
+    },
+    {
+      "queueId": "T083",
+      "id": "sobald-solange-zeitbezug",
+      "groupId": "G21",
+      "title": "Sobald und solange: Anschluss und Dauer",
+      "level": "A2",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-15/grammar",
+      "completedAt": "2026-10-28"
+    },
+    {
+      "queueId": "T084",
+      "id": "temporalverbindungen-zeitformen",
+      "groupId": "G21",
+      "title": "Zeitverbindungen und Zeitformen kombinieren",
+      "level": "A2",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-15/grammar",
+      "completedAt": "2026-10-28",
+      "additionalLessons": [
+        "learn.html#/chapter-25/grammar"
+      ]
+    },
+    {
+      "queueId": "T085",
+      "id": "verben-mit-zu-infinitiv",
+      "groupId": "G15",
+      "title": "Verben mit zu-Infinitiv",
+      "level": "A2",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-16/grammar",
+      "completedAt": "2026-10-28"
+    },
+    {
+      "queueId": "T086",
+      "id": "dass-satz-oder-infinitivsatz",
+      "groupId": "G22",
+      "title": "Dass-Satz oder Infinitivsatz?",
+      "level": "A2",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-16/grammar",
+      "completedAt": "2026-10-28"
+    },
+    {
+      "queueId": "T087",
+      "id": "lassen-infinitiv-ohne-zu",
+      "groupId": "G15",
+      "title": "Lassen + Infinitiv ohne zu",
+      "level": "A2",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-16/grammar",
+      "completedAt": "2026-10-28"
+    },
+    {
+      "queueId": "T088",
+      "id": "brauchen-nicht-zu",
+      "groupId": "G15",
+      "title": "Brauchen + nicht/kein + zu-Infinitiv",
+      "level": "A2",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-16/grammar",
+      "completedAt": "2026-10-28"
+    },
+    {
+      "queueId": "T089",
+      "id": "adjektive-nomen-zu-infinitiv",
+      "groupId": "G15",
+      "title": "Adjektive und Nomen mit zu-Infinitiv",
+      "level": "A2",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-16/grammar",
+      "completedAt": "2026-10-28"
+    },
+    {
+      "queueId": "T090",
+      "id": "wenn-falls-bedingung",
+      "groupId": "G19",
+      "title": "Wenn und falls: Bedingung",
+      "level": "A2",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-17/grammar",
+      "completedAt": "2026-10-28"
+    },
+    {
+      "queueId": "T091",
+      "id": "sonst-andernfalls",
+      "groupId": "G19",
+      "title": "Sonst und andernfalls: mögliche Folge",
+      "level": "A2",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-17/grammar",
+      "completedAt": "2026-10-28"
+    },
+    {
+      "queueId": "T092",
+      "id": "indem-methode",
+      "groupId": "G19",
+      "title": "Indem: Mittel und Art der Handlung",
+      "level": "A2",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-17/grammar",
+      "completedAt": "2026-10-28"
+    },
+    {
+      "queueId": "T093",
+      "id": "verb-praeposition-feste-verbindungen",
+      "groupId": "G16",
+      "title": "Verben mit festen Präpositionen",
+      "level": "A2",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-18/grammar",
+      "completedAt": "2026-10-28"
+    },
+    {
+      "queueId": "T094",
+      "id": "verb-praeposition-kasus",
+      "groupId": "G16",
+      "title": "Verb-Präposition-Verbindungen: Akkusativ oder Dativ?",
+      "level": "A2",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-18/grammar",
+      "completedAt": "2026-10-28"
+    },
+    {
+      "queueId": "T096",
+      "id": "praepositionalobjekt-freie-angabe",
+      "groupId": "G16",
+      "title": "Präpositionalobjekt oder freie Angabe?",
+      "level": "A2",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-18/grammar",
+      "completedAt": "2026-10-28"
+    },
+    {
+      "queueId": "T097",
+      "id": "praeposition-personenfragen",
+      "groupId": "G29",
+      "title": "Nach Personen fragen: Präposition + wen/wem",
+      "level": "A2",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-18/grammar",
+      "completedAt": "2026-10-28"
+    },
+    {
+      "queueId": "T098",
+      "id": "praepositionenfragen-wo-r",
+      "groupId": "G29",
+      "title": "Nach Sachen fragen: wo(r) + Präposition",
+      "level": "A2",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-18/grammar",
+      "completedAt": "2026-10-28"
+    },
+    {
+      "queueId": "T099",
+      "id": "praepositionen-rueckbezug-dar",
+      "groupId": "G29",
+      "title": "Sachen wiederaufnehmen: da(r) + Präposition",
+      "level": "A2",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-18/grammar",
+      "completedAt": "2026-10-28"
+    },
+    {
+      "queueId": "T100",
+      "id": "verb-praeposition-bedeutungspaare",
+      "groupId": "G16",
+      "title": "Verb-Präposition-Paare mit Bedeutungsunterschied",
+      "level": "A2",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-18/grammar",
+      "completedAt": "2026-10-28"
+    },
+    {
+      "queueId": "T101",
+      "id": "genitivpraepositionen-auswahl",
+      "groupId": "G28",
+      "title": "Häufige Präpositionen mit Genitiv",
+      "level": "A2",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-18/grammar",
+      "completedAt": "2026-10-28"
+    },
+    {
+      "queueId": "T102",
+      "id": "genitivartikel-des-der",
+      "groupId": "G05",
+      "title": "Genitivartikel: des/eines und der/einer",
+      "level": "A2",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-19/grammar",
+      "completedAt": "2026-10-28"
+    },
+    {
+      "queueId": "T103",
+      "id": "genitiv-nomen-endungen",
+      "groupId": "G05",
+      "title": "Endungen der Nomen im Genitiv",
+      "level": "A2",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-19/grammar",
+      "completedAt": "2026-10-28"
+    },
+    {
+      "queueId": "T104",
+      "id": "besitz-genitiv-wessen",
+      "groupId": "G28",
+      "title": "Besitz ausdrücken und mit wessen? fragen",
+      "level": "A2",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-19/grammar",
+      "completedAt": "2026-10-28"
+    },
+    {
+      "queueId": "T105",
+      "id": "eigennamen-genitiv",
+      "groupId": "G28",
+      "title": "Eigennamen im Genitiv",
+      "level": "A2",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-19/grammar",
+      "completedAt": "2026-10-28"
+    },
+    {
+      "queueId": "T106",
+      "id": "genitiv-oder-von-dativ",
+      "groupId": "G28",
+      "title": "Genitiv oder von + Dativ?",
+      "level": "A2",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-19/grammar",
+      "completedAt": "2026-10-28"
+    },
+    {
+      "queueId": "T107",
+      "id": "n-deklination-schwache-maskulina",
+      "groupId": "G05",
+      "title": "n-Deklination: schwache maskuline Nomen",
+      "level": "A2",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-19/grammar",
+      "completedAt": "2026-10-28"
+    },
+    {
+      "queueId": "T108",
+      "id": "zusammengesetzte-nomen",
+      "groupId": "G02",
+      "title": "Zusammengesetzte Nomen",
+      "level": "A2",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-19/grammar",
+      "completedAt": "2026-10-28"
+    },
+    {
+      "queueId": "T109",
+      "id": "nominalisierung-grundlagen",
+      "groupId": "G02",
+      "title": "Nominalisierung: Verben und Adjektive als Nomen",
+      "level": "A2",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-19/grammar",
+      "completedAt": "2026-10-28"
+    },
+    {
+      "queueId": "T110",
+      "id": "nomen-suffixe-grundformen",
+      "groupId": "G02",
+      "title": "Häufige Nomen-Suffixe erkennen",
+      "level": "A2",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-19/grammar",
+      "completedAt": "2026-10-28"
+    },
+    {
+      "queueId": "T111",
+      "id": "diminutive-chen-lein",
+      "groupId": "G02",
+      "title": "Diminutive mit -chen und -lein",
+      "level": "A2",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-19/grammar",
+      "completedAt": "2026-10-28"
+    },
+    {
+      "queueId": "T112",
+      "id": "tempuswahl-zusammenhaengender-text",
+      "groupId": "G35",
+      "title": "Präsens und Vergangenheit im zusammenhängenden Text",
+      "level": "A2",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-20/grammar",
+      "completedAt": "2026-10-28"
+    },
+    {
+      "queueId": "T113",
+      "id": "tekamolo-informationsreihenfolge",
+      "groupId": "G01",
+      "title": "Wortstellung, TEKAMOLO und Informationsreihenfolge",
+      "level": "A2",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-20/grammar",
+      "completedAt": "2026-10-28"
+    },
+    {
+      "queueId": "T114",
+      "id": "private-formelle-email",
+      "groupId": "G35",
+      "title": "Private und formelle Briefe und E-Mails",
+      "level": "A2",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-20/grammar",
+      "completedAt": "2026-10-28"
+    },
+    {
+      "queueId": "T115",
+      "id": "relativsaetze-perfekt",
+      "groupId": "G23",
+      "title": "Relativsätze im Perfekt",
+      "level": "B1",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-21/grammar",
+      "completedAt": "2026-10-28"
+    },
+    {
+      "queueId": "T116",
+      "id": "relativsaetze-modalverben",
+      "groupId": "G23",
+      "title": "Relativsätze mit Modalverben",
+      "level": "B1",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-21/grammar",
+      "completedAt": "2026-10-28"
+    },
+    {
+      "queueId": "T117",
+      "id": "freie-relativsaetze-wer-wen-wem",
+      "groupId": "G23",
+      "title": "Freie Relativsätze mit wer, wen und wem",
+      "level": "B1",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-21/grammar",
+      "completedAt": "2026-10-28"
+    },
+    {
+      "queueId": "T118",
+      "id": "konjunktiv-ii-starke-verben",
+      "groupId": "G13",
+      "title": "Starke Verben im Konjunktiv II",
+      "level": "B1",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-23/grammar",
+      "completedAt": "2026-10-28"
+    },
+    {
+      "queueId": "T119",
+      "id": "konjunktiv-ii-irrealer-wenn-satz",
+      "groupId": "G13",
+      "title": "Irreale Bedingungen und wenn-Sätze",
+      "level": "B1",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-23/grammar",
+      "completedAt": "2026-10-28"
+    },
+    {
+      "queueId": "T120",
+      "id": "als-ob-konjunktiv",
+      "groupId": "G13",
+      "title": "Als ob: unwirklicher Eindruck",
+      "level": "B1",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-23/grammar",
+      "completedAt": "2026-10-28"
+    },
+    {
+      "queueId": "T121",
+      "id": "satzfelder-vorfeld-mittelfeld-nachfeld",
+      "groupId": "G01",
+      "title": "Vorfeld, Mittelfeld und Nachfeld",
+      "level": "B1",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-24/grammar",
+      "completedAt": "2026-10-28"
+    },
+    {
+      "queueId": "T122",
+      "id": "pronomen-und-objektstellung",
+      "groupId": "G06",
+      "title": "Pronomen und mehrere Objekte im Mittelfeld",
+      "level": "B1",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-24/grammar",
+      "completedAt": "2026-10-28"
+    },
+    {
+      "queueId": "T123",
+      "id": "nicht-auch-nur-fokusstellung",
+      "groupId": "G31",
+      "title": "Stellung von nicht, auch und nur",
+      "level": "B1",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-24/grammar",
+      "completedAt": "2026-10-28"
+    },
+    {
+      "queueId": "T124",
+      "id": "nachfeld-ausklammerung",
+      "groupId": "G01",
+      "title": "Nachfeld und Ausklammerung",
+      "level": "B1",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-24/grammar",
+      "completedAt": "2026-10-28"
+    },
+    {
+      "queueId": "T125",
+      "id": "satzklammer-hauptsatz",
+      "groupId": "G01",
+      "title": "Satzklammer im Hauptsatz",
+      "level": "B1",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-24/grammar",
+      "completedAt": "2026-10-28"
+    },
+    {
+      "queueId": "T126",
+      "id": "plusquamperfekt-haben",
+      "groupId": "G11",
+      "title": "Plusquamperfekt mit haben",
+      "level": "B1",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-25/grammar",
+      "completedAt": "2026-10-28"
+    },
+    {
+      "queueId": "T127",
+      "id": "plusquamperfekt-sein",
+      "groupId": "G11",
+      "title": "Plusquamperfekt mit sein",
+      "level": "B1",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-25/grammar",
+      "completedAt": "2026-10-28"
+    },
+    {
+      "queueId": "T128",
+      "id": "plusquamperfekt-praeteritum-unterscheiden",
+      "groupId": "G11",
+      "title": "Plusquamperfekt und Präteritum unterscheiden",
+      "level": "B1",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-25/grammar",
+      "completedAt": "2026-10-28"
     }
   ]
 }
