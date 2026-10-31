@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28",
+  "updatedAt": "2026-10-31",
   "topics": {
     "deshalb-deswegen-darum": {
       "chapterFile": "content/a2/chapter-17.js",
@@ -1284,6 +1284,42 @@
       "status": "verified",
       "sourceRule": "rule-25-03",
       "evidence": "Das Präteritum setzt eine Handlung in die vergangene Erzählzeit: „Die Gäste kamen.“ Das Plusquamperfekt zeigt häufig, dass etwas schon vor diesem Bezugspunkt geschehen war: „Als die Gäste kamen, hatte Tassnim die Regeln erklärt.“ Bilde es mit hatte/war + Parti"
+    },
+    "futur-i-werden": {
+      "chapterFile": "content/b1/chapter-25.js",
+      "chapterId": "chapter-25",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-25/grammar",
+      "status": "verified",
+      "sourceRule": "rule-25-05",
+      "evidence": "Bilde Futur I mit werden im Präsens und dem Infinitiv des Vollverbs: ich werde, du wirst, er/sie/es wird, wir werden, ihr werdet, sie/Sie werden + Infinitiv. Im Hauptsatz steht werden auf Position zwei und der Infinitiv am Ende: „Wir werden den Raum vorbereite"
+    },
+    "praesens-oder-futur-i": {
+      "chapterFile": "content/b1/chapter-25.js",
+      "chapterId": "chapter-25",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-25/grammar",
+      "status": "verified",
+      "sourceRule": "rule-25-06",
+      "evidence": "Das Präsens kann mit einer eindeutigen Zeitangabe auf die Zukunft verweisen: „Morgen beginnt der Workshop um neun.“ Futur I wird mit werden + Infinitiv gebildet und betont oft eine Vorhersage, Absicht oder ein Versprechen: „Der Workshop wird wahrscheinlich pün"
+    },
+    "futur-i-vermutungen": {
+      "chapterFile": "content/b1/chapter-25.js",
+      "chapterId": "chapter-25",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-25/grammar",
+      "status": "verified",
+      "sourceRule": "rule-25-07",
+      "evidence": "Futur I wird mit der Präsensform von werden + Infinitiv gebildet. Eine Zukunftsprognose nennt häufig ausdrücklich einen späteren Zeitpunkt: „Es wird morgen mehr Teilnehmende geben.“ Für eine Vermutung über jetzt steht der Infinitiv von sein oder einem anderen "
+    },
+    "modalverben-zeitformen": {
+      "chapterFile": "content/b1/chapter-25.js",
+      "chapterId": "chapter-25",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-25/grammar",
+      "status": "verified",
+      "sourceRule": "rule-25-08",
+      "evidence": "Mit einem Vollverb steht das Modalverb im Präsens oder Präteritum konjugiert, der Vollverb-Infinitiv am Ende: „Sie muss arbeiten“ / „Sie musste arbeiten“. Im Perfekt mit zwei Verben steht haben im Präsens und der Ersatzinfinitiv des Modalverbs nach dem Vollver"
     }
   },
   "uncovered": []

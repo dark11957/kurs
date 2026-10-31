@@ -293,3 +293,7 @@ The reference is complete only after all required A1–B1 topics from the **exis
 - [x] T126 — Plusquamperfekt mit haben (G11, B1) — DONE 2026-10-28; `plusquamperfekt-haben`; `learn.html#/chapter-25/grammar`
 - [x] T127 — Plusquamperfekt mit sein (G11, B1) — DONE 2026-10-28; `plusquamperfekt-sein`; `learn.html#/chapter-25/grammar`
 - [x] T128 — Plusquamperfekt und Präteritum unterscheiden (G11, B1) — DONE 2026-10-28; `plusquamperfekt-praeteritum-unterscheiden`; `learn.html#/chapter-25/grammar`
+- [x] T129 — Futur I mit werden bilden (G12, B1) — DONE 2026-10-31; `futur-i-werden`; `learn.html#/chapter-25/grammar`
+- [x] T130 — Präsens und Futur I vergleichen (G12, B1) — DONE 2026-10-31; `praesens-oder-futur-i`; `learn.html#/chapter-25/grammar`
+- [x] T131 — Futur I für Annahmen und Vorhersagen (G12, B1) — DONE 2026-10-31; `futur-i-vermutungen`; `learn.html#/chapter-25/grammar`
+- [x] T132 — Modalverben in verschiedenen Zeiten (G10, B1) — DONE 2026-10-31; `modalverben-zeitformen`; `learn.html#/chapter-25/grammar`

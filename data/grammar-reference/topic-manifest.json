@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-28",
+  "updatedAt": "2026-10-31",
   "topics": [
     {
       "queueId": "T001",
@@ -1429,6 +1429,50 @@
       "dataFile": "data/grammar-reference/manifest.js",
       "lesson": "learn.html#/chapter-25/grammar",
       "completedAt": "2026-10-28"
+    },
+    {
+      "queueId": "T129",
+      "id": "futur-i-werden",
+      "groupId": "G12",
+      "title": "Futur I mit werden bilden",
+      "level": "B1",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-25/grammar",
+      "completedAt": "2026-10-31"
+    },
+    {
+      "queueId": "T130",
+      "id": "praesens-oder-futur-i",
+      "groupId": "G12",
+      "title": "Präsens und Futur I vergleichen",
+      "level": "B1",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-25/grammar",
+      "completedAt": "2026-10-31"
+    },
+    {
+      "queueId": "T131",
+      "id": "futur-i-vermutungen",
+      "groupId": "G12",
+      "title": "Futur I für Annahmen und Vorhersagen",
+      "level": "B1",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-25/grammar",
+      "completedAt": "2026-10-31"
+    },
+    {
+      "queueId": "T132",
+      "id": "modalverben-zeitformen",
+      "groupId": "G10",
+      "title": "Modalverben in verschiedenen Zeiten",
+      "level": "B1",
+      "status": "DONE",
+      "dataFile": "data/grammar-reference/manifest.js",
+      "lesson": "learn.html#/chapter-25/grammar",
+      "completedAt": "2026-10-31"
     }
   ]
 }
