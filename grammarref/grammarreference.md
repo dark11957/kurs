@@ -276,6 +276,49 @@ Before writing data:
 
 Extend with all topic cards derived from G01–G40 and actual curriculum. The above list is a **starter queue, not complete coverage**. Before claiming scope complete, enumerate every topic in groups and reconcile with original chapter plan.
 
+- [x] T149 — Direkte Rede: Aussagen zitieren (G22, B1) — DONE 2026-10-31; `direkte-rede-aussage`; `learn.html#/chapter-28/grammar`
+- [x] T150 — Indirekte Aussagen mit dass (G22, B1) — DONE 2026-10-31; `indirekte-aussage-dass`; `learn.html#/chapter-28/grammar`
+- [x] T151 — Aussagen, Fragen und Bitten berichten (G22, B1) — DONE 2026-10-31; `aussagen-fragen-bitten-wiedergeben`; `learn.html#/chapter-28/grammar`
+- [x] T152 — Konjunktiv I: Formen erkennen und bilden (G13, B1) — DONE 2026-10-31; `konjunktiv-i-erkennen-bilden`; `learn.html#/chapter-28/grammar`
+
+- [x] T153 — Indikativ und Konjunktiv I in der indirekten Rede (G13, B1) — DONE 2026-10-31; `indikativ-konjunktiv-indirekte-rede`; `learn.html#/chapter-28/grammar`
+- [x] T154 — Modalpartikeln: doch, ja, mal, denn und wohl (G32, B1) — DONE 2026-10-31; `modalpartikeln-doch-ja-mal-denn-wohl`; `learn.html#/chapter-28/grammar`
+- [x] T155 — Natürliche Gesprächsausdrücke und Gesprächssignale (G35, B1) — DONE 2026-10-31; `natuerliche-gespraechsausdruecke`; `learn.html#/chapter-28/grammar`
+- [x] T156 — Rückfragen und Missverständnisse klären (G35, B1) — DONE 2026-10-31; `rueckfragen-bestaetigen-missverstaendnisse`; `learn.html#/chapter-28/grammar`
+
+- [x] T157 — Antwortpartikeln: ja, nein und doch (G31, B1) — DONE 2026-10-31; `antwortpartikeln-ja-nein-doch`; `learn.html#/chapter-28/grammar`
+- [x] T158 — Höfliche und lockere Aufforderungen mit bitte, mal und doch (G33, B1) — DONE 2026-10-31; `hoefliche-aufforderungen-mal-doch`; `learn.html#/chapter-28/grammar`
+- [x] T159 — Sich lassen + Infinitiv: Möglichkeit und Machbarkeit (G15, B1) — DONE 2026-10-31; `sich-lassen-infinitiv`; `learn.html#/chapter-29/grammar`
+- [x] T160 — Haben + zu + Infinitiv: aktive Verpflichtung (G15, B1) — DONE 2026-10-31; `haben-zu-infinitiv`; `learn.html#/chapter-29/grammar`
+
+- [x] T161 — Sein + zu + Infinitiv: Möglichkeit oder Verpflichtung (G15, B1) — DONE 2026-10-31; `sein-zu-infinitiv`; `learn.html#/chapter-29/grammar`
+- [x] T162 — Funktionsverbgefüge: Nomen und Verb als Einheit (G16, B1) — DONE 2026-10-31; `funktionsverbgefuege`; `learn.html#/chapter-29/grammar`
+- [x] T163 — Es geht um + Akkusativ: Thema oder Kernfrage (G16, B1) — DONE 2026-10-31; `es-geht-um-akkusativ`; `learn.html#/chapter-29/grammar`
+- [x] T164 — Es handelt sich um + Akkusativ: etwas identifizieren (G16, B1) — DONE 2026-10-31; `es-handelt-sich-um-akkusativ`; `learn.html#/chapter-29/grammar`
+
+- [x] T165 — Es kommt auf + Akkusativ + an: entscheidend sein (G16, B1) — DONE 2026-10-31; `es-kommt-auf-akkusativ-an`; `learn.html#/chapter-29/grammar`
+- [x] T166 — Liegen/legen, stehen/stellen, sitzen/setzen und hängen (G36, B1) — DONE 2026-10-31; `liegen-legen-stehen-stellen-sitzen-setzen-haengen`; `learn.html#/chapter-29/grammar`
+- [x] T167 — Wissen/kennen, bringen/holen, lernen/studieren (G36, B1) — DONE 2026-10-31; `wissen-kennen-bringen-holen-lernen-studieren`; `learn.html#/chapter-29/grammar`
+- [x] T168 — Hören/zuhören, sehen/ansehen, fragen/bitten (G36, B1) — DONE 2026-10-31; `hoeren-zuhoeren-sehen-ansehen-fragen-bitten`; `learn.html#/chapter-29/grammar`
+
+- [x] T169 — Sagen/erzählen, machen/tun (G36, B1) — DONE 2026-10-31; `sagen-erzaehlen-machen-tun`; `learn.html#/chapter-29/grammar`
+- [x] T170 — Werden/bekommen, bekommen/erhalten (G36, B1) — DONE 2026-10-31; `werden-bekommen-erhalten`; `learn.html#/chapter-29/grammar`
+- [x] T171 — Gefallen/mögen, fehlen/vermissen, gehören/besitzen (G36, B1) — DONE 2026-10-31; `gefallen-moegen-fehlen-vermissen-gehoeren-besitzen`; `learn.html#/chapter-29/grammar`
+- [x] T172 — Trennbare und untrennbare Präfixe: Bedeutungsunterschiede (G36, B1) — DONE 2026-10-31; `praefixe-bedeutungsunterschiede-umfahren-uebersetzen`; `learn.html#/chapter-29/grammar`
+
+- [x] T173 — Infinitiv-, dass- und Fragewort-Ergänzungen wählen (G15, B1) — DONE 2026-10-31; `infinitiv-dass-ob-ergaenzungen`; `learn.html#/chapter-29/grammar`
+- [x] T174 — Sätze umformen, ohne die Aussage zu verändern (G35, B1) — DONE 2026-10-31; `satzumformungen-bedeutung-erhalten`; `learn.html#/chapter-30/grammar`
+- [x] T175 — Vor- und Nachteile sachlich abwägen (G34, B1) — DONE 2026-10-31; `vorteile-nachteile-abwaegen`; `learn.html#/chapter-30/grammar`
+- [x] T176 — Häufige Fehler erkennen und gezielt korrigieren (G36, B1) — DONE 2026-10-31; `haeufige-fehler-erkennen-korrigieren`; `learn.html#/chapter-30/grammar`
+
+- [x] T177 — Alle vier Fälle im zusammenhängenden Satz (G04, B1) — DONE 2026-10-31; `alle-vier-faelle-im-zusammenhang`; `learn.html#/chapter-30/grammar`
+- [x] T178 — Mehrere Zeitformen in einer Erzählung kombinieren (G35, B1) — DONE 2026-10-31; `mehrere-zeitformen-in-einer-erzaehlung`; `learn.html#/chapter-30/grammar`
+
+- [x] T179 — Nomen und grammatisches Genus: der, die, das (G03, A1) — DONE 2026-10-31; `nomen-genus-der-die-das`; `learn.html#/chapter-01/grammar`
+- [x] T180 — Pluralbildung der Nomen (G03, A1) — DONE 2026-10-31; `pluralbildung-der-nomen`; `learn.html#/chapter-01/grammar`
+- [x] T181 — Personalpronomen im Nominativ (G06, A1) — DONE 2026-10-31; `personalpronomen-nominativ`; `learn.html#/chapter-01/grammar`
+- [x] T182 — Sein und haben im Präsens (G40, A1) — DONE 2026-10-31; `sein-haben-praesens`; `learn.html#/chapter-01/grammar`
+
 ## 9. Content QA checklist (for every topic)
 - [ ] Correct German grammar and punctuation; consistent formal/informal context.
 - [ ] Correct verb position and constituent order; explain V2/verb-final for connectors.
@@ -297,3 +340,29 @@ The reference is complete only after all required A1–B1 topics from the **exis
 - [x] T130 — Präsens und Futur I vergleichen (G12, B1) — DONE 2026-10-31; `praesens-oder-futur-i`; `learn.html#/chapter-25/grammar`
 - [x] T131 — Futur I für Annahmen und Vorhersagen (G12, B1) — DONE 2026-10-31; `futur-i-vermutungen`; `learn.html#/chapter-25/grammar`
 - [x] T132 — Modalverben in verschiedenen Zeiten (G10, B1) — DONE 2026-10-31; `modalverben-zeitformen`; `learn.html#/chapter-25/grammar`
+- [x] T133 — Erweiterte Perfektkonstruktionen (G15, B1) — DONE 2026-10-31; `perfekt-erweiterte-infinitivkonstruktionen`; `learn.html#/chapter-25/grammar`
+- Duplicate correction — T134 overview merged into existing `zweiteilige-konjunktionen` (Chapter 26 rule 01); no duplicate card retained.
+- [x] T135 — Einerseits … andererseits (G34, B1) — DONE 2026-10-31; `einerseits-andererseits`; `learn.html#/chapter-26/grammar`
+- [x] T136 — Je … desto / umso (G20, B1) — DONE 2026-10-31; `je-desto-umso`; `learn.html#/chapter-26/grammar`
+- [x] T137 — Zwar … aber (G18, B1) — DONE 2026-10-31; `zwar-aber`; `learn.html#/chapter-26/grammar`
+- [x] T138 — Nicht nur … sondern auch (G34, B1) — DONE 2026-10-31; `nicht-nur-sondern-auch`; `learn.html#/chapter-26/grammar`
+- [x] T139 — Weder … noch (G34, B1) — DONE 2026-10-31; `weder-noch`; `learn.html#/chapter-26/grammar`
+- [x] T140 — Sowohl … als auch (G34, B1) — DONE 2026-10-31; `sowohl-als-auch`; `learn.html#/chapter-26/grammar`
+- [x] T141 — Dagegen und hingegen: Gegensatz im Hauptsatz (G18, B1) — DONE 2026-10-31; `dagegen-hingegen-im-satz`; `learn.html#/chapter-26/grammar`
+- [x] T142 — Argumente mit Konnektoren verbinden (G35, B1) — DONE 2026-10-31; `argumente-mit-konnektoren`; `learn.html#/chapter-26/grammar`
+- [x] T143 — Meinungen vergleichen und aufeinander eingehen (G34, B1) — DONE 2026-10-31; `meinungen-vergleichen-aufgreifen`; `learn.html#/chapter-26/grammar`
+- [x] T144 — Argumente logisch organisieren (G35, B1) — DONE 2026-10-31; `argumente-logisch-organisieren`; `learn.html#/chapter-26/grammar`
+- [x] T145 — Adjektive mit Suffixen bilden (G07, B1) — DONE 2026-10-31; `adjektive-mit-suffixen-bilden`; `learn.html#/chapter-27/grammar`
+- [x] T146 — Zusammengesetzte Adjektive (G07, B1) — DONE 2026-10-31; `zusammengesetzte-adjektive`; `learn.html#/chapter-27/grammar`
+- [x] T147 — Wortfamilien und Verbalisierung erkennen (G02, B1) — DONE 2026-10-31; `wortfamilien-und-verbalisierung`; `learn.html#/chapter-27/grammar`
+- [x] T148 — Formelle und alltägliche Ausdrücke wählen (G35, B1) — DONE 2026-10-31; `formelle-alltaegliche-ausdruecke`; `learn.html#/chapter-27/grammar`
+
+- [x] T183 — Regelmäßige Verben im Präsens: Personalendungen (G09, A1) — DONE 2026-10-31; `regelmaessige-verben-praesens-endungen`; `learn.html#/chapter-02/grammar`
+- [x] T184 — Stammwechsel im Präsens: a → ä, e → i/ie (G09, A1) — DONE 2026-10-31; `stammwechsel-verben-praesens`; `learn.html#/chapter-02/grammar`
+- [x] T185 — Possessivartikel im Nominativ (G05, A1) — DONE 2026-10-31; `possessivartikel-nominativ`; `learn.html#/chapter-03/grammar`
+- [x] T186 — Demonstrativartikel: dieser, jener und solche (G05, A1) — DONE 2026-10-31; `demonstrativartikel-dieser-jener-solche`; `learn.html#/chapter-03/grammar`
+
+- [x] T187 — Danken + Dativ und für + Akkusativ (G16, A1) — DONE 2026-11-01; `verb-danken`; `learn.html#/chapter-04/grammar`
+- [x] T188 — Antworten + Dativ und auf + Akkusativ (G16, A1) — DONE 2026-11-01; `verb-antworten`; `learn.html#/chapter-04/grammar`
+- [x] T189 — Reflexive Verben im Präsens und Perfekt (G16, A2) — DONE 2026-11-01; `reflexive-verben-praesens-perfekt`; `learn.html#/chapter-12/grammar`
+- [x] T190 — Reflexive Verben mit Modalverben (G10, A2) — DONE 2026-11-01; `reflexive-verben-mit-modalverben`; `learn.html#/chapter-12/grammar`

@@ -400,3 +400,170 @@
 - **Progress synchronization:** Marked T129–T132 DONE in the topic manifest, master checklist, and coverage map. Chapter 25 rule 10 is represented by T132 and was not queued again. Next distinct items: T133 `perfekt-ersatzinfinitiv-erweitert` (Chapter 25 rule 09), T134 `zweiteilige-konjunktionen-ueberblick`, T135 `einerseits-andererseits`, and T136 `je-desto-umso` (Chapter 26 rules 01–03).
 - **Validation:** GJS parsed the complete manifest. Custom checks verified 131 unique topics, required fields, bilingual examples, valid related-topic IDs, table dimensions, source rule IDs, registered routes, and synchronized status records. `python3 tests/smoke.py` passed all 38 checks; `git diff --check` passed.
 - **Limitations:** Browser rendering, mobile layout, live search/filter interaction, and clicked lesson navigation were not tested; routes and source references were checked statically.
+
+## 2026-10-31 — Content batch completed
+
+- **Mode:** CONTENT BATCH.
+- **State before authoring:** The planned batch was T133 `perfekt-erweiterte-infinitivkonstruktionen` (G15, B1), T134 `zweiteilige-konjunktionen-ueberblick` (G34, B1), T135 `einerseits-andererseits` (G34, B1), and T136 `je-desto-umso` (G20, B1). Existing cards cover modal Perfekt, lassen, and comparatives separately. A final duplicate check found T134 already covered by the canonical `zweiteilige-konjunktionen` record, so it was retired rather than counted as new coverage.
+- **Added:** Three new German-first cards were retained with English glosses, natural translated examples, stable IDs, related links, and reusable tables. During the later duplicate audit, the planned overview card T134 was found to duplicate the existing `zweiteilige-konjunktionen` card; its Chapter 26 rule-01 coverage was merged into that canonical record and the duplicate card/queue row was removed. The new individual cards cover advanced Perfekt infinitive clusters, contrastive perspectives, and je-/desto/umso word order.
+- **Lesson destinations verified:** T133 links to `learn.html#/chapter-25/grammar` and rule 09. T135–T136 link to `learn.html#/chapter-26/grammar` and rules 02–03. Existing canonical card `zweiteilige-konjunktionen` links to Chapter 26 and now cites rule 01. The chapters are registered and source rules were inspected. The Ersatzinfinitiv explanation was also checked against IDS grammis. No chapter file was changed.
+- **Progress synchronization:** Marked T133, T135, and T136 DONE in the topic manifest, checklist, and coverage map. T134 was retired as a duplicate during audit. T133, T135, and T136 are the new completed cards from this batch; T137–T140 were then authored and validated in the following batch.
+- **Validation:** GJS parsed the complete manifest; custom assertions checked unique IDs, required fields, bilingual examples, valid related-topic IDs, forms/comparison table shapes, source rule IDs, registered lesson routes, and synchronized progress records. Modal principal parts, Ersatzinfinitiv order, connector pairing, and verb position were reviewed. `python3 tests/smoke.py` passed all 38 checks; `git diff --check` passed.
+- **Limitations:** Browser rendering, mobile layout, live search/filter behavior, and clicked lesson navigation were not tested; lesson routes were verified statically.
+
+## 2026-10-31 — Content batch completed; duplicate audit corrected
+
+- **Mode:** CONTENT BATCH.
+- **State before authoring:** T137 `zwar-aber` (G18, B1), T138 `nicht-nur-sondern-auch` (G34, B1), T139 `weder-noch` (G34, B1), and T140 `sowohl-als-auch` (G34, B1) were the next four unfinished distinct Chapter 26 topics. Existing cards did not cover these pair-specific rules.
+- **Added:** Four German-first connector cards with English glosses, translated examples, stable IDs, related-topic links, and contrast tables. They explain concessive contrast, parallel structures, negation scope, comma use, and subject-verb agreement where relevant.
+- **Lesson destinations verified:** All four cards link to `learn.html#/chapter-26/grammar`; the route is registered and source rules 04–07 in `content/b1/chapter-26.js` were inspected. Comma guidance was checked against Duden and agreement variants for `weder … noch` against LEO grammar. No chapter files were changed.
+- **Progress synchronization:** T137–T140 are DONE in the topic manifest, checklist, and coverage map. During a duplicate audit, T134 `zweiteilige-konjunktionen-ueberblick` was found to duplicate the pre-existing `zweiteilige-konjunktionen` card. The new duplicate record and queue entry were removed; the canonical card now cites Chapter 26 rule 01, and the dedicated connector cards link to it. T134 is documented in the checklist as retired due to duplication, not counted as a new completed topic.
+- **Validation:** GJS parsed the manifest; custom checks covered unique IDs, required fields, bilingual examples, valid related-topic references, table dimensions, source rules, route registration, and synchronized progress. `python3 tests/smoke.py` passed all 38 checks; `git diff --check` passed.
+- **Limitations:** Browser rendering, narrow-screen layout, live search/filter behavior, and clicked lesson navigation were not tested.
+- **Next batch:** T141 `dagegen-hingegen-im-satz` (Chapter 26 rule 08); T142 `argumente-mit-konnektoren` (rule 10); T143 `meinungen-vergleichen-aufgreifen` (rule 11); T144 `argumente-logisch-organisieren` (rule 12). Rule 09 is already covered by the existing `weil-denn-da` and `deshalb-deswegen-darum` cards, so it is not duplicated.
+
+## 2026-10-31 — Content batch completed
+
+- **Mode:** CONTENT BATCH.
+- **State before authoring:** T145 `adjektive-mit-suffixen-bilden` (G07, B1), T146 `zusammengesetzte-adjektive` (G07, B1), T147 `wortfamilien-und-verbalisierung` (G02, B1), and T148 `formelle-alltaegliche-ausdruecke` (G35, B1) were selected from Chapter 27 rules 04, 09, 10, and 12. Existing cards already cover noun compounds, common noun suffixes, diminutives, nominalization, participles used as adjectives, and adjective-preposition complements, so those were not repeated.
+- **Added:** Four German-first cards with short English glosses, natural translated examples, stable IDs, related-topic links, and reusable tables. They cover adjective-forming suffixes, compound adjective spelling/inflection, word families and verb formation with principal forms, and register choices for formal and everyday communication.
+- **Lesson destinations verified:** All four link to `learn.html#/chapter-27/grammar`; Chapter 27 is registered and rules 04, 09, 10, and 12 were inspected. No chapter file was changed.
+- **Progress synchronization:** Marked T145–T148 DONE in the topic manifest, master checklist, and coverage map. Next distinct topics: T149 `direkte-rede-aussage` (Chapter 28 rule 01), T150 `indirekte-aussage-dass` (rule 02), T151 `aussagen-fragen-bitten-wiedergeben` (rule 05), and T152 `konjunktiv-i-erkennen-bilden` (rule 06). Existing cards already cover indirect yes/no and W-questions; those are skipped to avoid duplication.
+- **Validation:** GJS parsed the manifest; custom checks verified unique IDs, required fields, bilingual examples, related-topic references, comparison/forms table shapes, principal verb forms, cited source rules, registered routes, and synchronized statuses. `python3 tests/smoke.py` passed all 38 checks; `git diff --check` passed.
+- **Limitations:** Browser rendering, narrow-screen layout, live search/filter interactions, and clicked lesson navigation were not tested.
+
+## 2026-10-31 — Content batch completed
+
+- **Mode:** CONTENT BATCH.
+- **Progress audit:** All 146 prior queue records were DONE and the coverage map showed zero uncovered entries. The preceding batch log named the next Chapter 28 items; checked that their IDs are absent from the data. Inspected `chapters.md`, the Chapter 28 definition, `content/b1/chapter-28.js` rules 01–07, the registered curriculum route, and existing indirect ob/W-question cards.
+- **Selected before authoring:** T149 `direkte-rede-aussage` (G22, B1; rule-28-01); T150 `indirekte-aussage-dass` (G22, B1; rule-28-02); T151 `aussagen-fragen-bitten-wiedergeben` (G22, B1; rule-28-05); T152 `konjunktiv-i-erkennen-bilden` (G13, B1; rule-28-06). Marked IN PROGRESS. Existing cards cover rules 03–04 (indirect ob and W-questions), so those topics will not be duplicated.
+
+- **Added:** Four German-first cards with English glosses, examples, contrast tables, and stable IDs. They cover quotation punctuation, dass-clause word order, reporting speech acts, and Konjunktiv I forms.
+- **Lesson links verified:** All four cite Chapter 28 grammar rules 01, 02, 05, and 06 and link to the registered `learn.html#/chapter-28/grammar` route. Existing cards already cover indirect ob/W-questions (rules 03–04), so they were not duplicated.
+- **Progress synchronization:** T149–T152 are DONE in the reference data, queue, checklist, and coverage map.
+- **Validation:** GJS parsed all 150 cards. Custom assertions checked required schema fields, unique IDs, English-glossed examples, valid related-topic IDs, table dimensions, source-rule IDs, route registration, and queue/coverage synchronization. `python3 tests/smoke.py` passed all 38 checks; `git diff --check` passed.
+- **Limitations:** Browser rendering, mobile layout, search/filter interactions, and clicked lesson navigation were not tested.
+- **Next batch:** T153 `indikativ-konjunktiv-indirekte-rede` (Chapter 28 rule 07); T154 `modalpartikeln-doch-ja-mal-denn-wohl` (rule 08); T155 `natuerliche-gespraechsausdruecke` (rule 10); T156 `rueckfragen-bestaetigen-missverstaendnisse` (rule 12). Rule 09 overlaps existing focus-particle coverage in `nicht-auch-nur-fokusstellung`; rules 11 and 13 overlap the upcoming modal-particle and register cards, so they are deferred pending a duplicate audit.
+
+## 2026-10-31 — Content batch completed
+
+- **Mode:** CONTENT BATCH.
+- **State before authoring:** T149–T152 are complete. Checked the Chapter 28 rule list and searched existing IDs/titles to avoid duplicating T153 `indikativ-konjunktiv-indirekte-rede` (G13, B1; rule-28-07), T154 `modalpartikeln-doch-ja-mal-denn-wohl` (G32, B1; rule-28-08), T155 `natuerliche-gespraechsausdruecke` (G35, B1; rule-28-10), and T156 `rueckfragen-bestaetigen-missverstaendnisse` (G35, B1; rule-28-12). Marked IN PROGRESS before drafting. Rule 09 partially overlaps existing focus/degree cards; rules 11 and 13 are deferred to avoid overlap with the forthcoming modal-particle and register material.
+
+- **Added:** Four German-first cards with concise English glosses, contextual examples, practical contrasts, and stable IDs. They cover the register distinction between Indikativ and Konjunktiv I, common modal particles, conversational signals, and neutral clarification questions.
+- **Lesson links verified:** All four link to the registered `learn.html#/chapter-28/grammar` route and cite rules 07, 08, 10, and 12 in `content/b1/chapter-28.js`. No learning chapter file was modified.
+- **Progress synchronization:** T153–T156 are DONE in the manifest, master checklist, and coverage map.
+- **Validation:** GJS parsed all 154 topic cards. Custom checks verified required fields, unique IDs, valid relationships, bilingual examples, table shapes, lesson route registration, source-rule references, and progress-map synchronization. `python3 tests/smoke.py` passed all 38 checks; `git diff --check` passed.
+- **Limitations:** Browser rendering, mobile layout, interactive search/filter behavior, and clicked lesson navigation were not tested.
+- **Next batch:** T157 `antwortpartikeln-ja-nein-doch` (Chapter 28 rule 14); T158 `hoefliche-aufforderungen-mal-doch` (rule 15); T159 `sich-lassen-infinitiv` (Chapter 29 rule r29-02); T160 `haben-zu-infinitiv` (rule r29-04). Existing `lassen-infinitiv-ohne-zu` and `brauchen-nicht-zu` cards cover Chapter 29 rules r29-01 and r29-03 respectively and should be cross-linked rather than duplicated.
+
+## 2026-10-31 — Content batch completed
+
+- **Mode:** CONTENT BATCH.
+- **State before authoring:** T153–T156 are complete. Selected T157 `antwortpartikeln-ja-nein-doch` (G31, B1; Chapter 28 rule-14), T158 `hoefliche-aufforderungen-mal-doch` (G33, B1; rule-28-15), T159 `sich-lassen-infinitiv` (G15, B1; Chapter 29 rule r29-02), and T160 `haben-zu-infinitiv` (G15, B1; rule r29-04). The existing `lassen-infinitiv-ohne-zu` and `brauchen-nicht-zu` cards cover Chapter 29 rules r29-01 and r29-03; these new cards avoid duplicating those topics. Marked the selected records IN PROGRESS before drafting.
+
+- **Added:** Four concise German-first cards with English-glossed examples and reusable comparison/forms tables. They cover responses to negative questions, softened requests, feasibility with sich lassen, and active obligation with haben + zu.
+- **Lesson links verified:** Cards point to the registered Chapter 28 or 29 grammar routes and cite chapter rules 14, 15, r29-02, and r29-04. No chapter content was changed.
+- **Progress synchronization:** T157–T160 are DONE in the topic manifest, checklist, and coverage map.
+- **Validation:** GJS parsed all 158 cards. Custom checks verified unique IDs, required fields, relationships, English-glossed examples, table dimensions, source rules, registered lesson routes, and synchronization across the queue and coverage map. `python3 tests/smoke.py` passed all 38 checks; `git diff --check` passed.
+- **Limitations:** Browser rendering, mobile layout, search/filter behavior, and clicked lesson navigation were not tested.
+- **Next batch:** T161 `sein-zu-infinitiv` (Chapter 29 rule r29-05); T162 `funktionsverbgefuege` (r29-06); T163 `es-geht-um-akkusativ` (r29-07); T164 `es-handelt-sich-um` (r29-08). Existing cards for lassen + infinitive and brauchen + zu should be cross-linked during the Chapter 29 coverage audit rather than duplicated.
+
+## 2026-10-31 — Content batch completed
+
+- **Mode:** CONTENT BATCH.
+- **State before authoring:** T157–T160 are complete. Verified the Chapter 29 source rules and checked for duplicate IDs: T161 `sein-zu-infinitiv` (G15, B1; r29-05), T162 `funktionsverbgefuege` (G16, B1; r29-06), T163 `es-geht-um-akkusativ` (G16, B1; r29-07), and T164 `es-handelt-sich-um-akkusativ` (G16, B1; r29-08). Marked IN PROGRESS before drafting. Existing cards for `lassen + Infinitiv` and `brauchen + zu` cover adjacent rules r29-01 and r29-03; no duplicates will be created for those.
+
+- **Added:** Four German-first cards with English-glossed examples and reusable tables. They distinguish passive possibility/obligation with sein + zu, explain common Funktionsverbgefüge, and clarify the Akkusativ patterns and meanings of es geht um and es handelt sich um.
+- **Lesson links verified:** Each card links to the registered Chapter 29 grammar route and cites source rules r29-05 through r29-08. No chapter source was modified.
+- **Progress synchronization:** T161–T164 are DONE in the topic manifest, checklist, and coverage map.
+- **Validation:** GJS parsed all 162 cards. Custom checks verified required fields, unique IDs, relationships, bilingual examples, table dimensions, source-rule citations, registered Chapter 29 routes, and progress synchronization. `python3 tests/smoke.py` passed all 38 checks; `git diff --check` passed.
+- **Limitations:** Browser rendering, mobile layout, live search/filter behavior, and clicked lesson navigation were not tested.
+- **Next batch:** T165 `es-kommt-auf-akkusativ-an` (Chapter 29 rule r29-09); T166 `liegen-legen-stehen-stellen-sitzen-setzen-haengen` (r29-10); T167 `wissen-kennen-bringen-holen-lernen-studieren` (r29-11); T168 `hoeren-zuhoeren-sehen-ansehen-fragen-bitten` (r29-12). These will be checked against existing case and verb cards to avoid duplicating the broader rules they build on.
+
+## 2026-10-31 — Content batch completed
+
+- **Mode:** CONTENT BATCH.
+- **State before authoring:** T161–T164 are complete. Checked Chapter 29 source rules r29-09–r29-12 and searched the 162 existing cards. Selected T165 `es-kommt-auf-akkusativ-an` (G16, B1); T166 `liegen-legen-stehen-stellen-sitzen-setzen-haengen` (G36, B1); T167 `wissen-kennen-bringen-holen-lernen-studieren` (G36, B1); and T168 `hoeren-zuhoeren-sehen-ansehen-fragen-bitten` (G36, B1). Marked IN PROGRESS before drafting. Existing cards cover related but distinct case, movement, question, and request structures; the lexical contrasts are not duplicated.
+
+- **Added:** Four German-first cards with concise English glosses, contextual examples, tables, and principal verb forms. They explain the separable verb ankommen + auf, distinguish position and placement verbs, compare six common verb pairs, and cover hören/zuhören, sehen/ansehen, and fragen/bitten with their cases and constructions.
+- **Lesson links verified:** All cards point to the registered Chapter 29 grammar route and cite r29-09 through r29-12. No chapter files were changed.
+- **Progress synchronization:** T165–T168 are DONE in the topic manifest, checklist, and coverage map.
+- **Validation:** GJS parsed all 166 cards. Custom checks verified required fields, unique IDs, relationships, translated examples, table dimensions, source-rule citations, registered Chapter 29 routes, and synchronized progress. Principal parts and governed cases were checked for the compared verbs. `python3 tests/smoke.py` passed all 38 checks; `git diff --check` passed.
+- **Limitations:** Browser rendering, mobile layout, live search/filter behavior, and clicked lesson navigation were not tested.
+- **Next batch:** T169 `sagen-erzaehlen-machen-tun` (Chapter 29 rule r29-13); T170 `werden-bekommen-erhalten` (r29-14); T171 `gefallen-moegen-fehlen-vermissen-gehoeren-besitzen` (r29-15); T172 `praefixe-bedeutungsunterschiede-umfahren-uebersetzen` (r29-16). The existing general prefix card covers separation and word order; this next topic will focus on meaning, stress, and participles that distinguish prefix pairs.
+
+## 2026-10-31 — Content batch completed
+
+- **Mode:** CONTENT BATCH.
+- **State before authoring:** T165–T168 are complete. Inspected Chapter 29 rules r29-13–r29-16 and searched existing entries. Selected T169 `sagen-erzaehlen-machen-tun` (G36, B1); T170 `werden-bekommen-erhalten` (G36, B1); T171 `gefallen-moegen-fehlen-vermissen-gehoeren-besitzen` (G36, B1); and T172 `praefixe-bedeutungsunterschiede-umfahren-uebersetzen` (G36, B1). Marked IN PROGRESS before drafting. Existing `verb-werden` and general separable-verb cards are narrower prerequisites; the new cards focus on contrasts not yet covered, including bekommen/erhalten and prefix-driven changes in meaning, stress, and principal parts.
+
+- **Added:** Four German-first comparison cards with English-glossed examples, case/valency notes, and principal-form tables. They distinguish saying/telling and making/doing; becoming, receiving and preserving; dative/accusative perspectives; and prefix pairs whose meanings, stress, separability, or participles differ.
+- **Lesson links verified:** Each card links to the registered Chapter 29 grammar route and cites source rules r29-13 through r29-16. No learning chapter files were changed.
+- **Progress synchronization:** T169–T172 are DONE in the topic manifest, checklist, and coverage map.
+- **Validation:** GJS parsed all 170 cards. Custom checks verified required fields, unique IDs, valid relationships, English-glossed examples, table dimensions, source rules, registered lesson routes, and progress synchronization. Irregular principal parts, auxiliaries, prefix stress/separation, and governed cases were checked in the verb tables. `python3 tests/smoke.py` passed all 38 checks; `git diff --check` passed.
+- **Limitations:** Browser rendering, mobile layout, live search/filter interactions, and clicked lesson navigation were not tested.
+- **Next batch:** T173 `infinitiv-dass-ob-ergaenzungen` (Chapter 29 rule r29-17); T174 `satzumformungen-bedeutung-erhalten` (Chapter 30 rule r30-03); T175 `vorteile-nachteile-abwaegen` (r30-13); T176 `haeufige-fehler-erkennen-korrigieren` (r30-14). These are integration/decision topics; existing individual complement, argument, and grammar cards should be linked where relevant instead of repeated.
+
+## 2026-10-31 — Content batch completed
+
+- **Mode:** CONTENT BATCH.
+- **State before authoring:** T169–T172 are complete. Inspected Chapter 29 rule r29-17 and Chapter 30 rules r30-03, r30-13, and r30-14. Searched current reference IDs; no cards cover these decision/integration topics directly. Selected T173 `infinitiv-dass-ob-ergaenzungen` (G15, B1); T174 `satzumformungen-bedeutung-erhalten` (G35, B1); T175 `vorteile-nachteile-abwaegen` (G34, B1); and T176 `haeufige-fehler-erkennen-korrigieren` (G36, B1). Marked IN PROGRESS before drafting. Existing individual cards for infinitives, connectors, and grammar rules will be linked as prerequisites rather than repeated.
+
+- **Added:** Four German-first integration cards with translated examples and reusable comparison tables. They distinguish verb-complement patterns, preserve meaning through sentence transformations, structure evidence-based pros/cons, and provide a systematic error-correction sequence.
+- **Lesson links verified:** T173 links to registered Chapter 29 grammar; T174–T176 link to registered Chapter 30 grammar. Source rules r29-17, r30-03, r30-13, and r30-14 were inspected. No lesson files were modified.
+- **Progress synchronization:** T173–T176 are DONE in the topic manifest, checklist, and coverage map.
+- **Validation:** GJS parsed all 174 cards. Custom checks verified required fields, unique IDs, valid related-topic references, English-glossed examples, table dimensions, source rules, registered Chapter 29/30 routes, and progress synchronization. `python3 tests/smoke.py` passed all 38 checks; `git diff --check` passed.
+- **Limitations:** Browser rendering, mobile layout, search/filter interactions, and clicked lesson navigation were not tested.
+- **Next batch:** T177 `vier-faelle-im-zusammenhaengenden-satz` (Chapter 30 rule r30-01); T178 `mehrere-zeitformen-in-einer-erzaehlung` (r30-02). The remaining Chapter 30 items were cross-checked: relative clauses, passive, Konjunktiv II, connectors, infinitives, word order, communication, writing, argumentation, and spelling have corresponding existing cards. After T177–T178, continue the broader G01–G40/source-syllabus audit; do not treat the tracked queue total as proof that the full reference is complete.
+
+## 2026-10-31 — Content batch completed
+
+- **Mode:** CONTENT BATCH.
+- **Progress audit:** T177–T178 are the next distinct Chapter 30 topics. T177 integrates nominative, accusative, dative, and genitive in connected clauses; existing cards cover individual cases and pairs but no single integrated case-selection card. T178 combines spoken Perfekt, narrative Präteritum, Plusquamperfekt, and future reference; the existing connected-text card contrasts mainly Präsens and past, with other tense cards treated separately. Other Chapter 30 integration rules map to existing cards and are not duplicated in this batch. Marked both selected entries IN PROGRESS before drafting.
+
+- **Added:** Two integrated German-first cards with examples and English glosses, comparing how to select all four cases in connected sentences and how to sequence tenses across a narrative.
+- **Lesson links verified:** Both cite Chapter 30 grammar rules r30-01 and r30-02 and link to the registered `learn.html#/chapter-30/grammar` route.
+- **Progress synchronization:** T177–T178 are DONE in the manifest, checklist, and coverage map. Only two distinct new Chapter 30 topics were found after duplicate review; the remaining consolidation headings map to existing cards.
+- **Validation:** GJS parsed all 176 cards. Custom checks verified required fields, unique IDs, valid relationships, English-glossed examples, table dimensions, source rules, registered Chapter 30 route, and synchronized progress. `python3 tests/smoke.py` passed all 38 checks; `git diff --check` passed.
+- **Limitations:** Browser rendering, mobile layout, search/filter behavior, and clicked lesson navigation were not tested.
+- **Next work:** Chapter 30's remaining integration headings were cross-checked against existing cards; no additional distinct card topics were found in this chapter. Continue with the required broader G01–G40 and A1–B1 syllabus coverage audit, then record the next 3–4 genuinely uncovered topic IDs before authoring. No new IDs are reserved until that audit identifies them, to avoid inventing duplicates.
+
+## 2026-10-31 — Content batch selected from syllabus audit
+
+- **Mode:** CONTENT BATCH.
+- **Progress audit:** T177–T178 were the prior entries. The broader A1–B1 audit found Chapter 01 gaps: noun gender (g01-gender), noun plural formation (g01-plurals), nominative personal pronouns (g01-pronouns), and present forms/usages of sein and haben (g01-sein-haben). The existing nominative-article card covers article choice but does not teach gender patterns; personal-pronoun coverage begins with accusative/dative, and no plural or sein/haben-present cards exist. Selected T179 `nomen-genus-der-die-das` (G03, A1), T180 `pluralbildung-der-nomen` (G03, A1), T181 `personalpronomen-nominativ` (G06, A1), and T182 `sein-haben-praesens` (G40, A1). Marked IN PROGRESS before drafting.
+
+- **Added:** Four A1 German-first cards with English-glossed examples and comparison/form tables. They cover noun gender, productive plural patterns and exceptions, nominative pronoun choice, and the irregular present forms and uses of sein and haben.
+- **Lesson links verified:** All four link to the registered Chapter 01 grammar route and cite g01-gender, g01-plurals, g01-pronouns, and g01-sein-haben. No chapter files were modified.
+- **Progress synchronization:** T179–T182 are DONE in the topic manifest, checklist, and coverage map.
+
+- **Validation:** GJS parsed all 180 topic records. Structural checks passed for required fields, unique IDs, related-topic IDs, English-glossed examples, and table dimensions. A custom cross-check confirmed T179–T182 are DONE in the queue and checklist, verified in the coverage map, cite the matching Chapter 01 source rules, and link to the registered Chapter 01 grammar route. `python3 tests/smoke.py` passed all 38 checks; `git diff --check` passed. No chapter files were modified.
+- **Limitations:** Browser rendering, responsive layout, reference search/filter interactions, and clicked lesson navigation were not tested.
+- **Next batch:** T183 `regelmaessige-verben-praesens-endungen` (Chapter 02, c02-g2); T184 `stammwechsel-verben-praesens` (Chapter 02, c02-g4); T185 `possessivartikel-nominativ` (Chapter 03, c03-g6; nominative paradigms are absent from the existing accusative card); T186 `demonstrativartikel-dieser-jener-solche` (Chapter 03, c03-g7). These four source rules have no corresponding standalone reference cards; continue checking for overlap before drafting.
+
+
+## 2026-10-31 — Content batch selected
+
+- **Mode:** CONTENT BATCH.
+- **Progress audit:** T179–T182 are complete. Compared the A1 Chapter 02 rules c02-g2 (regular present endings) and c02-g4 (stem-changing present verbs), and Chapter 03 rules c03-g6 (possessive determiners; existing card is accusative-only) and c03-g7 (demonstrative determiners). The existing manifest has no standalone cards for these four topics. The lesson modules and their grammar sections are registered in `content/curriculum.js`; selected T183–T186 and marked them IN_PROGRESS before authoring.
+
+- **Added:** Four German-first A1 reference cards with concise rules, examples with English glosses, and paradigms/comparison tables: regular present endings; common present stem-vowel changes; nominative possessive determiners; and demonstrative determiners in nominative/accusative.
+- **Lesson links:** Verified Chapter 02 and Chapter 03 routes are registered and their respective grammar rules c02-g2, c02-g4, c03-g6, c03-g7 exist.
+- **Progress synchronization:** T183–T186 are DONE in the topic manifest, checklist, and coverage map.
+- **Validation:** GJS parsed all 184 topic records. Structural checks passed for required fields, unique IDs, related-topic references, examples, and table dimensions. Cross-checks confirmed T183–T186 are DONE in the queue/checklist/coverage map, cite the matching Chapter 02/03 source rules, use registered curriculum routes, and have English-glossed examples. `python3 tests/smoke.py` passed all 38 checks; `git diff --check` passed. No chapter files were changed.
+- **Limitations:** Browser/rendering and interaction checks could not be run. The available Firefox binary had no browser automation package, and the sandbox denied binding the temporary HTTP server required by the workflow. Static source, route, and schema checks passed.
+- **Next-batch correction (2026-11-01 audit):** The proposed fixed-preposition reflexive card duplicated existing T066, and reciprocal actions duplicated T068; neither was added. Refined the uncovered Chapter 04 dative topic into separate Danken and Antworten verb records, then selected the remaining Chapter 12 r4 and r5 patterns.
+
+
+## 2026-11-01 — Content batch selected
+
+- **Mode:** CONTENT BATCH.
+- **Progress audit:** T183–T186 are complete. Inspected Chapter 04 c04-g4 and Chapter 12 r4/r5, and compared existing IDs. Danken and antworten have no standalone cards (the present cards cover helfen and other dative verbs); reflexive present/Perfekt and reflexive + modal verbs have no standalone cards. Chapter 12 fixed-preposition reflexives and reciprocal actions are already covered by T066 and T068, so they were excluded. Selected T187–T190 and marked IN_PROGRESS before drafting.
+
+- **Added:** Four German-first cards with case guidance, natural examples, short English glosses, and verified verb principal forms or sentence-pattern tables. T187–T188 cover danken/antworten with their dative addressee and common prepositional complements; T189 covers reflexive present/Perfekt formation; T190 covers reflexive infinitives with modal verbs and the Ersatzinfinitiv.
+- **Lesson links:** Chapter 04 c04-g4, Chapter 09 c09-g7, Chapter 12 r4/r5, and Chapter 05 modal structure were checked against registered grammar routes.
+- **Progress synchronization:** T187–T190 are DONE in the topic manifest, checklist, and coverage map.
+- **Validation:** GJS parsed all 188 topic records. Structural checks passed for required fields, unique IDs, related-topic references, examples, and table dimensions. Cross-checks confirmed T187–T190 are DONE in queue/checklist/coverage, cite the matching lesson rules, use registered routes, and include English-glossed examples and search terms. `python3 tests/smoke.py` passed all 38 checks; `git diff --check` passed. No chapter files were changed.
+- **Limitations:** Browser layout, search/filter interaction, and clicked lesson navigation could not be tested. The sandbox denied binding the temporary HTTP server required by the workflow; route registration and source anchors were checked statically instead.
+- **Next batch:** T191 `verb-fahren` (G37, A1); T192 `verb-lesen` (G37, A1); T193 `verb-sprechen` (G37, A1); T194 `verb-nehmen` (G37, A1). Chapter 02 c02-g4 teaches these stem-changing verbs, and no individual verb cards for them exist in the current G37 inventory. Verify the auxiliary nuance for fahren and governed complements when drafting.

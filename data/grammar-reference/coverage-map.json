@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-01",
   "topics": {
     "deshalb-deswegen-darum": {
       "chapterFile": "content/a2/chapter-17.js",
@@ -275,7 +275,8 @@
       "sectionId": "grammar",
       "href": "learn.html#/chapter-26/grammar",
       "status": "verified",
-      "evidence": "Chapter 26 grammar explicitly teaches entweder…oder, weder…noch, sowohl…als auch, nicht nur…sondern auch, zwar…aber, einerseits…andererseits, and je…desto/umso."
+      "evidence": "Existing canonical topic covers the paired conjunction inventory; linked to Chapter 26 rule-26-01 and cross-referenced by dedicated connector cards.",
+      "sourceRule": "rule-26-01"
     },
     "partizipien-adjektivisch": {
       "chapterFile": "content/b1/chapter-27.js",
@@ -1320,6 +1321,511 @@
       "status": "verified",
       "sourceRule": "rule-25-08",
       "evidence": "Mit einem Vollverb steht das Modalverb im Präsens oder Präteritum konjugiert, der Vollverb-Infinitiv am Ende: „Sie muss arbeiten“ / „Sie musste arbeiten“. Im Perfekt mit zwei Verben steht haben im Präsens und der Ersatzinfinitiv des Modalverbs nach dem Vollver"
+    },
+    "perfekt-erweiterte-infinitivkonstruktionen": {
+      "chapterFile": "content/b1/chapter-25.js",
+      "chapterId": "chapter-25",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-25/grammar",
+      "status": "verified",
+      "sourceRule": "rule-25-09",
+      "evidence": "Bei Modalverben, sehen, hören und lassen steht im Perfekt mit einem weiteren Infinitiv häufig der Ersatzinfinitiv statt des Partizips II. Die finite Form von haben steht im Hauptsatz auf Position zwei; die beiden Infinitive schließen den Satz: „Die Jugendliche"
+    },
+    "einerseits-andererseits": {
+      "chapterFile": "content/b1/chapter-26.js",
+      "chapterId": "chapter-26",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-26/grammar",
+      "status": "verified",
+      "sourceRule": "rule-26-02",
+      "evidence": "Einerseits und andererseits können gleichrangige Satzglieder oder ganze Aussagen verbinden. Bei ganzen Hauptsätzen behält jeder Teilsatz Verbzweitstellung: „Einerseits spart ein Online-Termin Zeit. Andererseits fehlt der direkte Austausch.“ Steht andererseits "
+    },
+    "je-desto-umso": {
+      "chapterFile": "content/b1/chapter-26.js",
+      "chapterId": "chapter-26",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-26/grammar",
+      "status": "verified",
+      "sourceRule": "rule-26-03",
+      "evidence": "Die erste Einheit beginnt mit je und bildet einen Nebensatz: Je + Komparativ + Subjekt + … + finites Verb am Ende. Die zweite beginnt mit desto oder umso und ist ein Hauptsatz mit Verbzweitstellung: Desto/umso + Komparativ + finites Verb + Subjekt … . Beispiel"
+    },
+    "zwar-aber": {
+      "chapterFile": "content/b1/chapter-26.js",
+      "chapterId": "chapter-26",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-26/grammar",
+      "status": "verified",
+      "sourceRule": "rule-26-04",
+      "evidence": "Zwar kann am Satzanfang oder später im ersten Teilsatz stehen. Aber leitet den Gegenpunkt ein. Beide Teilsätze können eigenständige Hauptsätze mit Verbzweitstellung sein: „Zwar kostet der Versuch Zeit, aber er erreicht mehr Familien.“ Wenn zwar innerhalb eines"
+    },
+    "nicht-nur-sondern-auch": {
+      "chapterFile": "content/b1/chapter-26.js",
+      "chapterId": "chapter-26",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-26/grammar",
+      "status": "verified",
+      "sourceRule": "rule-26-05",
+      "evidence": "Die beiden Teile markieren parallele Elemente: nicht nur X, sondern auch Y. X und Y sollten dieselbe grammatische Funktion haben, zum Beispiel zwei Subjekte, Objekte, Adjektive oder Infinitive. Beispiel mit Subjekten: „Nicht nur die Jugendlichen, sondern auch "
+    },
+    "weder-noch": {
+      "chapterFile": "content/b1/chapter-26.js",
+      "chapterId": "chapter-26",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-26/grammar",
+      "status": "verified",
+      "sourceRule": "rule-26-06",
+      "evidence": "Weder steht vor dem ersten Element, noch vor dem zweiten: weder X noch Y. Die Verbindung enthält bereits die Verneinung, deshalb folgt gewöhnlich kein zusätzliches nicht oder kein: „Wir brauchen weder einen großen Raum noch viele Geräte.“ Sie kann gleichartige"
+    },
+    "sowohl-als-auch": {
+      "chapterFile": "content/b1/chapter-26.js",
+      "chapterId": "chapter-26",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-26/grammar",
+      "status": "verified",
+      "sourceRule": "rule-26-07",
+      "evidence": "Sowohl steht vor dem ersten Element, als auch vor dem zweiten: sowohl X als auch Y. Verbinde parallele Elemente derselben grammatischen Art: „Der Plan ist sowohl flexibel als auch bezahlbar.“ Wenn die Verbindung zwei Subjekte umfasst, steht das Verb üblicherwe"
+    },
+    "dagegen-hingegen-im-satz": {
+      "chapterFile": "content/b1/chapter-26.js",
+      "chapterId": "chapter-26",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-26/grammar",
+      "status": "verified",
+      "sourceRule": "rule-26-08",
+      "evidence": "Als Satzadverbien verbinden dagegen und hingegen gedanklich zwei Hauptsätze; sie leiten keinen Nebensatz ein. Steht dagegen im Vorfeld, folgt das finite Verb auf Position zwei: „Der Onlinekurs spart Anfahrtszeit. Dagegen fehlt der spontane Austausch.“ Hingegen"
+    },
+    "argumente-mit-konnektoren": {
+      "chapterFile": "content/b1/chapter-26.js",
+      "chapterId": "chapter-26",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-26/grammar",
+      "status": "verified",
+      "sourceRule": "rule-26-10",
+      "evidence": "Nutze außerdem, um einen weiteren Punkt hinzuzufügen; zum Beispiel, um einen Grund oder eine Behauptung konkret zu veranschaulichen; allerdings, um eine Einschränkung einzuleiten; daher, um eine Folge oder Schlussfolgerung zu zeigen; zunächst und schließlich, "
+    },
+    "meinungen-vergleichen-aufgreifen": {
+      "chapterFile": "content/b1/chapter-26.js",
+      "chapterId": "chapter-26",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-26/grammar",
+      "status": "verified",
+      "sourceRule": "rule-26-11",
+      "evidence": "Mit „Ich finde/glaube/meine, dass …“ gibst du deine Position wieder; nach dass steht das finite Verb am Ende. Mit „Ich sehe das anders, weil …“ nennst du einen Grund; im weil-Nebensatz steht das finite Verb ebenfalls am Ende. Du kannst die Sicht der anderen Pe"
+    },
+    "argumente-logisch-organisieren": {
+      "chapterFile": "content/b1/chapter-26.js",
+      "chapterId": "chapter-26",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-26/grammar",
+      "status": "verified",
+      "sourceRule": "rule-26-12",
+      "evidence": "Formuliere zuerst eine klare These. Nenne danach einen nachvollziehbaren Grund, stütze ihn mit einem Beispiel und greife anschließend ein mögliches Gegenargument auf. Wäge dieses Gegenargument ab und ziehe zum Schluss eine Folgerung oder formuliere eine Empfeh"
+    },
+    "adjektive-mit-suffixen-bilden": {
+      "chapterFile": "content/b1/chapter-27.js",
+      "chapterId": "chapter-27",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-27/grammar",
+      "status": "verified",
+      "sourceRule": "rule-27-04",
+      "evidence": "Häufige Adjektivsuffixe sind -bar (etwas kann getan werden oder ist möglich: bezahlen → bezahlbar), -lich (Art oder Eigenschaft: Freund → freundlich), -ig (mit einer Eigenschaft versehen: Kraft → kräftig), -los (ohne etwas: Hilfe → hilflos), -voll (reich an od"
+    },
+    "zusammengesetzte-adjektive": {
+      "chapterFile": "content/b1/chapter-27.js",
+      "chapterId": "chapter-27",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-27/grammar",
+      "status": "verified",
+      "sourceRule": "rule-27-09",
+      "evidence": "Viele zusammengesetzte Adjektive werden zusammengeschrieben: hell + blau → hellblau; Energie + effizient → energieeffizient. Bei Adjektiven mit einem Nomen- oder Verbstamm ist die Verbindung ebenfalls oft ein Wort: kundenfreundlich, schwer verständlich. Ein Bi"
+    },
+    "wortfamilien-und-verbalisierung": {
+      "chapterFile": "content/b1/chapter-27.js",
+      "chapterId": "chapter-27",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-27/grammar",
+      "status": "verified",
+      "sourceRule": "rule-27-10",
+      "evidence": "Verwandte Wörter teilen oft einen Stamm und eine Bedeutungsbeziehung: planen – der Plan – die Planung – planbar. Verben entstehen beispielsweise durch Verbalisierung eines Nomens oder Adjektivs: der Plan → planen, sicher → sichern, modern → modernisieren. Häuf"
+    },
+    "formelle-alltaegliche-ausdruecke": {
+      "chapterFile": "content/b1/chapter-27.js",
+      "chapterId": "chapter-27",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-27/grammar",
+      "status": "verified",
+      "sourceRule": "rule-27-12",
+      "evidence": "In formellen Situationen passen höfliche Anreden und vollständige, klare Sätze: „Könnten Sie mir bitte mitteilen, ob der Termin bestätigt ist?“ Im Alltag ist eine direkte, aber weiterhin freundliche Formulierung üblich: „Können Sie mir bitte sagen, ob der Term"
+    },
+    "direkte-rede-aussage": {
+      "chapterFile": "content/b1/chapter-28.js",
+      "chapterId": "chapter-28",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-28/grammar",
+      "status": "verified",
+      "sourceRule": "rule-28-01",
+      "evidence": "Direkte Rede gibt die tatsächlich gesprochenen Worte genau wieder und setzt sie in Anführungszeichen."
+    },
+    "indirekte-aussage-dass": {
+      "chapterFile": "content/b1/chapter-28.js",
+      "chapterId": "chapter-28",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-28/grammar",
+      "status": "verified",
+      "sourceRule": "rule-28-02",
+      "evidence": "Ein dass-Satz gibt den Inhalt einer Aussage wieder; das finite Verb steht im Nebensatz am Ende."
+    },
+    "aussagen-fragen-bitten-wiedergeben": {
+      "chapterFile": "content/b1/chapter-28.js",
+      "chapterId": "chapter-28",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-28/grammar",
+      "status": "verified",
+      "sourceRule": "rule-28-05",
+      "evidence": "Wähle das Berichtsverb und Satzmuster danach, ob jemand etwas mitteilt, fragt oder erbittet."
+    },
+    "konjunktiv-i-erkennen-bilden": {
+      "chapterFile": "content/b1/chapter-28.js",
+      "chapterId": "chapter-28",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-28/grammar",
+      "status": "verified",
+      "sourceRule": "rule-28-06",
+      "evidence": "Konjunktiv I kennzeichnet häufig wiedergegebene Aussagen, besonders in formellen Berichten."
+    },
+    "indikativ-konjunktiv-indirekte-rede": {
+      "chapterFile": "content/b1/chapter-28.js",
+      "chapterId": "chapter-28",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-28/grammar",
+      "status": "verified",
+      "sourceRule": "rule-28-07",
+      "evidence": "Der Indikativ klingt im Alltag meist natürlich; der Konjunktiv I markiert die Wiedergabe besonders in formellen Berichten."
+    },
+    "modalpartikeln-doch-ja-mal-denn-wohl": {
+      "chapterFile": "content/b1/chapter-28.js",
+      "chapterId": "chapter-28",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-28/grammar",
+      "status": "verified",
+      "sourceRule": "rule-28-08",
+      "evidence": "Modalpartikeln zeigen häufig die Haltung oder Gesprächsabsicht, ohne den sachlichen Kern allein festzulegen."
+    },
+    "natuerliche-gespraechsausdruecke": {
+      "chapterFile": "content/b1/chapter-28.js",
+      "chapterId": "chapter-28",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-28/grammar",
+      "status": "verified",
+      "sourceRule": "rule-28-10",
+      "evidence": "Kurze Gesprächsausdrücke zeigen, wie man auf Informationen reagiert und den Gesprächsverlauf ordnet."
+    },
+    "rueckfragen-bestaetigen-missverstaendnisse": {
+      "chapterFile": "content/b1/chapter-28.js",
+      "chapterId": "chapter-28",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-28/grammar",
+      "status": "verified",
+      "sourceRule": "rule-28-12",
+      "evidence": "Neutrale Rückfragen prüfen, ob eine Information richtig verstanden wurde."
+    },
+    "antwortpartikeln-ja-nein-doch": {
+      "chapterFile": "content/b1/chapter-28.js",
+      "chapterId": "chapter-28",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-28/grammar",
+      "status": "verified",
+      "sourceRule": "rule-28-14",
+      "evidence": "Ja bestätigt eine positive Aussage, nein verneint; doch widerspricht besonders einer negativen Annahme."
+    },
+    "hoefliche-aufforderungen-mal-doch": {
+      "chapterFile": "content/b1/chapter-28.js",
+      "chapterId": "chapter-28",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-28/grammar",
+      "status": "verified",
+      "sourceRule": "rule-28-15",
+      "evidence": "Bitte, mal und doch können Aufforderungen höflicher, lockerer oder weniger direkt klingen."
+    },
+    "sich-lassen-infinitiv": {
+      "chapterFile": "content/b1/chapter-29.js",
+      "chapterId": "chapter-29",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-29/grammar",
+      "status": "verified",
+      "sourceRule": "r29-02",
+      "evidence": "Sich lassen + Infinitiv sagt oft aus, dass eine Handlung möglich oder machbar ist."
+    },
+    "haben-zu-infinitiv": {
+      "chapterFile": "content/b1/chapter-29.js",
+      "chapterId": "chapter-29",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-29/grammar",
+      "status": "verified",
+      "sourceRule": "r29-04",
+      "evidence": "Haben + zu + Infinitiv drückt eine Aufgabe oder Verpflichtung aus, die das Subjekt erfüllen muss."
+    },
+    "sein-zu-infinitiv": {
+      "chapterFile": "content/b1/chapter-29.js",
+      "chapterId": "chapter-29",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-29/grammar",
+      "status": "verified",
+      "sourceRule": "r29-05",
+      "evidence": "Sein + zu + Infinitiv beschreibt passivisch, dass etwas möglich oder notwendig ist."
+    },
+    "funktionsverbgefuege": {
+      "chapterFile": "content/b1/chapter-29.js",
+      "chapterId": "chapter-29",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-29/grammar",
+      "status": "verified",
+      "sourceRule": "r29-06",
+      "evidence": "In einem Funktionsverbgefüge bilden ein Nomen und ein eher allgemeines Verb gemeinsam eine feste Bedeutung."
+    },
+    "es-geht-um-akkusativ": {
+      "chapterFile": "content/b1/chapter-29.js",
+      "chapterId": "chapter-29",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-29/grammar",
+      "status": "verified",
+      "sourceRule": "r29-07",
+      "evidence": "Es geht um benennt das Thema oder die zentrale Frage einer Situation."
+    },
+    "es-handelt-sich-um-akkusativ": {
+      "chapterFile": "content/b1/chapter-29.js",
+      "chapterId": "chapter-29",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-29/grammar",
+      "status": "verified",
+      "sourceRule": "r29-08",
+      "evidence": "Es handelt sich um ordnet etwas ein oder identifiziert, worum es genau geht."
+    },
+    "es-kommt-auf-akkusativ-an": {
+      "chapterFile": "content/b1/chapter-29.js",
+      "chapterId": "chapter-29",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-29/grammar",
+      "status": "verified",
+      "sourceRule": "r29-09",
+      "evidence": "Es kommt auf etwas an bedeutet, dass dieser Faktor entscheidend oder wichtig ist."
+    },
+    "liegen-legen-stehen-stellen-sitzen-setzen-haengen": {
+      "chapterFile": "content/b1/chapter-29.js",
+      "chapterId": "chapter-29",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-29/grammar",
+      "status": "verified",
+      "sourceRule": "r29-10",
+      "evidence": "Liegen, stehen und sitzen beschreiben meist eine Position; legen, stellen und setzen beschreiben oft das Platzieren oder Einnehmen einer Position."
+    },
+    "wissen-kennen-bringen-holen-lernen-studieren": {
+      "chapterFile": "content/b1/chapter-29.js",
+      "chapterId": "chapter-29",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-29/grammar",
+      "status": "verified",
+      "sourceRule": "r29-11",
+      "evidence": "Diese Verbpaare unterscheiden sich durch die Art der Information, den Bewegungsbezug oder den Lernkontext."
+    },
+    "hoeren-zuhoeren-sehen-ansehen-fragen-bitten": {
+      "chapterFile": "content/b1/chapter-29.js",
+      "chapterId": "chapter-29",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-29/grammar",
+      "status": "verified",
+      "sourceRule": "r29-12",
+      "evidence": "Hören/sehen bezeichnen Wahrnehmung; zuhören/ansehen richten Aufmerksamkeit gezielt aus; fragen erfragt Information, bitten ersucht um eine Handlung."
+    },
+    "sagen-erzaehlen-machen-tun": {
+      "chapterFile": "content/b1/chapter-29.js",
+      "chapterId": "chapter-29",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-29/grammar",
+      "status": "verified",
+      "sourceRule": "r29-13",
+      "evidence": "Sagen gibt eine Äußerung wieder; erzählen berichtet meist ausführlicher. Machen und tun verbinden sich mit unterschiedlichen Tätigkeiten und festen Wendungen."
+    },
+    "werden-bekommen-erhalten": {
+      "chapterFile": "content/b1/chapter-29.js",
+      "chapterId": "chapter-29",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-29/grammar",
+      "status": "verified",
+      "sourceRule": "r29-14",
+      "evidence": "Werden beschreibt eine Veränderung und bildet das Vorgangspassiv; bekommen und erhalten bedeuten oft empfangen, erhalten kann auch bewahren heißen."
+    },
+    "gefallen-moegen-fehlen-vermissen-gehoeren-besitzen": {
+      "chapterFile": "content/b1/chapter-29.js",
+      "chapterId": "chapter-29",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-29/grammar",
+      "status": "verified",
+      "sourceRule": "r29-15",
+      "evidence": "Die Paare unterscheiden sich durch Satzperspektive und Kasus: gefallen/fehlen und gehören stehen oft mit Dativ, mögen/vermissen/besitzen mit Akkusativobjekt."
+    },
+    "praefixe-bedeutungsunterschiede-umfahren-uebersetzen": {
+      "chapterFile": "content/b1/chapter-29.js",
+      "chapterId": "chapter-29",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-29/grammar",
+      "status": "verified",
+      "sourceRule": "r29-16",
+      "evidence": "Bei einigen gleich geschriebenen Präfixverben verändern Betonung und Trennbarkeit die Bedeutung sowie die Verbformen."
+    },
+    "infinitiv-dass-ob-ergaenzungen": {
+      "chapterFile": "content/b1/chapter-29.js",
+      "chapterId": "chapter-29",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-29/grammar",
+      "status": "verified",
+      "sourceRule": "r29-17",
+      "evidence": "Das Verb und die gemeinte Aussage bestimmen, ob ein Infinitiv, ein dass-Satz oder ein indirekter Fragesatz folgt."
+    },
+    "satzumformungen-bedeutung-erhalten": {
+      "chapterFile": "content/b1/chapter-30.js",
+      "chapterId": "chapter-30",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-30/grammar",
+      "status": "verified",
+      "sourceRule": "r30-03",
+      "evidence": "Bei einer Satzumformung bleibt die Information erhalten, auch wenn sich die grammatische Struktur ändert."
+    },
+    "vorteile-nachteile-abwaegen": {
+      "chapterFile": "content/b1/chapter-30.js",
+      "chapterId": "chapter-30",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-30/grammar",
+      "status": "verified",
+      "sourceRule": "r30-13",
+      "evidence": "Eine sachliche Abwägung nennt konkrete Vorteile und Nachteile, bewertet ihre Bedeutung und zieht ein begründetes Fazit."
+    },
+    "haeufige-fehler-erkennen-korrigieren": {
+      "chapterFile": "content/b1/chapter-30.js",
+      "chapterId": "chapter-30",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-30/grammar",
+      "status": "verified",
+      "sourceRule": "r30-14",
+      "evidence": "Korrigiere einen Satz systematisch: zuerst die Struktur, dann Verbformen, Kasus, Wortwahl und Schreibung."
+    },
+    "alle-vier-faelle-im-zusammenhang": {
+      "chapterFile": "content/b1/chapter-30.js",
+      "chapterId": "chapter-30",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-30/grammar",
+      "status": "verified",
+      "sourceRule": "r30-01",
+      "evidence": "Bestimme den Kasus nach Satzfunktion, Verbvalenz und Präposition, auch wenn mehrere Fälle im selben Satz vorkommen."
+    },
+    "mehrere-zeitformen-in-einer-erzaehlung": {
+      "chapterFile": "content/b1/chapter-30.js",
+      "chapterId": "chapter-30",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-30/grammar",
+      "status": "verified",
+      "sourceRule": "r30-02",
+      "evidence": "Wähle Zeitformen nach zeitlicher Reihenfolge, Textsorte und Aussageabsicht und halte die Perspektive im Text nachvollziehbar."
+    },
+    "nomen-genus-der-die-das": {
+      "chapterFile": "content/a1/chapter-01.js",
+      "chapterId": "chapter-01",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-01/grammar",
+      "status": "verified",
+      "sourceRule": "g01-gender",
+      "evidence": "Jedes deutsche Nomen hat ein grammatisches Geschlecht: maskulin, feminin oder neutrum."
+    },
+    "pluralbildung-der-nomen": {
+      "chapterFile": "content/a1/chapter-01.js",
+      "chapterId": "chapter-01",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-01/grammar",
+      "status": "verified",
+      "sourceRule": "g01-plurals",
+      "evidence": "Deutsche Nomen bilden den Plural mit verschiedenen Endungen, manchmal mit Umlaut und manchmal ohne sichtbare Endung."
+    },
+    "personalpronomen-nominativ": {
+      "chapterFile": "content/a1/chapter-01.js",
+      "chapterId": "chapter-01",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-01/grammar",
+      "status": "verified",
+      "sourceRule": "g01-pronouns",
+      "evidence": "Nominativpronomen ersetzen ein Subjekt und passen zur Person und Zahl des Verbs."
+    },
+    "sein-haben-praesens": {
+      "chapterFile": "content/a1/chapter-01.js",
+      "chapterId": "chapter-01",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-01/grammar",
+      "status": "verified",
+      "sourceRule": "g01-sein-haben",
+      "evidence": "Sein verbindet ein Subjekt mit Identität, Beruf, Eigenschaft oder Ort; haben drückt unter anderem Besitz aus."
+    },
+    "regelmaessige-verben-praesens-endungen": {
+      "chapterFile": "content/a1/chapter-02.js",
+      "chapterId": "chapter-02",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-02/grammar",
+      "status": "verified",
+      "evidence": "Source rule c02-g2 exists; the chapter is registered in content/curriculum.js and contains a grammar section."
+    },
+    "stammwechsel-verben-praesens": {
+      "chapterFile": "content/a1/chapter-02.js",
+      "chapterId": "chapter-02",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-02/grammar",
+      "status": "verified",
+      "evidence": "Source rule c02-g4 exists; the chapter is registered in content/curriculum.js and contains a grammar section."
+    },
+    "possessivartikel-nominativ": {
+      "chapterFile": "content/a1/chapter-03.js",
+      "chapterId": "chapter-03",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-03/grammar",
+      "status": "verified",
+      "evidence": "Source rule c03-g6 exists; the chapter is registered in content/curriculum.js and contains a grammar section."
+    },
+    "demonstrativartikel-dieser-jener-solche": {
+      "chapterFile": "content/a1/chapter-03.js",
+      "chapterId": "chapter-03",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-03/grammar",
+      "status": "verified",
+      "evidence": "Source rule c03-g7 exists; the chapter is registered in content/curriculum.js and contains a grammar section."
+    },
+    "verb-danken": {
+      "chapterFile": "content/a1/chapter-04.js",
+      "chapterId": "chapter-04",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-04/grammar",
+      "status": "verified",
+      "evidence": "Grammar rule c04-g4 exists in the registered lesson module; the grammar section is available."
+    },
+    "verb-antworten": {
+      "chapterFile": "content/a1/chapter-04.js",
+      "chapterId": "chapter-04",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-04/grammar",
+      "status": "verified",
+      "evidence": "Grammar rule c04-g4 exists in the registered lesson module; the grammar section is available."
+    },
+    "reflexive-verben-praesens-perfekt": {
+      "chapterFile": "content/a2/chapter-12.js",
+      "chapterId": "chapter-12",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-12/grammar",
+      "status": "verified",
+      "evidence": "Grammar rule r4 exists in the registered lesson module; the grammar section is available."
+    },
+    "reflexive-verben-mit-modalverben": {
+      "chapterFile": "content/a2/chapter-12.js",
+      "chapterId": "chapter-12",
+      "sectionId": "grammar",
+      "href": "learn.html#/chapter-12/grammar",
+      "status": "verified",
+      "evidence": "Grammar rule r5 exists in the registered lesson module; the grammar section is available."
     }
   },
   "uncovered": []
